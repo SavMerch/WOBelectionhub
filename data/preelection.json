@@ -80,7 +80,16 @@
       }
      }
     ],
-    "stale": "Head-to-head (final-round) figures; Alaska uses ranked-choice voting and other candidates advanced from the primary."
+    "note": "Head-to-head (final-round) figures; Alaska uses ranked-choice voting and other candidates advanced from the primary."
+   },
+   "outlook": {
+    "leader": "Jonathan Kreiss-Tomkins",
+    "leaderParty": "D",
+    "margin": 6.6,
+    "pollAgeDays": 0,
+    "url": "https://www.pollcheck.co.uk/us-midterms-2026/governor/alaska",
+    "tier": "lean",
+    "basis": "Polling average lead of 6.6 points (PollCheck, as of 2026-11-03). Head-to-head (final-round) figures; Alaska uses ranked-choice voting and other candidates advanced from the primary."
    }
   },
   {
@@ -101,7 +110,63 @@
      "incumbent": false
     }
    ],
-   "others": []
+   "others": [],
+   "polling": {
+    "source": "PollCheck",
+    "url": "https://www.pollcheck.co.uk/us-midterms-2026/governor/alabama",
+    "asOf": "2026-11-03",
+    "avg": [
+     {
+      "name": "Tommy Tuberville",
+      "party": "R",
+      "pct": 50.3
+     },
+     {
+      "name": "Doug Jones",
+      "party": "D",
+      "pct": 40.3
+     }
+    ],
+    "polls": [
+     {
+      "pollster": "Chism Strategies",
+      "dates": "2026-10-22 to 10-24",
+      "sample": "695 LV",
+      "values": {
+       "Tuberville": 48,
+       "Jones": 45
+      }
+     },
+     {
+      "pollster": "Cygnal",
+      "dates": "2026-10-16 to 10-17",
+      "sample": "500 LV",
+      "values": {
+       "Tuberville": 51,
+       "Jones": 40
+      }
+     },
+     {
+      "pollster": "The Alabama Poll",
+      "dates": "2026-10-15 to 10-16",
+      "sample": "600 LV",
+      "values": {
+       "Tuberville": 51,
+       "Jones": 39
+      }
+     }
+    ]
+   },
+   "outlook": {
+    "leader": "Tommy Tuberville",
+    "leaderParty": "R",
+    "margin": 10.0,
+    "pollAgeDays": 0,
+    "url": "https://www.pollcheck.co.uk/us-midterms-2026/governor/alabama",
+    "tier": "strong",
+    "basis": "Polling average lead of 10.0 points (PollCheck, as of 2026-11-03).",
+    "transition": "Open seat, so a new governor takes office whoever wins; the polling leader would be the likely new governor."
+   }
   },
   {
    "state": "AR",
@@ -126,7 +191,51 @@
      "name": "Colt Shelby",
      "party": "Libertarian"
     }
-   ]
+   ],
+   "polling": {
+    "source": "Talk Business & Politics",
+    "url": "https://talkbusiness.net/2026/08/poll-gov-sanders-holds-lead-over-two-opponents/",
+    "asOf": "2026-08-12",
+    "avg": [
+     {
+      "name": "Sarah Huckabee Sanders",
+      "party": "R",
+      "pct": 45.0
+     },
+     {
+      "name": "Fredrick Love",
+      "party": "D",
+      "pct": 40.0
+     },
+     {
+      "name": "Colt Shelby",
+      "party": "L",
+      "pct": 7.0
+     }
+    ],
+    "polls": [
+     {
+      "pollster": "Talk Business & Politics-Hendrix College",
+      "dates": "2026-08-11 to 08-12",
+      "sample": "1,217 LV (\u00b14.7)",
+      "values": {
+       "Sanders": 45,
+       "Love": 40,
+       "Shelby": 7
+      }
+     }
+    ],
+    "note": "Single poll from August, not an average; 8% undecided."
+   },
+   "outlook": {
+    "leader": "Sarah Huckabee Sanders",
+    "leaderParty": "R",
+    "margin": 5.0,
+    "pollAgeDays": 83,
+    "url": "https://talkbusiness.net/2026/08/poll-gov-sanders-holds-lead-over-two-opponents/",
+    "tier": "stale",
+    "basis": "Newest polling is 83 days old; not used for an outlook."
+   }
   },
   {
    "state": "AZ",
@@ -201,6 +310,15 @@
       }
      }
     ]
+   },
+   "outlook": {
+    "leader": "Katie Hobbs",
+    "leaderParty": "D",
+    "margin": 8.0,
+    "pollAgeDays": 0,
+    "url": "https://www.pollcheck.co.uk/us-midterms-2026/governor/arizona",
+    "tier": "lean",
+    "basis": "Polling average lead of 8.0 points (PollCheck, as of 2026-11-03)."
    }
   },
   {
@@ -267,6 +385,16 @@
       }
      }
     ]
+   },
+   "outlook": {
+    "leader": "Xavier Becerra",
+    "leaderParty": "D",
+    "margin": 21.6,
+    "pollAgeDays": 0,
+    "url": "https://www.pollcheck.co.uk/us-midterms-2026/governor/california",
+    "tier": "strong",
+    "basis": "Polling average lead of 21.6 points (PollCheck, as of 2026-11-03).",
+    "transition": "Open seat, so a new governor takes office whoever wins; the polling leader would be the likely new governor."
    }
   },
   {
@@ -304,7 +432,16 @@
      "name": "Jeff Peckman",
      "party": "Unity"
     }
-   ]
+   ],
+   "outlook": {
+    "tier": "limited",
+    "leader": "Phil Weiser",
+    "leaderParty": "D",
+    "margin": null,
+    "basis": "No poll average retrieved. MultiState consensus rating Solid D (as of 2026-11-01) and one early-August Magellan Strategies poll reportedly showing Weiser +12 (toplines not shown).",
+    "url": "https://www.multistate.us/elections/governor-race/colorado-2026",
+    "transition": "Open seat, so a new governor takes office whoever wins; the polling leader would be the likely new governor."
+   }
   },
   {
    "state": "CT",
@@ -324,7 +461,63 @@
      "incumbent": false
     }
    ],
-   "others": []
+   "others": [],
+   "polling": {
+    "source": "PollCheck",
+    "url": "https://www.pollcheck.co.uk/us-midterms-2026/governor/connecticut",
+    "asOf": "2026-11-02",
+    "avg": [
+     {
+      "name": "Ned Lamont",
+      "party": "D",
+      "pct": 53.4
+     },
+     {
+      "name": "Ryan Fazio",
+      "party": "R",
+      "pct": 37.3
+     }
+    ],
+    "polls": [
+     {
+      "pollster": "University of New Hampshire",
+      "dates": "2026-10-27 to 10-31",
+      "sample": "1,025 LV",
+      "values": {
+       "Lamont": 54,
+       "Fazio": 41
+      }
+     },
+     {
+      "pollster": "Emerson College",
+      "dates": "2026-10-10 to 10-12",
+      "sample": "800 LV",
+      "values": {
+       "Lamont": 51,
+       "Fazio": 38
+      }
+     },
+     {
+      "pollster": "Quinnipiac",
+      "dates": "2026-10-08 to 10-12",
+      "sample": "1,225 LV",
+      "values": {
+       "Lamont": 58,
+       "Fazio": 38
+      }
+     }
+    ]
+   },
+   "outlook": {
+    "leader": "Ned Lamont",
+    "leaderParty": "D",
+    "margin": 16.1,
+    "pollAgeDays": 1,
+    "url": "https://www.pollcheck.co.uk/us-midterms-2026/governor/connecticut",
+    "tier": "strong",
+    "basis": "Polling average lead of 16.1 points (PollCheck, as of 2026-11-02).",
+    "transition": "Incumbent leads: continuity of administration is the likelier case."
+   }
   },
   {
    "state": "FL",
@@ -400,6 +593,15 @@
      }
     ],
     "stale": "STALE: newest poll on this source is from April 2026. Look for recent polling before relying on it."
+   },
+   "outlook": {
+    "leader": "Byron Donalds",
+    "leaderParty": "R",
+    "margin": 4.5,
+    "pollAgeDays": 193,
+    "url": "https://270towin.com/2026-governor-polls/florida",
+    "tier": "stale",
+    "basis": "Newest polling is 193 days old; not used for an outlook."
    }
   },
   {
@@ -466,6 +668,46 @@
       }
      }
     ]
+   },
+   "outlook": {
+    "leader": "Rick Jackson",
+    "leaderParty": "R",
+    "margin": 0.2,
+    "pollAgeDays": 1,
+    "url": "https://270towin.com/2026-governor-polls/georgia",
+    "tier": "tossup",
+    "basis": "Polling average lead of 0.2 points (270toWin, as of 2026-11-02)."
+   }
+  },
+  {
+   "state": "GU",
+   "office": "Governor",
+   "incumbent": "Lou Leon Guerrero",
+   "incumbentParty": "D",
+   "openSeat": true,
+   "candidates": [
+    {
+     "name": "Therese Terlaje",
+     "party": "D",
+     "incumbent": false,
+     "runningMate": "Sabina Perez"
+    },
+    {
+     "name": "Vicente \"Tony\" Ada",
+     "party": "R",
+     "incumbent": false,
+     "runningMate": "Edward \"E.J.\" Calvo"
+    }
+   ],
+   "others": [],
+   "ticketNote": "Both tickets won their primaries (reported Aug 2, 2026).",
+   "sources": [
+    "https://www.islapublic.org/news/2026-08-02/terlaje-perez-will-face-ada-calvo-in-race-for-adelup",
+    "https://en.wikipedia.org/wiki/2026_Guam_gubernatorial_election"
+   ],
+   "outlook": {
+    "tier": "none",
+    "basis": "No polling retrieved."
    }
   },
   {
@@ -491,7 +733,11 @@
      "name": "Four independents",
      "party": "Independent"
     }
-   ]
+   ],
+   "outlook": {
+    "tier": "none",
+    "basis": "No polling retrieved."
+   }
   },
   {
    "state": "IA",
@@ -562,6 +808,15 @@
       }
      }
     ]
+   },
+   "outlook": {
+    "leader": "Rob Sand",
+    "leaderParty": "D",
+    "margin": 6.6,
+    "pollAgeDays": 13,
+    "url": "https://www.270towin.com/2026-governor-polls/iowa",
+    "tier": "lean",
+    "basis": "Polling average lead of 6.6 points (270toWin, as of 2026-10-21)."
    }
   },
   {
@@ -591,7 +846,71 @@
      "name": "John Stegner",
      "party": "Independent"
     }
-   ]
+   ],
+   "polling": {
+    "source": "PollCheck",
+    "url": "https://www.pollcheck.co.uk/us-midterms-2026/governor/idaho",
+    "asOf": "2026-11-02",
+    "avg": [
+     {
+      "name": "Brad Little",
+      "party": "R",
+      "pct": 46.3
+     },
+     {
+      "name": "Terri Pickens",
+      "party": "D",
+      "pct": 29.2
+     },
+     {
+      "name": "John Stegner",
+      "party": "I",
+      "pct": 10.7
+     }
+    ],
+    "polls": [
+     {
+      "pollster": "VoteNexus Research",
+      "dates": "2026-10-21 to 10-22",
+      "sample": "700 LV",
+      "values": {
+       "Little": 49,
+       "Pickens": 30,
+       "Stegner": 10
+      }
+     },
+     {
+      "pollster": "Advanced Targeting Research",
+      "dates": "2026-09-13 to 09-16",
+      "sample": "700 RV",
+      "values": {
+       "Little": 37,
+       "Pickens": 27,
+       "Stegner": 13
+      }
+     },
+     {
+      "pollster": "Change Research",
+      "dates": "2026-07-28 to 07-30",
+      "sample": "1,213 LV",
+      "values": {
+       "Little": 48,
+       "Pickens": 27,
+       "Stegner": 11
+      }
+     }
+    ]
+   },
+   "outlook": {
+    "leader": "Brad Little",
+    "leaderParty": "R",
+    "margin": 17.1,
+    "pollAgeDays": 1,
+    "url": "https://www.pollcheck.co.uk/us-midterms-2026/governor/idaho",
+    "tier": "strong",
+    "basis": "Polling average lead of 17.1 points (PollCheck, as of 2026-11-02).",
+    "transition": "Incumbent leads: continuity of administration is the likelier case."
+   }
   },
   {
    "state": "IL",
@@ -611,7 +930,63 @@
      "incumbent": false
     }
    ],
-   "others": []
+   "others": [],
+   "polling": {
+    "source": "PollCheck",
+    "url": "https://www.pollcheck.co.uk/us-midterms-2026/governor/illinois",
+    "asOf": "2026-11-03",
+    "avg": [
+     {
+      "name": "JB Pritzker",
+      "party": "D",
+      "pct": 57.5
+     },
+     {
+      "name": "Darren Bailey",
+      "party": "R",
+      "pct": 37.8
+     }
+    ],
+    "polls": [
+     {
+      "pollster": "Research Co.",
+      "dates": "2026-10-31 to 11-02",
+      "sample": "450 LV",
+      "values": {
+       "Pritzker": 57,
+       "Bailey": 36
+      }
+     },
+     {
+      "pollster": "ActiVote",
+      "dates": "2026-10-23 to 10-31",
+      "sample": "400 LV",
+      "values": {
+       "Pritzker": 59,
+       "Bailey": 41
+      }
+     },
+     {
+      "pollster": "ActiVote",
+      "dates": "2026-10-02 to 10-22",
+      "sample": "400 LV",
+      "values": {
+       "Pritzker": 59,
+       "Bailey": 41
+      }
+     }
+    ]
+   },
+   "outlook": {
+    "leader": "JB Pritzker",
+    "leaderParty": "D",
+    "margin": 19.7,
+    "pollAgeDays": 0,
+    "url": "https://www.pollcheck.co.uk/us-midterms-2026/governor/illinois",
+    "tier": "strong",
+    "basis": "Polling average lead of 19.7 points (PollCheck, as of 2026-11-03).",
+    "transition": "Incumbent leads: continuity of administration is the likelier case."
+   }
   },
   {
    "state": "KS",
@@ -677,6 +1052,15 @@
       }
      }
     ]
+   },
+   "outlook": {
+    "leader": "Ty Masterson",
+    "leaderParty": "R",
+    "margin": 5.7,
+    "pollAgeDays": 28,
+    "url": "https://www.270towin.com/2026-governor-polls/kansas",
+    "tier": "lean",
+    "basis": "Polling average lead of 5.7 points (270toWin, as of 2026-10-06)."
    }
   },
   {
@@ -706,7 +1090,71 @@
      "name": "Muhammed Kokonezis-Hanino",
      "party": "Independent"
     }
-   ]
+   ],
+   "polling": {
+    "source": "PollCheck",
+    "url": "https://www.pollcheck.co.uk/us-midterms-2026/governor/massachusetts",
+    "asOf": "2026-11-03",
+    "avg": [
+     {
+      "name": "Maura Healey",
+      "party": "D",
+      "pct": 55.5
+     },
+     {
+      "name": "Mike Minogue",
+      "party": "R",
+      "pct": 33.2
+     },
+     {
+      "name": "Andrea James",
+      "party": "I",
+      "pct": 3.9
+     }
+    ],
+    "polls": [
+     {
+      "pollster": "University of New Hampshire",
+      "dates": "2026-10-27 to 10-31",
+      "sample": "905 LV",
+      "values": {
+       "Healey": 55,
+       "Minogue": 36,
+       "James": 5
+      }
+     },
+     {
+      "pollster": "Suffolk University",
+      "dates": "2026-10-14 to 10-18",
+      "sample": "500 LV",
+      "values": {
+       "Healey": 59,
+       "Minogue": 36,
+       "James": 2
+      }
+     },
+     {
+      "pollster": "UMass Lowell",
+      "dates": "2026-10-07 to 10-18",
+      "sample": "850 LV",
+      "values": {
+       "Healey": 57,
+       "Minogue": 29,
+       "James": 4
+      }
+     }
+    ]
+   },
+   "outlook": {
+    "leader": "Maura Healey",
+    "leaderParty": "D",
+    "margin": 22.3,
+    "pollAgeDays": 0,
+    "url": "https://www.pollcheck.co.uk/us-midterms-2026/governor/massachusetts",
+    "tier": "strong",
+    "basis": "Polling average lead of 22.3 points (PollCheck, as of 2026-11-03).",
+    "transition": "Incumbent leads: continuity of administration is the likelier case."
+   }
   },
   {
    "state": "MD",
@@ -735,7 +1183,48 @@
      "name": "Cathy White",
      "party": "Working Class"
     }
-   ]
+   ],
+   "polling": {
+    "source": "Fox 5 DC reporting UMBC poll",
+    "url": "https://www.fox5dc.com/news/umbc-poll-maryland-gov-wes-moore-holds-strong-lead-over-dan-cox",
+    "asOf": "2026-09-27",
+    "avg": [
+     {
+      "name": "Wes Moore",
+      "party": "D",
+      "pct": 51.0
+     },
+     {
+      "name": "Dan Cox",
+      "party": "R",
+      "pct": 24.0
+     }
+    ],
+    "polls": [
+     {
+      "pollster": "UMBC Institute of Politics",
+      "dates": "2026-09-22 to 09-27",
+      "sample": "776 LV (\u00b13.5)",
+      "values": {
+       "Moore": 51,
+       "Cox": 24,
+       "Ellis": 3,
+       "White": 3
+      }
+     }
+    ],
+    "note": "Single poll, not an average; 14% undecided."
+   },
+   "outlook": {
+    "leader": "Wes Moore",
+    "leaderParty": "D",
+    "margin": 27.0,
+    "pollAgeDays": 37,
+    "url": "https://www.fox5dc.com/news/umbc-poll-maryland-gov-wes-moore-holds-strong-lead-over-dan-cox",
+    "tier": "strong",
+    "basis": "Polling average lead of 27.0 points (Fox 5 DC reporting UMBC poll, as of 2026-09-27). Single poll, not an average; 14% undecided.",
+    "transition": "Incumbent leads: continuity of administration is the likelier case."
+   }
   },
   {
    "state": "ME",
@@ -814,6 +1303,15 @@
       }
      }
     ]
+   },
+   "outlook": {
+    "leader": "Hannah Pingree",
+    "leaderParty": "D",
+    "margin": 9.6,
+    "pollAgeDays": 0,
+    "url": "https://www.pollcheck.co.uk/us-midterms-2026/governor/maine",
+    "tier": "lean",
+    "basis": "Polling average lead of 9.6 points (PollCheck, as of 2026-11-03)."
    }
   },
   {
@@ -885,6 +1383,15 @@
       }
      }
     ]
+   },
+   "outlook": {
+    "leader": "Jocelyn Benson",
+    "leaderParty": "D",
+    "margin": 7.9,
+    "pollAgeDays": 0,
+    "url": "https://www.pollcheck.co.uk/us-midterms-2026/governor/michigan",
+    "tier": "lean",
+    "basis": "Polling average lead of 7.9 points (PollCheck, as of 2026-11-03)."
    }
   },
   {
@@ -951,6 +1458,54 @@
       }
      }
     ]
+   },
+   "outlook": {
+    "leader": "Amy Klobuchar",
+    "leaderParty": "D",
+    "margin": 10.7,
+    "pollAgeDays": 0,
+    "url": "https://www.pollcheck.co.uk/us-midterms-2026/governor/minnesota",
+    "tier": "strong",
+    "basis": "Polling average lead of 10.7 points (PollCheck, as of 2026-11-03).",
+    "transition": "Open seat, so a new governor takes office whoever wins; the polling leader would be the likely new governor."
+   }
+  },
+  {
+   "state": "MP",
+   "office": "Governor",
+   "incumbent": "David M. Apatang",
+   "incumbentParty": "O",
+   "openSeat": true,
+   "candidates": [
+    {
+     "name": "Ralph Torres",
+     "party": "R",
+     "incumbent": false,
+     "runningMate": "Benjamin Jones Jr."
+    },
+    {
+     "name": "Blas Jonathan \"BJ\" Attao",
+     "party": "O",
+     "incumbent": false,
+     "runningMate": "Edmund Villagomez"
+    },
+    {
+     "name": "Lawrence Camacho",
+     "party": "O",
+     "incumbent": false,
+     "runningMate": "Edith Deleon Guerrero"
+    }
+   ],
+   "others": [],
+   "ticketNote": "Apatang (Independent) became governor July 24, 2025 after Gov. Palacios died, and is not running. Primary results were not found; the ballot above is from Green Papers (latest item Oct 2026) and Wikipedia (as of May 2026), so verify it.",
+   "sources": [
+    "https://www.thegreenpapers.com/G26/MP",
+    "https://en.wikipedia.org/wiki/2026_Northern_Mariana_Islands_gubernatorial_election",
+    "https://www.pacificislandtimes.com/post/how-gov-palacios-death-recasts-the-northern-marianas-political-terrain"
+   ],
+   "outlook": {
+    "tier": "none",
+    "basis": "No polling retrieved."
    }
   },
   {
@@ -980,7 +1535,62 @@
      "name": "Brett Lindstrom",
      "party": "America First"
     }
-   ]
+   ],
+   "polling": {
+    "source": "PollCheck",
+    "url": "https://www.pollcheck.co.uk/us-midterms-2026/governor/nebraska",
+    "asOf": "2026-11-03",
+    "avg": [
+     {
+      "name": "Jim Pillen",
+      "party": "R",
+      "pct": 47.2
+     },
+     {
+      "name": "Lynne Walz",
+      "party": "D",
+      "pct": 41.4
+     }
+    ],
+    "polls": [
+     {
+      "pollster": "YouGov",
+      "dates": "2026-10-26 to 10-29",
+      "sample": "1,979 LV",
+      "values": {
+       "Pillen": 50,
+       "Walz": 47
+      }
+     },
+     {
+      "pollster": "NYT/Siena",
+      "dates": "2026-10-23 to 10-29",
+      "sample": "809 LV",
+      "values": {
+       "Pillen": 53,
+       "Walz": 40
+      }
+     },
+     {
+      "pollster": "Echelon Insights",
+      "dates": "2026-10-16 to 10-23",
+      "sample": "407 LV",
+      "values": {
+       "Pillen": 47,
+       "Walz": 40
+      }
+     }
+    ]
+   },
+   "outlook": {
+    "leader": "Jim Pillen",
+    "leaderParty": "R",
+    "margin": 5.8,
+    "pollAgeDays": 0,
+    "url": "https://www.pollcheck.co.uk/us-midterms-2026/governor/nebraska",
+    "tier": "lean",
+    "basis": "Polling average lead of 5.8 points (PollCheck, as of 2026-11-03)."
+   }
   },
   {
    "state": "NH",
@@ -1051,6 +1661,15 @@
       }
      }
     ]
+   },
+   "outlook": {
+    "leader": "Kelly Ayotte",
+    "leaderParty": "R",
+    "margin": 7.9,
+    "pollAgeDays": 0,
+    "url": "https://www.pollcheck.co.uk/us-midterms-2026/governor/new-hampshire",
+    "tier": "lean",
+    "basis": "Polling average lead of 7.9 points (PollCheck, as of 2026-11-03)."
    }
   },
   {
@@ -1117,6 +1736,15 @@
       }
      }
     ]
+   },
+   "outlook": {
+    "leader": "Deb Haaland",
+    "leaderParty": "D",
+    "margin": 6.9,
+    "pollAgeDays": 0,
+    "url": "https://www.pollcheck.co.uk/us-midterms-2026/governor/new-mexico",
+    "tier": "lean",
+    "basis": "Polling average lead of 6.9 points (PollCheck, as of 2026-11-03)."
    }
   },
   {
@@ -1188,6 +1816,15 @@
       }
      }
     ]
+   },
+   "outlook": {
+    "leader": "Aaron Ford",
+    "leaderParty": "D",
+    "margin": 1.3,
+    "pollAgeDays": 0,
+    "url": "https://www.pollcheck.co.uk/us-midterms-2026/governor/nevada",
+    "tier": "tossup",
+    "basis": "Polling average lead of 1.3 points (PollCheck, as of 2026-11-03)."
    }
   },
   {
@@ -1254,6 +1891,16 @@
       }
      }
     ]
+   },
+   "outlook": {
+    "leader": "Kathy Hochul",
+    "leaderParty": "D",
+    "margin": 13.2,
+    "pollAgeDays": 13,
+    "url": "https://www.270towin.com/2026-governor-polls/new-york",
+    "tier": "strong",
+    "basis": "Polling average lead of 13.2 points (270toWin, as of 2026-10-21).",
+    "transition": "Incumbent leads: continuity of administration is the likelier case."
    }
   },
   {
@@ -1329,6 +1976,15 @@
       }
      }
     ]
+   },
+   "outlook": {
+    "leader": "Amy Acton",
+    "leaderParty": "D",
+    "margin": 3.8,
+    "pollAgeDays": 1,
+    "url": "https://270towin.com/2026-governor-polls/ohio",
+    "tier": "tossup",
+    "basis": "Polling average lead of 3.8 points (270toWin, as of 2026-11-02)."
    }
   },
   {
@@ -1358,7 +2014,62 @@
      "name": "Jerry Griffin",
      "party": "Independent"
     }
-   ]
+   ],
+   "polling": {
+    "source": "PollCheck",
+    "url": "https://www.pollcheck.co.uk/us-midterms-2026/governor/oklahoma",
+    "asOf": "2026-11-03",
+    "avg": [
+     {
+      "name": "Mike Mazzei",
+      "party": "R",
+      "pct": 46.5
+     },
+     {
+      "name": "Cyndi Munson",
+      "party": "D",
+      "pct": 42.1
+     }
+    ],
+    "polls": [
+     {
+      "pollster": "Cross Timbers Poll",
+      "dates": "2026-10-24 to 10-28",
+      "sample": "575 LV",
+      "values": {
+       "Mazzei": 45.7,
+       "Munson": 43.2
+      }
+     },
+     {
+      "pollster": "Workbench Strategy (D; sponsored by Munson campaign)",
+      "dates": "2026-10-08 to 10-13",
+      "sample": "600 LV",
+      "values": {
+       "Mazzei": 49,
+       "Munson": 45
+      }
+     },
+     {
+      "pollster": "Cross Timbers Poll",
+      "dates": "2026-10-07 to 10-12",
+      "sample": "91 LV",
+      "values": {
+       "Mazzei": 39,
+       "Munson": 36
+      }
+     }
+    ]
+   },
+   "outlook": {
+    "leader": "Mike Mazzei",
+    "leaderParty": "R",
+    "margin": 4.4,
+    "pollAgeDays": 0,
+    "url": "https://www.pollcheck.co.uk/us-midterms-2026/governor/oklahoma",
+    "tier": "tossup",
+    "basis": "Polling average lead of 4.4 points (PollCheck, as of 2026-11-03)."
+   }
   },
   {
    "state": "OR",
@@ -1378,7 +2089,70 @@
      "incumbent": false
     }
    ],
-   "others": []
+   "others": [],
+   "polling": {
+    "source": "PollCheck",
+    "url": "https://www.pollcheck.co.uk/us-midterms-2026/governor/oregon",
+    "asOf": "2026-11-03",
+    "avg": [
+     {
+      "name": "Tina Kotek",
+      "party": "D",
+      "pct": 45.3
+     },
+     {
+      "name": "Christine Drazan",
+      "party": "R",
+      "pct": 44.3
+     },
+     {
+      "name": "Brett Smith",
+      "party": "G",
+      "pct": 4.4
+     }
+    ],
+    "polls": [
+     {
+      "pollster": "GBAO (D-leaning; sponsored by Kotek campaign)",
+      "dates": "2026-10-01 to 10-04",
+      "sample": "800 LV",
+      "values": {
+       "Kotek": 46,
+       "Drazan": 42,
+       "Smith": 6
+      }
+     },
+     {
+      "pollster": "DHM Research (Oregonian)",
+      "dates": "2026-09-24 to 10-01",
+      "sample": "549 LV",
+      "values": {
+       "Kotek": 46,
+       "Drazan": 44,
+       "Smith": 3
+      }
+     },
+     {
+      "pollster": "DHM Research (OPB)",
+      "dates": "2026-09-17 to 09-27",
+      "sample": "915 LV",
+      "values": {
+       "Kotek": 46,
+       "Drazan": 47,
+       "Smith": 3
+      }
+     }
+    ]
+   },
+   "outlook": {
+    "leader": "Tina Kotek",
+    "leaderParty": "D",
+    "margin": 1.0,
+    "pollAgeDays": 0,
+    "url": "https://www.pollcheck.co.uk/us-midterms-2026/governor/oregon",
+    "tier": "tossup",
+    "basis": "Polling average lead of 1.0 points (PollCheck, as of 2026-11-03)."
+   }
   },
   {
    "state": "PA",
@@ -1449,6 +2223,16 @@
       }
      }
     ]
+   },
+   "outlook": {
+    "leader": "Josh Shapiro",
+    "leaderParty": "D",
+    "margin": 23.2,
+    "pollAgeDays": 12,
+    "url": "https://www.270towin.com/2026-governor-polls/pennsylvania",
+    "tier": "strong",
+    "basis": "Polling average lead of 23.2 points (270toWin, as of 2026-10-22).",
+    "transition": "Incumbent leads: continuity of administration is the likelier case."
    }
   },
   {
@@ -1528,6 +2312,16 @@
       }
      }
     ]
+   },
+   "outlook": {
+    "leader": "Helena Foulkes",
+    "leaderParty": "D",
+    "margin": 14.4,
+    "pollAgeDays": 1,
+    "url": "https://www.pollcheck.co.uk/us-midterms-2026/governor/rhode-island",
+    "tier": "strong",
+    "basis": "Polling average lead of 14.4 points (PollCheck, as of 2026-11-02).",
+    "transition": "Open seat, so a new governor takes office whoever wins; the polling leader would be the likely new governor."
    }
   },
   {
@@ -1557,7 +2351,62 @@
      "name": "Walid Hakim",
      "party": "Green"
     }
-   ]
+   ],
+   "polling": {
+    "source": "PollCheck",
+    "url": "https://www.pollcheck.co.uk/us-midterms-2026/governor/south-carolina",
+    "asOf": "2026-11-03",
+    "avg": [
+     {
+      "name": "Alan Wilson",
+      "party": "R",
+      "pct": 48.9
+     },
+     {
+      "name": "Jermaine Johnson",
+      "party": "D",
+      "pct": 39.7
+     }
+    ],
+    "polls": [
+     {
+      "pollster": "Trafalgar Group",
+      "dates": "2026-10-31 to 11-01",
+      "sample": "1,091 LV",
+      "values": {
+       "Wilson": 54,
+       "Johnson": 39
+      }
+     },
+     {
+      "pollster": "Rasmussen Reports",
+      "dates": "2026-10-27 to 10-31",
+      "sample": "1,028 LV",
+      "values": {
+       "Wilson": 51,
+       "Johnson": 43
+      }
+     },
+     {
+      "pollster": "Resonance Media Services",
+      "dates": "2026-10-30",
+      "sample": "600 LV",
+      "values": {
+       "Wilson": 51,
+       "Johnson": 42
+      }
+     }
+    ]
+   },
+   "outlook": {
+    "leader": "Alan Wilson",
+    "leaderParty": "R",
+    "margin": 9.2,
+    "pollAgeDays": 0,
+    "url": "https://www.pollcheck.co.uk/us-midterms-2026/governor/south-carolina",
+    "tier": "lean",
+    "basis": "Polling average lead of 9.2 points (PollCheck, as of 2026-11-03)."
+   }
   },
   {
    "state": "SD",
@@ -1582,7 +2431,63 @@
      "name": "Allison Renville",
      "party": "Independent"
     }
-   ]
+   ],
+   "polling": {
+    "source": "PollCheck",
+    "url": "https://www.pollcheck.co.uk/us-midterms-2026/governor/south-dakota",
+    "asOf": "2026-11-03",
+    "avg": [
+     {
+      "name": "Larry Rhoden",
+      "party": "R",
+      "pct": 53.3
+     },
+     {
+      "name": "Dan Ahlers",
+      "party": "D",
+      "pct": 36.8
+     }
+    ],
+    "polls": [
+     {
+      "pollster": "Concord Public Opinion Partners",
+      "dates": "2026-10-22 to 10-26",
+      "sample": "448 LV",
+      "values": {
+       "Rhoden": 48,
+       "Ahlers": 39
+      }
+     },
+     {
+      "pollster": "Mason-Dixon",
+      "dates": "2026-10-12 to 10-14",
+      "sample": "500 LV",
+      "values": {
+       "Rhoden": 56,
+       "Ahlers": 36
+      }
+     },
+     {
+      "pollster": "Concord Public Opinion Partners",
+      "dates": "2026-10-06 to 10-08",
+      "sample": "400 LV",
+      "values": {
+       "Rhoden": 48,
+       "Ahlers": 38
+      }
+     }
+    ]
+   },
+   "outlook": {
+    "leader": "Larry Rhoden",
+    "leaderParty": "R",
+    "margin": 16.5,
+    "pollAgeDays": 0,
+    "url": "https://www.pollcheck.co.uk/us-midterms-2026/governor/south-dakota",
+    "tier": "strong",
+    "basis": "Polling average lead of 16.5 points (PollCheck, as of 2026-11-03).",
+    "transition": "Incumbent leads: continuity of administration is the likelier case."
+   }
   },
   {
    "state": "TN",
@@ -1607,7 +2512,71 @@
      "name": "Lauren Pinkston",
      "party": "Independent"
     }
-   ]
+   ],
+   "polling": {
+    "source": "PollCheck",
+    "url": "https://www.pollcheck.co.uk/us-midterms-2026/governor/tennessee",
+    "asOf": "2026-11-03",
+    "avg": [
+     {
+      "name": "Marsha Blackburn",
+      "party": "R",
+      "pct": 44.3
+     },
+     {
+      "name": "Jerri Green",
+      "party": "D",
+      "pct": 33.3
+     },
+     {
+      "name": "David Hatley",
+      "party": "I",
+      "pct": 15.0
+     }
+    ],
+    "polls": [
+     {
+      "pollster": "Targoz Market Research",
+      "dates": "2026-10-24 to 11-02",
+      "sample": "718 LV",
+      "values": {
+       "Blackburn": 54,
+       "Green": 35,
+       "Hatley": 7
+      }
+     },
+     {
+      "pollster": "GOTV Polling",
+      "dates": "2026-10-25 to 10-26",
+      "sample": "1,196 V",
+      "values": {
+       "Blackburn": 35,
+       "Green": 30,
+       "Hatley": 26
+      }
+     },
+     {
+      "pollster": "Spry Strategies",
+      "dates": "2026-10-10 to 10-15",
+      "sample": "635 LV",
+      "values": {
+       "Blackburn": 44,
+       "Green": 32,
+       "Hatley": 12
+      }
+     }
+    ]
+   },
+   "outlook": {
+    "leader": "Marsha Blackburn",
+    "leaderParty": "R",
+    "margin": 11.0,
+    "pollAgeDays": 0,
+    "url": "https://www.pollcheck.co.uk/us-midterms-2026/governor/tennessee",
+    "tier": "strong",
+    "basis": "Polling average lead of 11.0 points (PollCheck, as of 2026-11-03).",
+    "transition": "Open seat, so a new governor takes office whoever wins; the polling leader would be the likely new governor."
+   }
   },
   {
    "state": "TX",
@@ -1673,6 +2642,64 @@
       }
      }
     ]
+   },
+   "outlook": {
+    "leader": "Greg Abbott",
+    "leaderParty": "R",
+    "margin": 3.5,
+    "pollAgeDays": 11,
+    "url": "https://www.270towin.com/2026-governor-polls/texas",
+    "tier": "tossup",
+    "basis": "Polling average lead of 3.5 points (270toWin, as of 2026-10-23)."
+   }
+  },
+  {
+   "state": "VI",
+   "office": "Governor",
+   "incumbent": "Albert J. Bryan Jr.",
+   "incumbentParty": "D",
+   "openSeat": true,
+   "candidates": [
+    {
+     "name": "Stacey E. Plaskett",
+     "party": "D",
+     "incumbent": false,
+     "runningMate": "Milton Potter"
+    },
+    {
+     "name": "Oakland Benta",
+     "party": "O",
+     "incumbent": false,
+     "runningMate": "Merwin E. Potter Jr."
+    },
+    {
+     "name": "Adlah \"Foncie\" Donastorg",
+     "party": "O",
+     "incumbent": false,
+     "runningMate": "Positive Nelson"
+    },
+    {
+     "name": "Gustav James",
+     "party": "O",
+     "incumbent": false,
+     "runningMate": "Randolph Bennett"
+    },
+    {
+     "name": "Warren Mosler",
+     "party": "O",
+     "incumbent": false,
+     "runningMate": "Colin Robertson"
+    }
+   ],
+   "others": [],
+   "ticketNote": "Plaskett (sitting delegate to Congress) won the Democratic primary on Aug 1, 2026. The four others are independents. Wikipedia still lists a Roach ticket; Roach lost the primary, so the Green Papers list is used.",
+   "sources": [
+    "https://www.thegreenpapers.com/G26/VI",
+    "https://www.virginislandsnewsonline.com/en/news/madam-governor-stacey-e-plaskett-milton-e-potter-win-democratic-primary"
+   ],
+   "outlook": {
+    "tier": "none",
+    "basis": "No polling retrieved."
    }
   },
   {
@@ -1698,7 +2725,62 @@
      "name": "Dean Roy",
      "party": "Freedom and Unity"
     }
-   ]
+   ],
+   "polling": {
+    "source": "PollCheck",
+    "url": "https://www.pollcheck.co.uk/us-midterms-2026/governor/vermont",
+    "asOf": "2026-11-03",
+    "avg": [
+     {
+      "name": "Phil Scott",
+      "party": "R",
+      "pct": 46.1
+     },
+     {
+      "name": "Amanda Janoo",
+      "party": "D",
+      "pct": 45.3
+     }
+    ],
+    "polls": [
+     {
+      "pollster": "UNH",
+      "dates": "2026-10-27 to 10-31",
+      "sample": "1,172 LV",
+      "values": {
+       "Scott": 43,
+       "Janoo": 51
+      }
+     },
+     {
+      "pollster": "State Navigate",
+      "dates": "2026-10-23 to 10-25",
+      "sample": "1,752 LV",
+      "values": {
+       "Scott": 49,
+       "Janoo": 46
+      }
+     },
+     {
+      "pollster": "State Navigate",
+      "dates": "2026-10-02 to 10-04",
+      "sample": "948 LV",
+      "values": {
+       "Scott": 46,
+       "Janoo": 43
+      }
+     }
+    ]
+   },
+   "outlook": {
+    "leader": "Phil Scott",
+    "leaderParty": "R",
+    "margin": 0.8,
+    "pollAgeDays": 0,
+    "url": "https://www.pollcheck.co.uk/us-midterms-2026/governor/vermont",
+    "tier": "tossup",
+    "basis": "Polling average lead of 0.8 points (PollCheck, as of 2026-11-03)."
+   }
   },
   {
    "state": "WI",
@@ -1769,6 +2851,15 @@
       }
      }
     ]
+   },
+   "outlook": {
+    "leader": "David Crowley",
+    "leaderParty": "D",
+    "margin": 4.3,
+    "pollAgeDays": 0,
+    "url": "https://www.pollcheck.co.uk/us-midterms-2026/governor/wisconsin",
+    "tier": "tossup",
+    "basis": "Polling average lead of 4.3 points (PollCheck, as of 2026-11-03)."
    }
   },
   {
@@ -1791,10 +2882,15 @@
    ],
    "others": [
     {
-     "name": "Joseph Kibler",
+     "name": "Constitution Party nominee (name differs by source: Kibler / Bextel)",
      "party": "Constitution"
     }
-   ]
+   ],
+   "outlook": {
+    "tier": "none",
+    "basis": "No polling retrieved."
+   }
   }
- ]
+ ],
+ "outlookNote": "Outlook tiers are computed from polling margins only (strong >= 10 points, lean 5 to <10, toss-up < 5; polls older than 60 days are not used). They are not forecasts or race calls, and polls can be wrong."
 }
