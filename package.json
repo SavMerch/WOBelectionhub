@@ -1,0 +1,1 @@
+{"name":"wob-election-hub","private":true,"type":"module","engines":{"node":">=20"},"scripts":{"test":"node --test test/core.test.mjs","build":"node scripts/build.mjs"},"dependencies":{"@netlify/blobs":"^8.1.0"}}
