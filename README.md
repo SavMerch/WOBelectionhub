@@ -19,4 +19,5 @@ Create netlify/functions/lib/adapters/XX.mjs (id, fetchRaces, parse), register i
 
 ## Status
 Working and tested locally: registry/matrix UI logic, validation, race-status rules, refresh with fake store, failure retention.
+Pre-election data: data/preelection.json (36 states: nominees; 19 with polling averages, retrieved 2026-11-03, static, not auto-updated). Territories (VI, GU, MP) pending.
 NOT verified: any live feed (CA adapter's response shape is a guess and is off by default), Netlify scheduling, browser rendering.
