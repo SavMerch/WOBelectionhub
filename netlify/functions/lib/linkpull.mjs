@@ -10,11 +10,11 @@ export async function checkUrl(u,resolve=lookup){let x;try{x=new URL(u)}catch(e)
   if(x.protocol!=='https:')throw new Error('Only https links are allowed');if(x.username||x.password)throw new Error('Links with credentials are not allowed');
   if(/^(localhost|.*\.local|.*\.internal)$/i.test(x.hostname)||/^[\d.]+$/.test(x.hostname)||x.hostname.includes(':'))throw new Error('Host not allowed');
   const a=await resolve(x.hostname,{all:true});if(!a.length||a.some(r=>privateIp(r.address)))throw new Error('Host not allowed');return x}
-export async function safeFetch(url,{fetchImpl=fetch,resolve=lookup,maxBytes=8e6,hops=3}={}){let u=url;
+export async function safeFetch(url,{fetchImpl=fetch,resolve=lookup,maxBytes=8e6,hops=3,sheets=false}={}){let u=url;
   for(let i=0;i<=hops;i++){await checkUrl(u,resolve);const r=await fetchImpl(u,{redirect:'manual',headers:{'user-agent':'WittOBriens-ElectionHub/1.0','accept':'text/html,text/csv,application/json,application/pdf,text/plain'},signal:AbortSignal.timeout(20000)});
     if(r.status>=300&&r.status<400&&r.headers.get('location')){u=new URL(r.headers.get('location'),u).href;continue}
     if(!r.ok)throw new Error('The link returned HTTP '+r.status);
-    const ct=(r.headers.get('content-type')||'').toLowerCase();if(!/(html|csv|json|plain|pdf|xml)/.test(ct)&&!/\.(csv|pdf|json|txt)(\?|$)/i.test(u))throw new Error('Unsupported content type: '+ct);
+    const ct=(r.headers.get('content-type')||'').toLowerCase();if(!/(html|csv|json|plain|pdf|xml)/.test(ct)&&!/\.(csv|pdf|json|txt)(\?|$)/i.test(u)&&!(sheets&&(/(spreadsheet|excel|octet-stream)/.test(ct)||/\.xlsx?(\?|$)/i.test(u))))throw new Error('Unsupported content type: '+ct);
     const buf=Buffer.from(await r.arrayBuffer());if(buf.length>maxBytes)throw new Error('File is too large ('+Math.round(buf.length/1e6)+' MB)');return {buf,ct,url:u}}
   throw new Error('Too many redirects')}
 export const htmlToText=h=>h.replace(/<(script|style)[\s\S]*?<\/\1>/gi,' ').replace(/<\/(tr|p|div|li|h\d|table)>/gi,'\n').replace(/<\/t[dh]>/gi,' | ').replace(/<[^>]+>/g,' ').replace(/&nbsp;/g,' ').replace(/&amp;/g,'&').replace(/[ \t]+/g,' ').replace(/\n\s*\n+/g,'\n').trim();
@@ -31,8 +31,8 @@ export function verifyRaces(raw,state,{text,meta,pdf}){const out=[],notes=[];con
     try{const v=validateRace({state,office:r.office,district:r.office==='US House'?(r.district==null?null:String(r.district)):null,reportingPct:typeof r.reportingPct==='number'&&r.reportingPct>=0&&r.reportingPct<=100?r.reportingPct:null,candidates:cands,sourceName:meta.sourceName,sourceUrl:meta.sourceUrl,sourceUpdated:raw.asOf||null,final:false});
       v.linked=true;v.verified=!pdf;v.pctComputed=true;out.push(v)}catch(e){notes.push(e.message)}}
   return {races:out,notes}}
-export async function pullLink({state,url,fetchImpl=fetch,resolve,apiKey,model=process.env.ANALYZE_MODEL||'claude-sonnet-5-5'}){
-  const f=await safeFetch(url,{fetchImpl,resolve});const meta={state,sourceName:'Analyst-supplied link',sourceUrl:f.url};const isPdf=/pdf/.test(f.ct)||/\.pdf(\?|$)/i.test(f.url);
+export async function pullLink({state,url,file,fetchImpl=fetch,resolve,apiKey,model=process.env.ANALYZE_MODEL||'claude-sonnet-5-5'}){
+  const f=file?{buf:Buffer.from(file.data,'base64'),ct:/\.pdf$/i.test(file.name)?'application/pdf':'text/csv',url:'https://uploaded.invalid/'+encodeURIComponent(file.name)}:await safeFetch(url,{fetchImpl,resolve});const meta={state,sourceName:file?'Uploaded file: '+file.name:'Analyst-supplied link',sourceUrl:f.url};const isPdf=/pdf/.test(f.ct)||/\.pdf(\?|$)/i.test(f.url);
   if(!isPdf){const text0=f.buf.toString('utf8');
     try{const rs=parseEnrCsv(text0,meta);const races=rs.map(r=>{const v=validateRace({...r,state});v.linked=true;v.verified=true;return v});if(races.length)return {method:'csv-parser',races,notes:[]}}catch(e){}}
   if(!apiKey)throw new Error('This link is not in a format the built-in parser reads, and ANTHROPIC_API_KEY is not set for AI extraction.');

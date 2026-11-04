@@ -14,3 +14,7 @@ test('call endpoint: forbidden without token, stores call, refresh applies it as
   assert.equal((await calls(mk('token=t',{...b,source:'https://example.com'}),{},{store:st})).status,400);
   await calls(mk('token=t',{state:'OH',office:'Governor',remove:true}),{},{store:st,refresh:o=>runRefresh({...o,adapters:[]})});
   assert.equal(st.m.get('latest').races.find(x=>x.state==='OH'),undefined)});
+test('bulk import keeps valid AP calls and rejects others',async()=>{
+  process.env.REFRESH_TOKEN='t';const st=mem();const src='https://apnews.com/projects/elections-2026/governor-results/';
+  const r=await calls(new Request('https://x.test/api/calls?token=t',{method:'POST',body:JSON.stringify({calls:[{state:'GA',office:'Governor',winner:'A',winnerParty:'D',source:src,calledAt:'2026-11-04T03:33:07.330Z'},{state:'IL',office:'Governor',winner:'B',source:'https://example.com'}]})}),{},{store:st,refresh:o=>runRefresh({...o,adapters:[]})});
+  const j=await r.json();assert.equal(j.imported,1);assert.equal(j.rejected,1);assert.equal(j.calls[0].winnerParty,'D')});

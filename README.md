@@ -98,3 +98,16 @@ IA and WI governor races are called per AP lookup (winner Sand / Crowley per use
 - `data/profiles.json` (built to `profiles.json`) holds per-state federal funding profile, 3-year disaster impact (OpenFEMA + supplied FEMA PA files + HUD CDBG-DR), emergency-management profile and expanded transition plan. Regenerate by editing the data and rerunning your generator; the file is plain JSON.
 - `data/fema-dr.json` and `data/fema-pa.json` are the raw extracts behind the disaster analysis.
 - Funding split by function is MODELED from national NASBO shares; state totals are sourced. Cabinet slates are analyst projections. EM directors must be verified before use.
+
+## Competitive Intel: add vendors and contract data
+On each state's **Competitive Intel** tab (requires `REFRESH_TOKEN`, asked once per browser session):
+- **Add a statewide-contract vendor** in any of the three categories (strategy, emergency management, audit/compliance) with firm, scope, agency, period, value, note and a required https link to the contract. Entries are labeled `manual` and shown beside documented incumbents.
+- **Upload an Excel/CSV** of state contract data, or paste a **link to a CSV/Excel file**. Columns are auto-mapped (vendor, description, amount, term, link), categories are keyword-guessed, and a preview lets you change or skip each row before saving (`imported`).
+- **Save a link** to the state's contract portal / data page for reference.
+Storage: Netlify Blobs keys `manual-vendors` and `contract-links`; API: `/api/vendors` (GET public, POST token-gated). Excel parsing uses SheetJS from cdnjs; CSV parsing is built in.
+
+## Carrying over AP calls from the previous hub
+`data/analyst-calls.json` holds the 40 analyst-entered AP calls exported from the old site (`/api/calls`). The build reads the Governor calls into `outcomes.json`, so winners show on the map with no setup. To also load all calls (including Senate) into the live store so Refresh applies them, POST the file to `/api/calls?token=REFRESH_TOKEN`; it accepts the same `{"calls":[...]}` shape.
+
+## Map key and results upload
+Election-outcome map: green border = party flip; dark-yellow border = new governor, same party; lighter and more transparent = no governor race in 2026. Pre-election polling was removed. Only Governor calls are kept. On each state's Results tab you can paste a results link or upload a CSV/PDF (up to 4 MB); standard ENR-format CSVs parse directly, other CSV/PDF files need ANTHROPIC_API_KEY.

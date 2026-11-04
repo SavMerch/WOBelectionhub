@@ -38,3 +38,12 @@ test('refresh merges linked House districts separately and lets official feed wi
   await runRefresh({store:st,adapters:[feed]});const rs=st.m.get('latest').races.filter(r=>r.office==='US House');
   assert.equal(rs.length,2);assert.equal(rs.find(r=>r.district==='2').candidates[0].name,'Official');assert.equal(rs.find(r=>r.district==='1').candidates[0].votes,10);
   st.m.set('linked-results',{});await runRefresh({store:st,adapters:[]});assert.ok(!st.m.get('latest').races.some(r=>r.linked))});
+test('pullLink reads an uploaded CSV without fetching',async()=>{
+  const {pullLink}=await import('../netlify/functions/lib/linkpull.mjs');
+  await assert.rejects(()=>pullLink({state:'OH',file:{name:'r.csv',data:Buffer.from('not,a,results,file').toString('base64')},fetchImpl:()=>{throw new Error('no network')}}),e=>!/no network/.test(e.message))});
+
+test('uploaded ENR-format CSV is parsed directly',async()=>{
+  const {pullLink}=await import('../netlify/functions/lib/linkpull.mjs');
+  const csv='RaceID,RaceName,AreaNum,PrecinctsReporting,CandidateName,PartyCode,CandidateVotes\n1,Governor,,10 / 10,Ann A,D,600\n1,Governor,,10 / 10,Bob B,R,400\n';
+  const r=await pullLink({state:'OH',file:{name:'r.csv',data:Buffer.from(csv).toString('base64')}});
+  assert.equal(r.method,'csv-parser');assert.equal(r.races[0].office,'Governor');assert.equal(r.races[0].candidates.length,2)});

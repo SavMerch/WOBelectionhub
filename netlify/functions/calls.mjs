@@ -5,8 +5,8 @@ import {runRefresh} from './lib/refresh.mjs';
 const J=(o,s=200)=>new Response(JSON.stringify(o),{status:s,headers:{'content-type':'application/json','cache-control':'no-store'}});
 const eq=(a,b)=>{const x=Buffer.from(a),y=Buffer.from(b);return x.length===y.length&&timingSafeEqual(x,y)};
 export function cleanCall(b){const state=String(b.state||'').toUpperCase(),office=String(b.office||'Governor').trim();let host='';try{const u=new URL(b.source);host=u.protocol==='https:'&&(u.hostname==='apnews.com'||u.hostname.endsWith('.apnews.com'))?u.hostname:''}catch(e){}
-  if(!/^[A-Z]{2}$/.test(state)||!office||!String(b.winner||'').trim()||!host)return null;
-  return {state,office,district:b.district?String(b.district):null,winner:String(b.winner).trim().slice(0,80),winnerParty:String(b.party||'').slice(0,10),status:b.status==='certified'?'certified':'projected',calledBy:'AP (entered by analyst)',source:b.source,calledAt:b.calledAt||new Date().toISOString()}}
+  if(!/^[A-Z]{2}$/.test(state)||!/^governor$/i.test(office)||!String(b.winner||'').trim()||!host)return null;
+  return {state,office,district:b.district?String(b.district):null,winner:String(b.winner).trim().slice(0,80),winnerParty:String(b.party||b.winnerParty||'').slice(0,10),status:b.status==='certified'?'certified':'projected',calledBy:'AP (entered by analyst)',source:b.source,calledAt:b.calledAt||new Date().toISOString()}}
 export default async(req,ctx,deps={})=>{
   const store=deps.store||(await import('@netlify/blobs')).getStore('wob');
   if(req.method==='GET')return J({calls:(await store.get('analyst-calls',{type:'json'}).catch(()=>null))||[]});
@@ -14,6 +14,10 @@ export default async(req,ctx,deps={})=>{
   if(!tok||!eq(t,tok))return J({error:'forbidden',message:'Missing or wrong refresh token.'},403);
   let b;try{b=await req.json()}catch(e){return J({error:'bad_request'},400)}
   let list=(await store.get('analyst-calls',{type:'json'}).catch(()=>null))||[];
+  if(Array.isArray(b.calls)){let ok=0,bad=0;for(const x of b.calls.slice(0,500)){const c=/^gov/i.test(String(x.office||'Governor'))?cleanCall({...x,office:'Governor'}):null;if(!c){bad++;continue}
+      if(x.calledAt&&!isNaN(Date.parse(x.calledAt)))c.calledAt=x.calledAt;
+      list=list.filter(y=>!(y.state===c.state&&y.office.toLowerCase()===c.office.toLowerCase()&&String(y.district||'')===String(c.district||'')));list.push(c);ok++}
+    await store.setJSON('analyst-calls',list);const out=await (deps.refresh||runRefresh)({store});return J({ok:true,imported:ok,rejected:bad,calls:list,checkedAt:out.checkedAt})}
   if(b.remove){list=list.filter(c=>!(c.state===String(b.state).toUpperCase()&&c.office.toLowerCase()===String(b.office||'Governor').toLowerCase()&&String(c.district||'')===String(b.district||'')))}
   else{const c=cleanCall(b);if(!c)return J({error:'bad_call',message:'Need a state, winner and an https apnews.com source URL.'},400);
     list=list.filter(x=>!(x.state===c.state&&x.office.toLowerCase()===c.office.toLowerCase()&&String(x.district||'')===String(c.district||'')));list.push(c)}

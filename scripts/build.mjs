@@ -9,5 +9,7 @@ if(existsSync('data/preelection.json'))cpSync('data/preelection.json','dist/pree
 if(existsSync('data/profiles.json'))cpSync('data/profiles.json','dist/profiles.json');
 if(existsSync('data/intel.json'))cpSync('data/intel.json','dist/intel.json');
 const out={};for(const s of st){const r=JSON.parse(readFileSync('research/'+s+'.json','utf8'));if(r.apStatus&&r.apStatus.called)out[s]={called:true,asOf:r.apStatus.asOf,winner:r.apStatus.winner||null}}
+// Analyst-entered AP calls carried over from the previous hub (data/analyst-calls.json): governor winners are recorded here.
+if(existsSync('data/analyst-calls.json')){for(const c of JSON.parse(readFileSync('data/analyst-calls.json','utf8')).calls||[]){if(c.office!=='Governor')continue;out[c.state]={called:true,asOf:c.calledAt,winner:{name:c.winner,party:c.winnerParty,basis:'AP call entered by analyst ('+c.source+')'}}}}
 writeFileSync('dist/outcomes.json',JSON.stringify(out));
 console.log('built; research states:',st.join(',')||'none');
