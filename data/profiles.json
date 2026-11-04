@@ -1,0 +1,3398 @@
+{
+ "asOf": "2026-11-04",
+ "states": {
+  "AR": {
+   "state": "AR",
+   "winner": {
+    "name": "Sarah Huckabee Sanders",
+    "party": "R",
+    "basis": "user-supplied result; AP lookup shows the race called"
+   },
+   "status": "called (AP lookup; winner per user-supplied result)",
+   "em": {
+    "structure": "Division within a cabinet department",
+    "parent": "Arkansas Department of Public Safety (Secretary Mike Hagar since 2023)",
+    "director": "A.J. Gary",
+    "since": "June 2016",
+    "appointedBy": "Gov. Asa Hutchinson; retained by Gov. Sanders at her Dec. 2022 transition",
+    "susc": "Low",
+    "why": "Ten-year career tenure and already survived one administration change; the governor is returning. The real exposure is the DPS secretary above the division, which Sanders already filled.",
+    "sources": [
+     "https://dps.arkansas.gov/emergency-management/adem",
+     "https://talkbusiness.net/?p=173487"
+    ]
+   },
+   "funds": {
+    "totalFY2024Est_M": 10823,
+    "source": "https://chn.org/wp-content/uploads/2025/01/NASBO-State-Expenditure-Report-2024-Fed-Funds-.pdf",
+    "mixSource": "https://higherlogicdownload.s3.amazonaws.com/NASBO/9d2d2db1-c943-4f1b-b750-0fca152d64c2/UploadedImages/SER%20Archive/2025_SER/Executive_Summary_2025_State_Expenditure_Report.pdf",
+    "basis": "State total is sourced (NASBO FY2024 estimated federal funds expenditures). The function split is MODELED: it applies the national FY2025 NASBO category shares (Medicaid 57.4%, K-12 8.5%, transportation 6.0%, higher ed 3.3%, corrections 0.3%, all other 24.5%) to the state total, and splits 'all other' with analyst-assumed shares. It is not state-reported; replace with the state's budget or ACFR federal-funds schedule.",
+    "byFunction_M": [
+     [
+      "Medicaid / health",
+      6212
+     ],
+     [
+      "Human services & public assistance",
+      1114
+     ],
+     [
+      "K-12 education",
+      920
+     ],
+     [
+      "Transportation",
+      649
+     ],
+     [
+      "Economic development & workforce",
+      424
+     ],
+     [
+      "General government & other",
+      424
+     ],
+     [
+      "Higher education",
+      357
+     ],
+     [
+      "Housing & community development",
+      318
+     ],
+     [
+      "Environment & natural resources",
+      239
+     ],
+     [
+      "Public safety, EM & homeland security",
+      133
+     ],
+     [
+      "Corrections / justice",
+      32
+     ]
+    ]
+   },
+   "disasters": {
+    "window": "DR declarations dated 2023-11-01 or later (3 years to 2026-11-04)",
+    "count": 4,
+    "events": [
+     {
+      "dr": 4748,
+      "title": "Severe Storms, Straight-Line Winds, And Tornadoes",
+      "type": "Severe Storm",
+      "date": "2023-11-14",
+      "paObligated": 4216559,
+      "hmgpObligated": 0,
+      "ihpApproved": 0
+     },
+     {
+      "dr": 4788,
+      "title": "Severe Storms, Straight-Line Winds, Tornadoes, And Flooding",
+      "type": "Severe Storm",
+      "date": "2024-05-30",
+      "paObligated": 79554405,
+      "hmgpObligated": 864677,
+      "ihpApproved": 8248870
+     },
+     {
+      "dr": 4865,
+      "title": "Severe Storms And Tornadoes",
+      "type": "Severe Storm",
+      "date": "2025-05-08",
+      "paObligated": 0,
+      "hmgpObligated": 0,
+      "ihpApproved": 3572484
+     },
+     {
+      "dr": 4873,
+      "title": "Severe Storms, Tornadoes, And Flooding",
+      "type": "Flood",
+      "date": "2025-05-21",
+      "paObligated": 46084342,
+      "hmgpObligated": 0,
+      "ihpApproved": 25399611
+     }
+    ],
+    "paObligatedDeclared3yr": 129855306,
+    "hmgpObligated": 864677,
+    "ihpApproved": 37220965,
+    "pa5yrObligated": 255431721,
+    "paTopCategories5yr": {
+     "A - Debris Removal": 81518610,
+     "F - Utilities": 58567955,
+     "E - Buildings and Equipment": 41406708,
+     "C - Roads and Bridges": 25330187,
+     "B - Emergency Protective Measures": 20379798,
+     "Z - Management Costs": 13736290
+    },
+    "topPaApplicants3yr": [
+     [
+      "Carroll Electric Cooperative",
+      25830749
+     ],
+     [
+      "Rogers, City of",
+      15111724
+     ],
+     [
+      "Benton County",
+      11065272
+     ],
+     [
+      "Bentonville, City of",
+      8768964
+     ],
+     [
+      "Newton County",
+      6370123
+     ]
+    ],
+    "appeals": {
+     "total": 5,
+     "since2021": 5,
+     "denied": 3,
+     "granted": 2,
+     "underReview": 0,
+     "medianDaysToDecision": 136,
+     "denialRate": 0.6
+    },
+    "cdbgdr": {
+     "items": [
+      {
+       "event": "Storms/flooding 2023-24 (P.L. 118-158)",
+       "allocation_M": 59.048
+      }
+     ],
+     "total_M": 59.048,
+     "source": "https://www.hud.gov/sites/dfiles/CPD/documents/CDBG-DR/CDBG-DR-Grant-History-9-1-2026.pdf",
+     "note": "HUD grant history, disasters 2020 and later; extraction summarized and not independently audited. Allocation is not expenditure."
+    },
+    "sources": [
+     "https://www.fema.gov/about/openfema/data-sets",
+     "OpenFEMA DisasterDeclarationsSummaries and FemaWebDisasterSummaries, queried 2026-11-04",
+     "User-supplied FEMA Public Assistance grant award and appeals files, 2026-11-04"
+    ],
+    "note": "Recent declarations show low or zero obligations because funds are obligated over years. HMGP obligations on recent events are early."
+   },
+   "transition": {
+    "type": "Incumbent returns (continuity)",
+    "governor": "Sarah Huckabee Sanders",
+    "headline": "Incumbent returns (continuity): Sarah Huckabee Sanders. Division within a cabinet department (director: A.J. Gary). EM susceptibility to change: Low.",
+    "day1": [
+     "Decide whether to retain or replace the emergency management lead (low susceptibility).",
+     "Confirm authority for disaster declarations and state-of-emergency orders; brief the new governor on open declarations.",
+     "Inherit 4 open major-disaster declaration(s); the oldest is DR-4748."
+    ],
+    "first100": [
+     "Name a transition lead for federal funds (FEMA, HUD, DOT, HHS) and require a full inventory of open grants and closeout dates.",
+     "Review inherited consulting and program-management contracts; identify expirations in the first 12 months.",
+     "Publish agency-by-agency priority memos and a first-100-days public scorecard."
+    ],
+    "personnel": [
+     "Chief of Staff, Budget Director and agency heads: see Cabinet tab for likely options and alternates.",
+     "Boards and commissions with expiring terms are the quiet lever for policy continuity (verify by state)."
+    ],
+    "federal": [
+     "State federal funds ≈ $10.8B (FY2024 est., NASBO); about 57% falls in the largest function (Medicaid / health, modeled).",
+     "CDBG-DR allocations since 2020 total ≈ $59M; action-plan amendments, procurement and closeout are inherited decisions.",
+     "PA appeals: 5 second appeals on record, 60% denied; documentation discipline is a recurring weakness."
+    ],
+    "em": [
+     "Ten-year career tenure and already survived one administration change; the governor is returning. The real exposure is the DPS secretary above the division, which Sanders already filled."
+    ],
+    "advisoryAngles": [
+     "Transition-period assessment of EM structure, FEMA PA/HMGP readiness and open grant closeout.",
+     "Compliance and monitoring support for CDBG-DR and large PA projects (appeals avoidance)."
+    ],
+    "calendar": [
+     "Nov. 2026: certification and transition-team stand-up",
+     "Dec. 2026: cabinet and chief-of-staff announcements; outgoing budget proposals",
+     "Jan. 2027: inauguration (verify date) and first executive orders",
+     "Feb.-Mar. 2027: new budget submission (many states); first legislative decisions",
+     "Spring 2027: FEMA/HUD grant closeout deadlines and CDBG-DR action-plan amendments (verify by state)"
+    ]
+   },
+   "incumbentGovernor": "Sarah Huckabee Sanders",
+   "incumbentParty": "R"
+  },
+  "CO": {
+   "state": "CO",
+   "winner": {
+    "name": "Phil Weiser",
+    "party": "D",
+    "basis": "user-supplied result; AP lookup shows the race called"
+   },
+   "status": "called (AP lookup; winner per user-supplied result)",
+   "em": {
+    "structure": "Division within a cabinet department",
+    "parent": "Colorado Department of Public Safety",
+    "director": "Kevin R. Klein",
+    "since": "2011 (Homeland Security); emergency management added 2012",
+    "appointedBy": "Career department leader; also the Governor's homeland security advisor",
+    "susc": "Low to medium",
+    "why": "Fifteen-year tenure across three governors suggests durability, but a new Democratic governor can re-choose the Public Safety executive director above him and the homeland security advisor role.",
+    "sources": [
+     "https://dhsem.colorado.gov/dhsem/director-kevin-klein"
+    ]
+   },
+   "funds": {
+    "totalFY2024Est_M": 12415,
+    "source": "https://chn.org/wp-content/uploads/2025/01/NASBO-State-Expenditure-Report-2024-Fed-Funds-.pdf",
+    "mixSource": "https://higherlogicdownload.s3.amazonaws.com/NASBO/9d2d2db1-c943-4f1b-b750-0fca152d64c2/UploadedImages/SER%20Archive/2025_SER/Executive_Summary_2025_State_Expenditure_Report.pdf",
+    "basis": "State total is sourced (NASBO FY2024 estimated federal funds expenditures). The function split is MODELED: it applies the national FY2025 NASBO category shares (Medicaid 57.4%, K-12 8.5%, transportation 6.0%, higher ed 3.3%, corrections 0.3%, all other 24.5%) to the state total, and splits 'all other' with analyst-assumed shares. It is not state-reported; replace with the state's budget or ACFR federal-funds schedule.",
+    "byFunction_M": [
+     [
+      "Medicaid / health",
+      7126
+     ],
+     [
+      "Human services & public assistance",
+      1278
+     ],
+     [
+      "K-12 education",
+      1055
+     ],
+     [
+      "Transportation",
+      745
+     ],
+     [
+      "Economic development & workforce",
+      487
+     ],
+     [
+      "General government & other",
+      487
+     ],
+     [
+      "Higher education",
+      410
+     ],
+     [
+      "Housing & community development",
+      365
+     ],
+     [
+      "Environment & natural resources",
+      274
+     ],
+     [
+      "Public safety, EM & homeland security",
+      152
+     ],
+     [
+      "Corrections / justice",
+      37
+     ]
+    ]
+   },
+   "disasters": {
+    "window": "DR declarations dated 2023-11-01 or later (3 years to 2026-11-04)",
+    "count": 1,
+    "events": [
+     {
+      "dr": 4944,
+      "title": "Wildfires, Flooding, And Mudslides",
+      "type": "Fire",
+      "date": "2026-09-01",
+      "paObligated": 784070,
+      "hmgpObligated": 0,
+      "ihpApproved": 0
+     }
+    ],
+    "paObligatedDeclared3yr": 784070,
+    "hmgpObligated": 0,
+    "ihpApproved": 0,
+    "pa5yrObligated": 69076916,
+    "paTopCategories5yr": {
+     "A - Debris Removal": 27165127,
+     "C - Roads and Bridges": 10551270,
+     "B - Emergency Protective Measures": 6476612,
+     "Z - Management Costs": 6409608,
+     "G - Parks, Recreational Facilities, and Other Items": 6106535,
+     "F - Utilities": 4629019
+    },
+    "topPaApplicants3yr": [
+     [
+      "Colorado (CO DHS and Emergency Management)",
+      784070
+     ]
+    ],
+    "appeals": {
+     "total": 10,
+     "since2021": 4,
+     "denied": 7,
+     "granted": 1,
+     "underReview": 1,
+     "medianDaysToDecision": 258,
+     "denialRate": 0.7
+    },
+    "cdbgdr": {
+     "items": [
+      {
+       "event": "Hurricane Ida & other 2021 events",
+       "allocation_M": 12.261
+      }
+     ],
+     "total_M": 12.261,
+     "source": "https://www.hud.gov/sites/dfiles/CPD/documents/CDBG-DR/CDBG-DR-Grant-History-9-1-2026.pdf",
+     "note": "HUD grant history, disasters 2020 and later; extraction summarized and not independently audited. Allocation is not expenditure."
+    },
+    "sources": [
+     "https://www.fema.gov/about/openfema/data-sets",
+     "OpenFEMA DisasterDeclarationsSummaries and FemaWebDisasterSummaries, queried 2026-11-04",
+     "User-supplied FEMA Public Assistance grant award and appeals files, 2026-11-04"
+    ],
+    "note": "Recent declarations show low or zero obligations because funds are obligated over years. HMGP obligations on recent events are early."
+   },
+   "transition": {
+    "type": "Same-party successor (open seat)",
+    "governor": "Phil Weiser",
+    "headline": "Same-party successor (open seat): Phil Weiser. Division within a cabinet department (director: Kevin R. Klein). EM susceptibility to change: Low to medium.",
+    "day1": [
+     "Decide whether to retain or replace the emergency management lead (low to medium susceptibility).",
+     "Confirm authority for disaster declarations and state-of-emergency orders; brief the new governor on open declarations.",
+     "Inherit 1 open major-disaster declaration(s); the oldest is DR-4944."
+    ],
+    "first100": [
+     "Name a transition lead for federal funds (FEMA, HUD, DOT, HHS) and require a full inventory of open grants and closeout dates.",
+     "Review inherited consulting and program-management contracts; identify expirations in the first 12 months.",
+     "Publish agency-by-agency priority memos and a first-100-days public scorecard."
+    ],
+    "personnel": [
+     "Chief of Staff, Budget Director and agency heads: see Cabinet tab for likely options and alternates.",
+     "Boards and commissions with expiring terms are the quiet lever for policy continuity (verify by state)."
+    ],
+    "federal": [
+     "State federal funds ≈ $12.4B (FY2024 est., NASBO); about 57% falls in the largest function (Medicaid / health, modeled).",
+     "CDBG-DR allocations since 2020 total ≈ $12M; action-plan amendments, procurement and closeout are inherited decisions.",
+     "PA appeals: 10 second appeals on record, 70% denied; documentation discipline is a recurring weakness."
+    ],
+    "em": [
+     "Fifteen-year tenure across three governors suggests durability, but a new Democratic governor can re-choose the Public Safety executive director above him and the homeland security advisor role."
+    ],
+    "advisoryAngles": [
+     "Transition-period assessment of EM structure, FEMA PA/HMGP readiness and open grant closeout.",
+     "Compliance and monitoring support for CDBG-DR and large PA projects (appeals avoidance)."
+    ],
+    "calendar": [
+     "Nov. 2026: certification and transition-team stand-up",
+     "Dec. 2026: cabinet and chief-of-staff announcements; outgoing budget proposals",
+     "Jan. 2027: inauguration (verify date) and first executive orders",
+     "Feb.-Mar. 2027: new budget submission (many states); first legislative decisions",
+     "Spring 2027: FEMA/HUD grant closeout deadlines and CDBG-DR action-plan amendments (verify by state)"
+    ]
+   },
+   "incumbentGovernor": "Jared Polis",
+   "incumbentParty": "D"
+  },
+  "CT": {
+   "state": "CT",
+   "winner": {
+    "name": "Ned Lamont",
+    "party": "D",
+    "basis": "user-supplied result; AP lookup shows the race called"
+   },
+   "status": "called (AP lookup; winner per user-supplied result)",
+   "em": {
+    "structure": "Division within a combined public-safety department",
+    "parent": "Dept. of Emergency Services and Public Protection (Commissioner Ronnell Higgins, confirmed 2024)",
+    "director": "DEMHS director not confirmed on the agency page; leadership sits under DESPP Commissioner Higgins",
+    "since": "Higgins: 2024",
+    "appointedBy": "Gov. Lamont (commissioner)",
+    "susc": "Low",
+    "why": "Governor returns; the DESPP commissioner was newly appointed in 2024, so change would more likely come from deputy-level turnover than the top.",
+    "sources": [
+     "https://portal.ct.gov/demhs?os=..",
+     "https://portal.ct.gov/despp/division-of-emergency-service-and-public-protection/ronnell-higgins-biography"
+    ]
+   },
+   "funds": {
+    "totalFY2024Est_M": 10510,
+    "source": "https://chn.org/wp-content/uploads/2025/01/NASBO-State-Expenditure-Report-2024-Fed-Funds-.pdf",
+    "mixSource": "https://higherlogicdownload.s3.amazonaws.com/NASBO/9d2d2db1-c943-4f1b-b750-0fca152d64c2/UploadedImages/SER%20Archive/2025_SER/Executive_Summary_2025_State_Expenditure_Report.pdf",
+    "basis": "State total is sourced (NASBO FY2024 estimated federal funds expenditures). The function split is MODELED: it applies the national FY2025 NASBO category shares (Medicaid 57.4%, K-12 8.5%, transportation 6.0%, higher ed 3.3%, corrections 0.3%, all other 24.5%) to the state total, and splits 'all other' with analyst-assumed shares. It is not state-reported; replace with the state's budget or ACFR federal-funds schedule.",
+    "byFunction_M": [
+     [
+      "Medicaid / health",
+      6033
+     ],
+     [
+      "Human services & public assistance",
+      1081
+     ],
+     [
+      "K-12 education",
+      893
+     ],
+     [
+      "Transportation",
+      631
+     ],
+     [
+      "Economic development & workforce",
+      412
+     ],
+     [
+      "General government & other",
+      412
+     ],
+     [
+      "Higher education",
+      347
+     ],
+     [
+      "Housing & community development",
+      309
+     ],
+     [
+      "Environment & natural resources",
+      232
+     ],
+     [
+      "Public safety, EM & homeland security",
+      129
+     ],
+     [
+      "Corrections / justice",
+      32
+     ]
+    ]
+   },
+   "disasters": {
+    "window": "DR declarations dated 2023-11-01 or later (3 years to 2026-11-04)",
+    "count": 1,
+    "events": [
+     {
+      "dr": 4820,
+      "title": "Severe Storm, Flooding, Landslides, And Mudslides",
+      "type": "Severe Storm",
+      "date": "2024-09-20",
+      "paObligated": 21911066,
+      "hmgpObligated": 0,
+      "ihpApproved": 15652329
+     }
+    ],
+    "paObligatedDeclared3yr": 21911066,
+    "hmgpObligated": 0,
+    "ihpApproved": 15652329,
+    "pa5yrObligated": 21911066,
+    "paTopCategories5yr": {
+     "C - Roads and Bridges": 12341251,
+     "G - Parks, Recreational Facilities, and Other Items": 2963448,
+     "A - Debris Removal": 2078352,
+     "B - Emergency Protective Measures": 1808300,
+     "E - Buildings and Equipment": 1478412,
+     "Z - Management Costs": 581642
+    },
+    "topPaApplicants3yr": [
+     [
+      "Oxford, Town of",
+      4990513
+     ],
+     [
+      "Southbury, Town of",
+      3068979
+     ],
+     [
+      "Newtown, Town of (Fairfield County)",
+      2237953
+     ],
+     [
+      "Naugatuck, Borough of",
+      1529643
+     ],
+     [
+      "Watertown, Town of",
+      1347730
+     ]
+    ],
+    "appeals": {
+     "total": 5,
+     "since2021": 2,
+     "denied": 4,
+     "granted": 0,
+     "underReview": 1,
+     "medianDaysToDecision": 124,
+     "denialRate": 0.8
+    },
+    "cdbgdr": {
+     "items": [],
+     "total_M": 0,
+     "source": "https://www.hud.gov/sites/dfiles/CPD/documents/CDBG-DR/CDBG-DR-Grant-History-9-1-2026.pdf",
+     "note": "HUD grant history, disasters 2020 and later; extraction summarized and not independently audited. Allocation is not expenditure."
+    },
+    "sources": [
+     "https://www.fema.gov/about/openfema/data-sets",
+     "OpenFEMA DisasterDeclarationsSummaries and FemaWebDisasterSummaries, queried 2026-11-04",
+     "User-supplied FEMA Public Assistance grant award and appeals files, 2026-11-04"
+    ],
+    "note": "Recent declarations show low or zero obligations because funds are obligated over years. HMGP obligations on recent events are early."
+   },
+   "transition": {
+    "type": "Incumbent returns (continuity)",
+    "governor": "Ned Lamont",
+    "headline": "Incumbent returns (continuity): Ned Lamont. Division within a combined public-safety department (director: DEMHS director not confirmed on the agency page; leadership sits under DESPP Commissioner Higgins). EM susceptibility to change: Low.",
+    "day1": [
+     "Decide whether to retain or replace the emergency management lead (low susceptibility).",
+     "Confirm authority for disaster declarations and state-of-emergency orders; brief the new governor on open declarations.",
+     "Inherit 1 open major-disaster declaration(s); the oldest is DR-4820."
+    ],
+    "first100": [
+     "Name a transition lead for federal funds (FEMA, HUD, DOT, HHS) and require a full inventory of open grants and closeout dates.",
+     "Review inherited consulting and program-management contracts; identify expirations in the first 12 months.",
+     "Publish agency-by-agency priority memos and a first-100-days public scorecard."
+    ],
+    "personnel": [
+     "Chief of Staff, Budget Director and agency heads: see Cabinet tab for likely options and alternates.",
+     "Boards and commissions with expiring terms are the quiet lever for policy continuity (verify by state)."
+    ],
+    "federal": [
+     "State federal funds ≈ $10.5B (FY2024 est., NASBO); about 57% falls in the largest function (Medicaid / health, modeled).",
+     "PA appeals: 5 second appeals on record, 80% denied; documentation discipline is a recurring weakness."
+    ],
+    "em": [
+     "Governor returns; the DESPP commissioner was newly appointed in 2024, so change would more likely come from deputy-level turnover than the top."
+    ],
+    "advisoryAngles": [
+     "Transition-period assessment of EM structure, FEMA PA/HMGP readiness and open grant closeout.",
+     "Compliance and monitoring support for CDBG-DR and large PA projects (appeals avoidance)."
+    ],
+    "calendar": [
+     "Nov. 2026: certification and transition-team stand-up",
+     "Dec. 2026: cabinet and chief-of-staff announcements; outgoing budget proposals",
+     "Jan. 2027: inauguration (verify date) and first executive orders",
+     "Feb.-Mar. 2027: new budget submission (many states); first legislative decisions",
+     "Spring 2027: FEMA/HUD grant closeout deadlines and CDBG-DR action-plan amendments (verify by state)"
+    ]
+   },
+   "incumbentGovernor": "Ned Lamont",
+   "incumbentParty": "D"
+  },
+  "FL": {
+   "state": "FL",
+   "winner": null,
+   "status": "AP called; winner not recorded",
+   "em": {
+    "structure": "Stand-alone division reporting directly to the governor (director is a gubernatorial appointee)",
+    "parent": "Executive Office of the Governor",
+    "director": "Jared Perdue (also reported as the state's transportation secretary)",
+    "since": "August 2026 (introduced Aug. 26, 2026)",
+    "appointedBy": "Gov. DeSantis; replaced Kevin Guthrie (director since May 2021), who resigned in August 2026 to join Jay Collins's gubernatorial ticket",
+    "susc": "High",
+    "why": "Director changed two months before the election, and the governorship changes hands; FDEM leadership has historically been aligned to the governor personally. Dual roles with FDOT may be unwound.",
+    "sources": [
+     "https://www.tampabay.com/news/florida-politics/2026/08/26/desantis-emergency-management-jared-perdue-hurricanes/",
+     "https://floridadisaster.org/news-media/news/20210503-florida-division-of-emergency-management-announces-kevin-guthrie-as-director-and-steven-hynes-as-deputy-director",
+     "https://www.wctv.tv/2026/08/19/kevin-guthrie-resigns-floridas-division-emergency-management-pursue-one-day-bid-lieutenant-governor/"
+    ]
+   },
+   "funds": {
+    "totalFY2024Est_M": 44129,
+    "source": "https://chn.org/wp-content/uploads/2025/01/NASBO-State-Expenditure-Report-2024-Fed-Funds-.pdf",
+    "mixSource": "https://higherlogicdownload.s3.amazonaws.com/NASBO/9d2d2db1-c943-4f1b-b750-0fca152d64c2/UploadedImages/SER%20Archive/2025_SER/Executive_Summary_2025_State_Expenditure_Report.pdf",
+    "basis": "State total is sourced (NASBO FY2024 estimated federal funds expenditures). The function split is MODELED: it applies the national FY2025 NASBO category shares (Medicaid 57.4%, K-12 8.5%, transportation 6.0%, higher ed 3.3%, corrections 0.3%, all other 24.5%) to the state total, and splits 'all other' with analyst-assumed shares. It is not state-reported; replace with the state's budget or ACFR federal-funds schedule.",
+    "byFunction_M": [
+     [
+      "Medicaid / health",
+      25330
+     ],
+     [
+      "Human services & public assistance",
+      4541
+     ],
+     [
+      "K-12 education",
+      3751
+     ],
+     [
+      "Transportation",
+      2648
+     ],
+     [
+      "Economic development & workforce",
+      1730
+     ],
+     [
+      "General government & other",
+      1730
+     ],
+     [
+      "Higher education",
+      1456
+     ],
+     [
+      "Housing & community development",
+      1297
+     ],
+     [
+      "Environment & natural resources",
+      973
+     ],
+     [
+      "Public safety, EM & homeland security",
+      541
+     ],
+     [
+      "Corrections / justice",
+      132
+     ]
+    ]
+   },
+   "disasters": {
+    "window": "DR declarations dated 2023-11-01 or later (3 years to 2026-11-04)",
+    "count": 6,
+    "events": [
+     {
+      "dr": 4794,
+      "title": "Severe Storms, Straight-Line Winds, And Tornadoes",
+      "type": "Severe Storm",
+      "date": "2024-06-17",
+      "paObligated": 36084960,
+      "hmgpObligated": 6480224,
+      "ihpApproved": 9748189
+     },
+     {
+      "dr": 4806,
+      "title": "Hurricane Debby",
+      "type": "Tropical Storm",
+      "date": "2024-08-10",
+      "paObligated": 166690860,
+      "hmgpObligated": 10187766,
+      "ihpApproved": 63374821
+     },
+     {
+      "dr": 4828,
+      "title": "Hurricane Helene",
+      "type": "Hurricane",
+      "date": "2024-09-28",
+      "paObligated": 826993339,
+      "hmgpObligated": 98156047,
+      "ihpApproved": 862688466
+     },
+     {
+      "dr": 4834,
+      "title": "Hurricane Milton",
+      "type": "Hurricane",
+      "date": "2024-10-11",
+      "paObligated": 1649409321,
+      "hmgpObligated": 124276079,
+      "ihpApproved": 888034403
+     },
+     {
+      "dr": 4844,
+      "title": "Hurricane Milton",
+      "type": "Hurricane",
+      "date": "2024-11-05",
+      "paObligated": 4042818,
+      "hmgpObligated": 0,
+      "ihpApproved": 0
+     },
+     {
+      "dr": 4955,
+      "title": "Hurricane Isaias",
+      "type": "Hurricane",
+      "date": "2026-10-27",
+      "paObligated": 0,
+      "hmgpObligated": 0,
+      "ihpApproved": 6455201
+     }
+    ],
+    "paObligatedDeclared3yr": 2683221298,
+    "hmgpObligated": 239100116,
+    "ihpApproved": 1830301080,
+    "pa5yrObligated": 6235261280,
+    "paTopCategories5yr": {
+     "B - Emergency Protective Measures": 3578506549,
+     "A - Debris Removal": 1583298025,
+     "G - Parks, Recreational Facilities, and Other Items": 379160925,
+     "Z - Management Costs": 255853255,
+     "E - Buildings and Equipment": 216372865,
+     "F - Utilities": 125281405
+    },
+    "topPaApplicants3yr": [
+     [
+      "Florida Division of Emergency Management",
+      1458340778
+     ],
+     [
+      "Florida Department of Transportation",
+      124764509
+     ],
+     [
+      "Hillsborough County",
+      85150076
+     ],
+     [
+      "Manatee County",
+      80632393
+     ],
+     [
+      "St. Petersburg, City of",
+      69692912
+     ]
+    ],
+    "appeals": {
+     "total": 306,
+     "since2021": 201,
+     "denied": 204,
+     "granted": 67,
+     "underReview": 28,
+     "medianDaysToDecision": 89,
+     "denialRate": 0.67
+    },
+    "cdbgdr": {
+     "items": [
+      {
+       "event": "Maui wildfires & other 2023-24 events",
+       "allocation_M": 925.394
+      },
+      {
+       "event": "Hurricane Ian & other 2022 events",
+       "allocation_M": 910.624
+      },
+      {
+       "event": "Hurricanes Laura/Delta/Zeta & other 2020 events",
+       "allocation_M": 187.383
+      }
+     ],
+     "total_M": 2023.401,
+     "source": "https://www.hud.gov/sites/dfiles/CPD/documents/CDBG-DR/CDBG-DR-Grant-History-9-1-2026.pdf",
+     "note": "HUD grant history, disasters 2020 and later; extraction summarized and not independently audited. Allocation is not expenditure."
+    },
+    "sources": [
+     "https://www.fema.gov/about/openfema/data-sets",
+     "OpenFEMA DisasterDeclarationsSummaries and FemaWebDisasterSummaries, queried 2026-11-04",
+     "User-supplied FEMA Public Assistance grant award and appeals files, 2026-11-04"
+    ],
+    "note": "Recent declarations show low or zero obligations because funds are obligated over years. HMGP obligations on recent events are early."
+   },
+   "transition": {
+    "type": "Result not determined",
+    "governor": null,
+    "headline": "Result not determined: winner not recorded. Stand-alone division reporting directly to the governor (director is a gubernatorial appointee) (director: Jared Perdue). EM susceptibility to change: High.",
+    "day1": [
+     "Decide whether to retain or replace the emergency management lead (high susceptibility).",
+     "Confirm authority for disaster declarations and state-of-emergency orders; brief the new governor on open declarations.",
+     "Inherit 6 open major-disaster declaration(s); the oldest is DR-4794."
+    ],
+    "first100": [
+     "Name a transition lead for federal funds (FEMA, HUD, DOT, HHS) and require a full inventory of open grants and closeout dates.",
+     "Review inherited consulting and program-management contracts; identify expirations in the first 12 months.",
+     "Publish agency-by-agency priority memos and a first-100-days public scorecard."
+    ],
+    "personnel": [
+     "Chief of Staff, Budget Director and agency heads: see Cabinet tab for likely options and alternates.",
+     "Boards and commissions with expiring terms are the quiet lever for policy continuity (verify by state)."
+    ],
+    "federal": [
+     "State federal funds ≈ $44.1B (FY2024 est., NASBO); about 57% falls in the largest function (Medicaid / health, modeled).",
+     "CDBG-DR allocations since 2020 total ≈ $2,023M; action-plan amendments, procurement and closeout are inherited decisions.",
+     "PA appeals: 306 second appeals on record, 67% denied; documentation discipline is a recurring weakness."
+    ],
+    "em": [
+     "Director changed two months before the election, and the governorship changes hands; FDEM leadership has historically been aligned to the governor personally. Dual roles with FDOT may be unwound."
+    ],
+    "advisoryAngles": [
+     "Transition-period assessment of EM structure, FEMA PA/HMGP readiness and open grant closeout.",
+     "Compliance and monitoring support for CDBG-DR and large PA projects (appeals avoidance).",
+     "Support the new EM leadership with a 90-day readiness review (high-susceptibility state)."
+    ],
+    "calendar": [
+     "Nov. 2026: certification and transition-team stand-up",
+     "Dec. 2026: cabinet and chief-of-staff announcements; outgoing budget proposals",
+     "Jan. 2027: inauguration (verify date) and first executive orders",
+     "Feb.-Mar. 2027: new budget submission (many states); first legislative decisions",
+     "Spring 2027: FEMA/HUD grant closeout deadlines and CDBG-DR action-plan amendments (verify by state)"
+    ]
+   },
+   "incumbentGovernor": "Ron DeSantis",
+   "incumbentParty": "R"
+  },
+  "GA": {
+   "state": "GA",
+   "winner": {
+    "name": "Keisha Lance Bottoms",
+    "party": "D",
+    "basis": "user-supplied result; AP lookup shows the race called"
+   },
+   "status": "called (AP lookup; winner per user-supplied result)",
+   "em": {
+    "structure": "Stand-alone agency with a director reporting to the governor",
+    "parent": "None (independent agency; Board of Homeland Security oversight)",
+    "director": "Josh Lamb (Lt. Col.)",
+    "since": "February 2025",
+    "appointedBy": "Gov. Brian Kemp; replaced Chris Stallings (director since Sept. 2020), who took a federal SBA role",
+    "susc": "High",
+    "why": "Party flip from Kemp to a Democratic governor; the director is less than two years in seat and a Kemp appointee. Expect a review even though the agency has bipartisan credibility after Helene.",
+    "sources": [
+     "https://www.wabe.org/?p=720505",
+     "https://cobbcountycourier.com/2020/09/chris-stallings-gema-hs/"
+    ]
+   },
+   "funds": {
+    "totalFY2024Est_M": 18462,
+    "source": "https://chn.org/wp-content/uploads/2025/01/NASBO-State-Expenditure-Report-2024-Fed-Funds-.pdf",
+    "mixSource": "https://higherlogicdownload.s3.amazonaws.com/NASBO/9d2d2db1-c943-4f1b-b750-0fca152d64c2/UploadedImages/SER%20Archive/2025_SER/Executive_Summary_2025_State_Expenditure_Report.pdf",
+    "basis": "State total is sourced (NASBO FY2024 estimated federal funds expenditures). The function split is MODELED: it applies the national FY2025 NASBO category shares (Medicaid 57.4%, K-12 8.5%, transportation 6.0%, higher ed 3.3%, corrections 0.3%, all other 24.5%) to the state total, and splits 'all other' with analyst-assumed shares. It is not state-reported; replace with the state's budget or ACFR federal-funds schedule.",
+    "byFunction_M": [
+     [
+      "Medicaid / health",
+      10597
+     ],
+     [
+      "Human services & public assistance",
+      1900
+     ],
+     [
+      "K-12 education",
+      1569
+     ],
+     [
+      "Transportation",
+      1108
+     ],
+     [
+      "Economic development & workforce",
+      724
+     ],
+     [
+      "General government & other",
+      724
+     ],
+     [
+      "Higher education",
+      609
+     ],
+     [
+      "Housing & community development",
+      543
+     ],
+     [
+      "Environment & natural resources",
+      407
+     ],
+     [
+      "Public safety, EM & homeland security",
+      226
+     ],
+     [
+      "Corrections / justice",
+      55
+     ]
+    ]
+   },
+   "disasters": {
+    "window": "DR declarations dated 2023-11-01 or later (3 years to 2026-11-04)",
+    "count": 2,
+    "events": [
+     {
+      "dr": 4821,
+      "title": "Tropical Storm Debby",
+      "type": "Tropical Storm",
+      "date": "2024-09-24",
+      "paObligated": 38142753,
+      "hmgpObligated": 397782,
+      "ihpApproved": 10834755
+     },
+     {
+      "dr": 4830,
+      "title": "Hurricane Helene",
+      "type": "Hurricane",
+      "date": "2024-09-30",
+      "paObligated": 1675570022,
+      "hmgpObligated": 16472964,
+      "ihpApproved": 395883806
+     }
+    ],
+    "paObligatedDeclared3yr": 1713712775,
+    "hmgpObligated": 16870746,
+    "ihpApproved": 406718561,
+    "pa5yrObligated": 1808853901,
+    "paTopCategories5yr": {
+     "A - Debris Removal": 999793926,
+     "B - Emergency Protective Measures": 528640278,
+     "F - Utilities": 101453402,
+     "Z - Management Costs": 77697300,
+     "C - Roads and Bridges": 60250560,
+     "E - Buildings and Equipment": 19698528
+    },
+    "topPaApplicants3yr": [
+     [
+      "Georgia Department of Transportation",
+      140592758
+     ],
+     [
+      "Satilla Rural Electric Membership Corporation",
+      127150653
+     ],
+     [
+      "Georgia Emergency Management Agency",
+      89717337
+     ],
+     [
+      "Columbia County",
+      85511170
+     ],
+     [
+      "Toombs County",
+      80448538
+     ]
+    ],
+    "appeals": {
+     "total": 32,
+     "since2021": 24,
+     "denied": 23,
+     "granted": 6,
+     "underReview": 3,
+     "medianDaysToDecision": 77,
+     "denialRate": 0.72
+    },
+    "cdbgdr": {
+     "items": [
+      {
+       "event": "2023-24 events (P.L. 118-158)",
+       "allocation_M": 265.726
+      },
+      {
+       "event": "2023 storms/flooding",
+       "allocation_M": 21.941
+      }
+     ],
+     "total_M": 287.667,
+     "source": "https://www.hud.gov/sites/dfiles/CPD/documents/CDBG-DR/CDBG-DR-Grant-History-9-1-2026.pdf",
+     "note": "HUD grant history, disasters 2020 and later; extraction summarized and not independently audited. Allocation is not expenditure."
+    },
+    "sources": [
+     "https://www.fema.gov/about/openfema/data-sets",
+     "OpenFEMA DisasterDeclarationsSummaries and FemaWebDisasterSummaries, queried 2026-11-04",
+     "User-supplied FEMA Public Assistance grant award and appeals files, 2026-11-04"
+    ],
+    "note": "Recent declarations show low or zero obligations because funds are obligated over years. HMGP obligations on recent events are early."
+   },
+   "transition": {
+    "type": "Party flip",
+    "governor": "Keisha Lance Bottoms",
+    "headline": "Party flip: Keisha Lance Bottoms. Stand-alone agency with a director reporting to the governor (director: Josh Lamb). EM susceptibility to change: High.",
+    "day1": [
+     "Decide whether to retain or replace the emergency management lead (high susceptibility).",
+     "Confirm authority for disaster declarations and state-of-emergency orders; brief the new governor on open declarations.",
+     "Inherit 2 open major-disaster declaration(s); the oldest is DR-4821."
+    ],
+    "first100": [
+     "Name a transition lead for federal funds (FEMA, HUD, DOT, HHS) and require a full inventory of open grants and closeout dates.",
+     "Review inherited consulting and program-management contracts; identify expirations in the first 12 months.",
+     "Publish agency-by-agency priority memos and a first-100-days public scorecard."
+    ],
+    "personnel": [
+     "Chief of Staff, Budget Director and agency heads: see Cabinet tab for likely options and alternates.",
+     "Boards and commissions with expiring terms are the quiet lever for policy continuity (verify by state)."
+    ],
+    "federal": [
+     "State federal funds ≈ $18.5B (FY2024 est., NASBO); about 57% falls in the largest function (Medicaid / health, modeled).",
+     "CDBG-DR allocations since 2020 total ≈ $288M; action-plan amendments, procurement and closeout are inherited decisions.",
+     "PA appeals: 32 second appeals on record, 72% denied; documentation discipline is a recurring weakness."
+    ],
+    "em": [
+     "Party flip from Kemp to a Democratic governor; the director is less than two years in seat and a Kemp appointee. Expect a review even though the agency has bipartisan credibility after Helene."
+    ],
+    "advisoryAngles": [
+     "Transition-period assessment of EM structure, FEMA PA/HMGP readiness and open grant closeout.",
+     "Compliance and monitoring support for CDBG-DR and large PA projects (appeals avoidance).",
+     "Support the new EM leadership with a 90-day readiness review (high-susceptibility state)."
+    ],
+    "calendar": [
+     "Nov. 2026: certification and transition-team stand-up",
+     "Dec. 2026: cabinet and chief-of-staff announcements; outgoing budget proposals",
+     "Jan. 2027: inauguration (verify date) and first executive orders",
+     "Feb.-Mar. 2027: new budget submission (many states); first legislative decisions",
+     "Spring 2027: FEMA/HUD grant closeout deadlines and CDBG-DR action-plan amendments (verify by state)"
+    ]
+   },
+   "incumbentGovernor": "Brian Kemp",
+   "incumbentParty": "R"
+  },
+  "IA": {
+   "state": "IA",
+   "winner": {
+    "name": "Rob Sand",
+    "party": "D",
+    "basis": "user-supplied result; AP lookup shows the race called"
+   },
+   "status": "called (AP lookup; winner per user-supplied result)",
+   "em": {
+    "structure": "Stand-alone cabinet department (director appointed by the governor)",
+    "parent": "Iowa Department of Homeland Security and Emergency Management",
+    "director": "Not confirmed. Paul Trombino III was appointed Jan. 2021 and resigned in mid-2021; the current director was not verified in our sources",
+    "since": "Unconfirmed",
+    "appointedBy": "Gov. Reynolds",
+    "susc": "High",
+    "why": "Party flip (R to D) and a department head serving at the governor's pleasure; Iowa carried five major declarations in three years, so the leadership choice is visible and early.",
+    "sources": [
+     "https://iowatorch.com/2021/01/16/reynolds-names-new-chief-operating-officer-trombino-appointed-to-hsemd/",
+     "https://en.wikipedia.org/wiki/Iowa_Department_of_Homeland_Security_and_Emergency_Management"
+    ]
+   },
+   "funds": {
+    "totalFY2024Est_M": 9533,
+    "source": "https://chn.org/wp-content/uploads/2025/01/NASBO-State-Expenditure-Report-2024-Fed-Funds-.pdf",
+    "mixSource": "https://higherlogicdownload.s3.amazonaws.com/NASBO/9d2d2db1-c943-4f1b-b750-0fca152d64c2/UploadedImages/SER%20Archive/2025_SER/Executive_Summary_2025_State_Expenditure_Report.pdf",
+    "basis": "State total is sourced (NASBO FY2024 estimated federal funds expenditures). The function split is MODELED: it applies the national FY2025 NASBO category shares (Medicaid 57.4%, K-12 8.5%, transportation 6.0%, higher ed 3.3%, corrections 0.3%, all other 24.5%) to the state total, and splits 'all other' with analyst-assumed shares. It is not state-reported; replace with the state's budget or ACFR federal-funds schedule.",
+    "byFunction_M": [
+     [
+      "Medicaid / health",
+      5472
+     ],
+     [
+      "Human services & public assistance",
+      981
+     ],
+     [
+      "K-12 education",
+      810
+     ],
+     [
+      "Transportation",
+      572
+     ],
+     [
+      "Economic development & workforce",
+      374
+     ],
+     [
+      "General government & other",
+      374
+     ],
+     [
+      "Higher education",
+      315
+     ],
+     [
+      "Housing & community development",
+      280
+     ],
+     [
+      "Environment & natural resources",
+      210
+     ],
+     [
+      "Public safety, EM & homeland security",
+      117
+     ],
+     [
+      "Corrections / justice",
+      29
+     ]
+    ]
+   },
+   "disasters": {
+    "window": "DR declarations dated 2023-11-01 or later (3 years to 2026-11-04)",
+    "count": 5,
+    "events": [
+     {
+      "dr": 4779,
+      "title": "Severe Storms And Tornadoes",
+      "type": "Tornado",
+      "date": "2024-05-14",
+      "paObligated": 6976828,
+      "hmgpObligated": 702809,
+      "ihpApproved": 1191263
+     },
+     {
+      "dr": 4784,
+      "title": "Severe Storms, Tornadoes, And Flooding",
+      "type": "Severe Storm",
+      "date": "2024-05-24",
+      "paObligated": 30319078,
+      "hmgpObligated": 1274124,
+      "ihpApproved": 3720999
+     },
+     {
+      "dr": 4796,
+      "title": "Severe Storms, Flooding, Straight-Line Winds, And Tornadoes",
+      "type": "Severe Storm",
+      "date": "2024-06-24",
+      "paObligated": 177944828,
+      "hmgpObligated": 42781918,
+      "ihpApproved": 69565279
+     },
+     {
+      "dr": 4870,
+      "title": "Severe Winter Storm",
+      "type": "Winter Storm",
+      "date": "2025-05-21",
+      "paObligated": 4951595,
+      "hmgpObligated": 0,
+      "ihpApproved": 0
+     },
+     {
+      "dr": 4942,
+      "title": "Severe Storms And Flooding",
+      "type": "Severe Storm",
+      "date": "2026-09-01",
+      "paObligated": 0,
+      "hmgpObligated": 0,
+      "ihpApproved": 0
+     }
+    ],
+    "paObligatedDeclared3yr": 220192329,
+    "hmgpObligated": 44758851,
+    "ihpApproved": 74477541,
+    "pa5yrObligated": 234967731,
+    "paTopCategories5yr": {
+     "E - Buildings and Equipment": 48966765,
+     "F - Utilities": 41270804,
+     "B - Emergency Protective Measures": 38904903,
+     "C - Roads and Bridges": 30102628,
+     "A - Debris Removal": 29575672,
+     "Z - Management Costs": 15712556
+    },
+    "topPaApplicants3yr": [
+     [
+      "Iowa Department of Homeland Security and Emergency Management",
+      34862670
+     ],
+     [
+      "Rock Valley, City of",
+      27277340
+     ],
+     [
+      "Lyon County Secondary Roads",
+      11106764
+     ],
+     [
+      "Spencer Community School District",
+      9928643
+     ],
+     [
+      "Rock Valley Community School District",
+      9094649
+     ]
+    ],
+    "appeals": {
+     "total": 37,
+     "since2021": 19,
+     "denied": 23,
+     "granted": 13,
+     "underReview": 0,
+     "medianDaysToDecision": 97,
+     "denialRate": 0.62
+    },
+    "cdbgdr": {
+     "items": [
+      {
+       "event": "2023-24 events (P.L. 118-158)",
+       "allocation_M": 134.687
+      },
+      {
+       "event": "2020 events",
+       "allocation_M": 57.566
+      }
+     ],
+     "total_M": 192.253,
+     "source": "https://www.hud.gov/sites/dfiles/CPD/documents/CDBG-DR/CDBG-DR-Grant-History-9-1-2026.pdf",
+     "note": "HUD grant history, disasters 2020 and later; extraction summarized and not independently audited. Allocation is not expenditure."
+    },
+    "sources": [
+     "https://www.fema.gov/about/openfema/data-sets",
+     "OpenFEMA DisasterDeclarationsSummaries and FemaWebDisasterSummaries, queried 2026-11-04",
+     "User-supplied FEMA Public Assistance grant award and appeals files, 2026-11-04"
+    ],
+    "note": "Recent declarations show low or zero obligations because funds are obligated over years. HMGP obligations on recent events are early."
+   },
+   "transition": {
+    "type": "Party flip",
+    "governor": "Rob Sand",
+    "headline": "Party flip: Rob Sand. Stand-alone cabinet department (director appointed by the governor) (director: Not confirmed. Paul Trombino III was appointed Jan. 2021 and resigned in mid-2021; the current director was not verified in our sources). EM susceptibility to change: High.",
+    "day1": [
+     "Decide whether to retain or replace the emergency management lead (high susceptibility).",
+     "Confirm authority for disaster declarations and state-of-emergency orders; brief the new governor on open declarations.",
+     "Inherit 5 open major-disaster declaration(s); the oldest is DR-4779."
+    ],
+    "first100": [
+     "Name a transition lead for federal funds (FEMA, HUD, DOT, HHS) and require a full inventory of open grants and closeout dates.",
+     "Review inherited consulting and program-management contracts; identify expirations in the first 12 months.",
+     "Publish agency-by-agency priority memos and a first-100-days public scorecard."
+    ],
+    "personnel": [
+     "Chief of Staff, Budget Director and agency heads: see Cabinet tab for likely options and alternates.",
+     "Boards and commissions with expiring terms are the quiet lever for policy continuity (verify by state)."
+    ],
+    "federal": [
+     "State federal funds ≈ $9.5B (FY2024 est., NASBO); about 57% falls in the largest function (Medicaid / health, modeled).",
+     "CDBG-DR allocations since 2020 total ≈ $192M; action-plan amendments, procurement and closeout are inherited decisions.",
+     "PA appeals: 37 second appeals on record, 62% denied; documentation discipline is a recurring weakness."
+    ],
+    "em": [
+     "Party flip (R to D) and a department head serving at the governor's pleasure; Iowa carried five major declarations in three years, so the leadership choice is visible and early."
+    ],
+    "advisoryAngles": [
+     "Transition-period assessment of EM structure, FEMA PA/HMGP readiness and open grant closeout.",
+     "Compliance and monitoring support for CDBG-DR and large PA projects (appeals avoidance).",
+     "Support the new EM leadership with a 90-day readiness review (high-susceptibility state)."
+    ],
+    "calendar": [
+     "Nov. 2026: certification and transition-team stand-up",
+     "Dec. 2026: cabinet and chief-of-staff announcements; outgoing budget proposals",
+     "Jan. 2027: inauguration (verify date) and first executive orders",
+     "Feb.-Mar. 2027: new budget submission (many states); first legislative decisions",
+     "Spring 2027: FEMA/HUD grant closeout deadlines and CDBG-DR action-plan amendments (verify by state)"
+    ]
+   },
+   "incumbentGovernor": "Kim Reynolds",
+   "incumbentParty": "R"
+  },
+  "IL": {
+   "state": "IL",
+   "winner": {
+    "name": "JB Pritzker",
+    "party": "D",
+    "basis": "user-supplied result; AP lookup shows the race called"
+   },
+   "status": "called (AP lookup; winner per user-supplied result)",
+   "em": {
+    "structure": "Stand-alone state agency combining emergency management and homeland security",
+    "parent": "Illinois Emergency Management Agency and Office of Homeland Security (director reports to governor)",
+    "director": "Reported: Natalie Phelps Finnie, a Cook County emergency official (verify). Alicia Tate-Nadeau led the agency from 2019 and left in March 2025",
+    "since": "2025 (reported)",
+    "appointedBy": "Gov. Pritzker",
+    "susc": "Low",
+    "why": "Governor returns and the director was installed in 2025, so a change would be a choice, not an obligation.",
+    "sources": [
+     "https://capitolfax.com/2025/03/07/iema-doit-directors-depart",
+     "https://iema.illinois.gov/about"
+    ]
+   },
+   "funds": {
+    "totalFY2024Est_M": 24188,
+    "source": "https://chn.org/wp-content/uploads/2025/01/NASBO-State-Expenditure-Report-2024-Fed-Funds-.pdf",
+    "mixSource": "https://higherlogicdownload.s3.amazonaws.com/NASBO/9d2d2db1-c943-4f1b-b750-0fca152d64c2/UploadedImages/SER%20Archive/2025_SER/Executive_Summary_2025_State_Expenditure_Report.pdf",
+    "basis": "State total is sourced (NASBO FY2024 estimated federal funds expenditures). The function split is MODELED: it applies the national FY2025 NASBO category shares (Medicaid 57.4%, K-12 8.5%, transportation 6.0%, higher ed 3.3%, corrections 0.3%, all other 24.5%) to the state total, and splits 'all other' with analyst-assumed shares. It is not state-reported; replace with the state's budget or ACFR federal-funds schedule.",
+    "byFunction_M": [
+     [
+      "Medicaid / health",
+      13884
+     ],
+     [
+      "Human services & public assistance",
+      2489
+     ],
+     [
+      "K-12 education",
+      2056
+     ],
+     [
+      "Transportation",
+      1451
+     ],
+     [
+      "Economic development & workforce",
+      948
+     ],
+     [
+      "General government & other",
+      948
+     ],
+     [
+      "Higher education",
+      798
+     ],
+     [
+      "Housing & community development",
+      711
+     ],
+     [
+      "Environment & natural resources",
+      533
+     ],
+     [
+      "Public safety, EM & homeland security",
+      296
+     ],
+     [
+      "Corrections / justice",
+      73
+     ]
+    ]
+   },
+   "disasters": {
+    "window": "DR declarations dated 2023-11-01 or later (3 years to 2026-11-04)",
+    "count": 2,
+    "events": [
+     {
+      "dr": 4749,
+      "title": "Severe Storms And Flooding",
+      "type": "Flood",
+      "date": "2023-11-20",
+      "paObligated": 0,
+      "hmgpObligated": 599140,
+      "ihpApproved": 63890544
+     },
+     {
+      "dr": 4819,
+      "title": "Severe Storms, Tornadoes, Straight-Line Winds, And Flooding",
+      "type": "Flood",
+      "date": "2024-09-20",
+      "paObligated": 0,
+      "hmgpObligated": 995731,
+      "ihpApproved": 211353101
+     }
+    ],
+    "paObligatedDeclared3yr": 0,
+    "hmgpObligated": 1594871,
+    "ihpApproved": 275243645,
+    "pa5yrObligated": 24958461,
+    "paTopCategories5yr": {
+     "F - Utilities": 12043069,
+     "A - Debris Removal": 9190882,
+     "Z - Management Costs": 2186640,
+     "B - Emergency Protective Measures": 867105,
+     "E - Buildings and Equipment": 353180,
+     "G - Parks, Recreational Facilities, and Other Items": 230963
+    },
+    "topPaApplicants3yr": [],
+    "appeals": {
+     "total": 22,
+     "since2021": 21,
+     "denied": 19,
+     "granted": 3,
+     "underReview": 0,
+     "medianDaysToDecision": 80,
+     "denialRate": 0.86
+    },
+    "cdbgdr": {
+     "items": [],
+     "total_M": 0,
+     "source": "https://www.hud.gov/sites/dfiles/CPD/documents/CDBG-DR/CDBG-DR-Grant-History-9-1-2026.pdf",
+     "note": "HUD grant history, disasters 2020 and later; extraction summarized and not independently audited. Allocation is not expenditure."
+    },
+    "sources": [
+     "https://www.fema.gov/about/openfema/data-sets",
+     "OpenFEMA DisasterDeclarationsSummaries and FemaWebDisasterSummaries, queried 2026-11-04",
+     "User-supplied FEMA Public Assistance grant award and appeals files, 2026-11-04"
+    ],
+    "note": "Recent declarations show low or zero obligations because funds are obligated over years. HMGP obligations on recent events are early."
+   },
+   "transition": {
+    "type": "Incumbent returns (continuity)",
+    "governor": "JB Pritzker",
+    "headline": "Incumbent returns (continuity): JB Pritzker. Stand-alone state agency combining emergency management and homeland security (director: Reported: Natalie Phelps Finnie, a Cook County emergency official). EM susceptibility to change: Low.",
+    "day1": [
+     "Decide whether to retain or replace the emergency management lead (low susceptibility).",
+     "Confirm authority for disaster declarations and state-of-emergency orders; brief the new governor on open declarations.",
+     "Inherit 2 open major-disaster declaration(s); the oldest is DR-4749."
+    ],
+    "first100": [
+     "Name a transition lead for federal funds (FEMA, HUD, DOT, HHS) and require a full inventory of open grants and closeout dates.",
+     "Review inherited consulting and program-management contracts; identify expirations in the first 12 months.",
+     "Publish agency-by-agency priority memos and a first-100-days public scorecard."
+    ],
+    "personnel": [
+     "Chief of Staff, Budget Director and agency heads: see Cabinet tab for likely options and alternates.",
+     "Boards and commissions with expiring terms are the quiet lever for policy continuity (verify by state)."
+    ],
+    "federal": [
+     "State federal funds ≈ $24.2B (FY2024 est., NASBO); about 57% falls in the largest function (Medicaid / health, modeled).",
+     "PA appeals: 22 second appeals on record, 86% denied; documentation discipline is a recurring weakness."
+    ],
+    "em": [
+     "Governor returns and the director was installed in 2025, so a change would be a choice, not an obligation."
+    ],
+    "advisoryAngles": [
+     "Transition-period assessment of EM structure, FEMA PA/HMGP readiness and open grant closeout.",
+     "Compliance and monitoring support for CDBG-DR and large PA projects (appeals avoidance)."
+    ],
+    "calendar": [
+     "Nov. 2026: certification and transition-team stand-up",
+     "Dec. 2026: cabinet and chief-of-staff announcements; outgoing budget proposals",
+     "Jan. 2027: inauguration (verify date) and first executive orders",
+     "Feb.-Mar. 2027: new budget submission (many states); first legislative decisions",
+     "Spring 2027: FEMA/HUD grant closeout deadlines and CDBG-DR action-plan amendments (verify by state)"
+    ]
+   },
+   "incumbentGovernor": "JB Pritzker",
+   "incumbentParty": "D"
+  },
+  "MA": {
+   "state": "MA",
+   "winner": {
+    "name": "Maura Healey",
+    "party": "D",
+    "basis": "user-supplied result; AP lookup shows the race called"
+   },
+   "status": "called (AP lookup; winner per user-supplied result)",
+   "em": {
+    "structure": "Agency within a secretariat",
+    "parent": "Executive Office of Public Safety and Security (Secretary Terrence Reidy)",
+    "director": "Dawn Brantley",
+    "since": "July 18, 2023 (acting director from Oct. 2021)",
+    "appointedBy": "Healey-Driscoll Administration",
+    "susc": "Low",
+    "why": "Healey appointed her and the governor was reelected.",
+    "sources": [
+     "https://www.mass.gov/news/healey-driscoll-administration-announces-dawn-brantley-as-director-of-the-massachusetts-emergency-management-agency"
+    ]
+   },
+   "funds": {
+    "totalFY2024Est_M": 25160,
+    "source": "https://chn.org/wp-content/uploads/2025/01/NASBO-State-Expenditure-Report-2024-Fed-Funds-.pdf",
+    "mixSource": "https://higherlogicdownload.s3.amazonaws.com/NASBO/9d2d2db1-c943-4f1b-b750-0fca152d64c2/UploadedImages/SER%20Archive/2025_SER/Executive_Summary_2025_State_Expenditure_Report.pdf",
+    "basis": "State total is sourced (NASBO FY2024 estimated federal funds expenditures). The function split is MODELED: it applies the national FY2025 NASBO category shares (Medicaid 57.4%, K-12 8.5%, transportation 6.0%, higher ed 3.3%, corrections 0.3%, all other 24.5%) to the state total, and splits 'all other' with analyst-assumed shares. It is not state-reported; replace with the state's budget or ACFR federal-funds schedule.",
+    "byFunction_M": [
+     [
+      "Medicaid / health",
+      14442
+     ],
+     [
+      "Human services & public assistance",
+      2589
+     ],
+     [
+      "K-12 education",
+      2139
+     ],
+     [
+      "Transportation",
+      1510
+     ],
+     [
+      "Economic development & workforce",
+      986
+     ],
+     [
+      "General government & other",
+      986
+     ],
+     [
+      "Higher education",
+      830
+     ],
+     [
+      "Housing & community development",
+      740
+     ],
+     [
+      "Environment & natural resources",
+      555
+     ],
+     [
+      "Public safety, EM & homeland security",
+      308
+     ],
+     [
+      "Corrections / justice",
+      75
+     ]
+    ]
+   },
+   "disasters": {
+    "window": "DR declarations dated 2023-11-01 or later (3 years to 2026-11-04)",
+    "count": 2,
+    "events": [
+     {
+      "dr": 4780,
+      "title": "Severe Storms And Flooding",
+      "type": "Flood",
+      "date": "2024-05-15",
+      "paObligated": 0,
+      "hmgpObligated": 344794,
+      "ihpApproved": 7670256
+     },
+     {
+      "dr": 4919,
+      "title": "Severe Winter Storm And Snowstorm",
+      "type": "Winter Storm",
+      "date": "2026-06-30",
+      "paObligated": 0,
+      "hmgpObligated": 0,
+      "ihpApproved": 0
+     }
+    ],
+    "paObligatedDeclared3yr": 0,
+    "hmgpObligated": 344794,
+    "ihpApproved": 7670256,
+    "pa5yrObligated": 24579818,
+    "paTopCategories5yr": {
+     "B - Emergency Protective Measures": 24023789,
+     "Z - Management Costs": 529176,
+     "F - Utilities": 19824,
+     "E - Buildings and Equipment": 3922,
+     "B - Emergency Work Donated Resources": 3106
+    },
+    "topPaApplicants3yr": [],
+    "appeals": {
+     "total": 20,
+     "since2021": 9,
+     "denied": 18,
+     "granted": 1,
+     "underReview": 0,
+     "medianDaysToDecision": 94,
+     "denialRate": 0.9
+    },
+    "cdbgdr": {
+     "items": [
+      {
+       "event": "2023-24 events (P.L. 118-158)",
+       "allocation_M": 7.954
+      }
+     ],
+     "total_M": 7.954,
+     "source": "https://www.hud.gov/sites/dfiles/CPD/documents/CDBG-DR/CDBG-DR-Grant-History-9-1-2026.pdf",
+     "note": "HUD grant history, disasters 2020 and later; extraction summarized and not independently audited. Allocation is not expenditure."
+    },
+    "sources": [
+     "https://www.fema.gov/about/openfema/data-sets",
+     "OpenFEMA DisasterDeclarationsSummaries and FemaWebDisasterSummaries, queried 2026-11-04",
+     "User-supplied FEMA Public Assistance grant award and appeals files, 2026-11-04"
+    ],
+    "note": "Recent declarations show low or zero obligations because funds are obligated over years. HMGP obligations on recent events are early."
+   },
+   "transition": {
+    "type": "Incumbent returns (continuity)",
+    "governor": "Maura Healey",
+    "headline": "Incumbent returns (continuity): Maura Healey. Agency within a secretariat (director: Dawn Brantley). EM susceptibility to change: Low.",
+    "day1": [
+     "Decide whether to retain or replace the emergency management lead (low susceptibility).",
+     "Confirm authority for disaster declarations and state-of-emergency orders; brief the new governor on open declarations.",
+     "Inherit 2 open major-disaster declaration(s); the oldest is DR-4780."
+    ],
+    "first100": [
+     "Name a transition lead for federal funds (FEMA, HUD, DOT, HHS) and require a full inventory of open grants and closeout dates.",
+     "Review inherited consulting and program-management contracts; identify expirations in the first 12 months.",
+     "Publish agency-by-agency priority memos and a first-100-days public scorecard."
+    ],
+    "personnel": [
+     "Chief of Staff, Budget Director and agency heads: see Cabinet tab for likely options and alternates.",
+     "Boards and commissions with expiring terms are the quiet lever for policy continuity (verify by state)."
+    ],
+    "federal": [
+     "State federal funds ≈ $25.2B (FY2024 est., NASBO); about 57% falls in the largest function (Medicaid / health, modeled).",
+     "CDBG-DR allocations since 2020 total ≈ $8M; action-plan amendments, procurement and closeout are inherited decisions.",
+     "PA appeals: 20 second appeals on record, 90% denied; documentation discipline is a recurring weakness."
+    ],
+    "em": [
+     "Healey appointed her and the governor was reelected."
+    ],
+    "advisoryAngles": [
+     "Transition-period assessment of EM structure, FEMA PA/HMGP readiness and open grant closeout.",
+     "Compliance and monitoring support for CDBG-DR and large PA projects (appeals avoidance)."
+    ],
+    "calendar": [
+     "Nov. 2026: certification and transition-team stand-up",
+     "Dec. 2026: cabinet and chief-of-staff announcements; outgoing budget proposals",
+     "Jan. 2027: inauguration (verify date) and first executive orders",
+     "Feb.-Mar. 2027: new budget submission (many states); first legislative decisions",
+     "Spring 2027: FEMA/HUD grant closeout deadlines and CDBG-DR action-plan amendments (verify by state)"
+    ]
+   },
+   "incumbentGovernor": "Maura Healey",
+   "incumbentParty": "D"
+  },
+  "MD": {
+   "state": "MD",
+   "winner": {
+    "name": "Wes Moore",
+    "party": "D",
+    "basis": "user-supplied result; AP lookup shows the race called"
+   },
+   "status": "called (AP lookup; winner per user-supplied result)",
+   "em": {
+    "structure": "Cabinet-level stand-alone department",
+    "parent": "Maryland Department of Emergency Management (Secretary)",
+    "director": "Russell Strickland (Secretary; NEMA president 2023-24)",
+    "since": "Long-tenured; confirm exact start (served under Hogan and retained by Moore)",
+    "appointedBy": "Gov. Moore (retained)",
+    "susc": "Low",
+    "why": "Cabinet secretary retained across an administration change and nationally prominent; governor was reelected.",
+    "sources": [
+     "https://mdem.maryland.gov/Pages/about.aspx",
+     "https://news.maryland.gov/mdem/2023/10/05/maryland-emergency-management-secretary-elected-president-of-the-national-emergency-management-association/"
+    ]
+   },
+   "funds": {
+    "totalFY2024Est_M": 21525,
+    "source": "https://chn.org/wp-content/uploads/2025/01/NASBO-State-Expenditure-Report-2024-Fed-Funds-.pdf",
+    "mixSource": "https://higherlogicdownload.s3.amazonaws.com/NASBO/9d2d2db1-c943-4f1b-b750-0fca152d64c2/UploadedImages/SER%20Archive/2025_SER/Executive_Summary_2025_State_Expenditure_Report.pdf",
+    "basis": "State total is sourced (NASBO FY2024 estimated federal funds expenditures). The function split is MODELED: it applies the national FY2025 NASBO category shares (Medicaid 57.4%, K-12 8.5%, transportation 6.0%, higher ed 3.3%, corrections 0.3%, all other 24.5%) to the state total, and splits 'all other' with analyst-assumed shares. It is not state-reported; replace with the state's budget or ACFR federal-funds schedule.",
+    "byFunction_M": [
+     [
+      "Medicaid / health",
+      12355
+     ],
+     [
+      "Human services & public assistance",
+      2215
+     ],
+     [
+      "K-12 education",
+      1830
+     ],
+     [
+      "Transportation",
+      1292
+     ],
+     [
+      "Economic development & workforce",
+      844
+     ],
+     [
+      "General government & other",
+      844
+     ],
+     [
+      "Higher education",
+      710
+     ],
+     [
+      "Housing & community development",
+      633
+     ],
+     [
+      "Environment & natural resources",
+      475
+     ],
+     [
+      "Public safety, EM & homeland security",
+      264
+     ],
+     [
+      "Corrections / justice",
+      65
+     ]
+    ]
+   },
+   "disasters": {
+    "window": "DR declarations dated 2023-11-01 or later (3 years to 2026-11-04)",
+    "count": 0,
+    "events": [],
+    "paObligatedDeclared3yr": 0,
+    "hmgpObligated": 0,
+    "ihpApproved": 0,
+    "pa5yrObligated": 0,
+    "paTopCategories5yr": {},
+    "topPaApplicants3yr": [],
+    "appeals": {
+     "total": 3,
+     "since2021": 3,
+     "denied": 2,
+     "granted": 1,
+     "underReview": 0,
+     "medianDaysToDecision": 81,
+     "denialRate": 0.67
+    },
+    "cdbgdr": {
+     "items": [],
+     "total_M": 0,
+     "source": "https://www.hud.gov/sites/dfiles/CPD/documents/CDBG-DR/CDBG-DR-Grant-History-9-1-2026.pdf",
+     "note": "HUD grant history, disasters 2020 and later; extraction summarized and not independently audited. Allocation is not expenditure."
+    },
+    "sources": [
+     "https://www.fema.gov/about/openfema/data-sets",
+     "OpenFEMA DisasterDeclarationsSummaries and FemaWebDisasterSummaries, queried 2026-11-04",
+     "User-supplied FEMA Public Assistance grant award and appeals files, 2026-11-04"
+    ],
+    "note": "Recent declarations show low or zero obligations because funds are obligated over years. HMGP obligations on recent events are early."
+   },
+   "transition": {
+    "type": "Incumbent returns (continuity)",
+    "governor": "Wes Moore",
+    "headline": "Incumbent returns (continuity): Wes Moore. Cabinet-level stand-alone department (director: Russell Strickland). EM susceptibility to change: Low.",
+    "day1": [
+     "Decide whether to retain or replace the emergency management lead (low susceptibility).",
+     "Confirm authority for disaster declarations and state-of-emergency orders; brief the new governor on open declarations.",
+     "No major-disaster declarations in the last three years; preparedness posture is the focus."
+    ],
+    "first100": [
+     "Name a transition lead for federal funds (FEMA, HUD, DOT, HHS) and require a full inventory of open grants and closeout dates.",
+     "Review inherited consulting and program-management contracts; identify expirations in the first 12 months.",
+     "Publish agency-by-agency priority memos and a first-100-days public scorecard."
+    ],
+    "personnel": [
+     "Chief of Staff, Budget Director and agency heads: see Cabinet tab for likely options and alternates.",
+     "Boards and commissions with expiring terms are the quiet lever for policy continuity (verify by state)."
+    ],
+    "federal": [
+     "State federal funds ≈ $21.5B (FY2024 est., NASBO); about 57% falls in the largest function (Medicaid / health, modeled).",
+     "PA appeals: 3 second appeals on record, 67% denied; documentation discipline is a recurring weakness."
+    ],
+    "em": [
+     "Cabinet secretary retained across an administration change and nationally prominent; governor was reelected."
+    ],
+    "advisoryAngles": [
+     "Transition-period assessment of EM structure, FEMA PA/HMGP readiness and open grant closeout.",
+     "Compliance and monitoring support for CDBG-DR and large PA projects (appeals avoidance)."
+    ],
+    "calendar": [
+     "Nov. 2026: certification and transition-team stand-up",
+     "Dec. 2026: cabinet and chief-of-staff announcements; outgoing budget proposals",
+     "Jan. 2027: inauguration (verify date) and first executive orders",
+     "Feb.-Mar. 2027: new budget submission (many states); first legislative decisions",
+     "Spring 2027: FEMA/HUD grant closeout deadlines and CDBG-DR action-plan amendments (verify by state)"
+    ]
+   },
+   "incumbentGovernor": "Wes Moore",
+   "incumbentParty": "D"
+  },
+  "NY": {
+   "state": "NY",
+   "winner": {
+    "name": "Kathy Hochul",
+    "party": "D",
+    "basis": "user-supplied result; AP lookup shows the race called"
+   },
+   "status": "called (AP lookup; winner per user-supplied result)",
+   "em": {
+    "structure": "Division in the Executive Department (reports to the governor)",
+    "parent": "Division of Homeland Security and Emergency Services (DHSES)",
+    "director": "Jackie Bray, Commissioner; named Director of State Operations Dec. 9, 2025 (DHSES successor not confirmed)",
+    "since": "Commissioner since 2021",
+    "appointedBy": "Gov. Hochul",
+    "susc": "Low to medium",
+    "why": "Governor returns, but Bray's elevation to Director of State Operations means DHSES leadership may already be shifting; verify who is acting commissioner.",
+    "sources": [
+     "https://www.governor.ny.gov/news/governor-hochul-announces-senior-administration-appointments-0"
+    ]
+   },
+   "funds": {
+    "totalFY2024Est_M": 94517,
+    "source": "https://chn.org/wp-content/uploads/2025/01/NASBO-State-Expenditure-Report-2024-Fed-Funds-.pdf",
+    "mixSource": "https://higherlogicdownload.s3.amazonaws.com/NASBO/9d2d2db1-c943-4f1b-b750-0fca152d64c2/UploadedImages/SER%20Archive/2025_SER/Executive_Summary_2025_State_Expenditure_Report.pdf",
+    "basis": "State total is sourced (NASBO FY2024 estimated federal funds expenditures). The function split is MODELED: it applies the national FY2025 NASBO category shares (Medicaid 57.4%, K-12 8.5%, transportation 6.0%, higher ed 3.3%, corrections 0.3%, all other 24.5%) to the state total, and splits 'all other' with analyst-assumed shares. It is not state-reported; replace with the state's budget or ACFR federal-funds schedule.",
+    "byFunction_M": [
+     [
+      "Medicaid / health",
+      54253
+     ],
+     [
+      "Human services & public assistance",
+      9726
+     ],
+     [
+      "K-12 education",
+      8034
+     ],
+     [
+      "Transportation",
+      5671
+     ],
+     [
+      "Economic development & workforce",
+      3705
+     ],
+     [
+      "General government & other",
+      3705
+     ],
+     [
+      "Higher education",
+      3119
+     ],
+     [
+      "Housing & community development",
+      2779
+     ],
+     [
+      "Environment & natural resources",
+      2084
+     ],
+     [
+      "Public safety, EM & homeland security",
+      1158
+     ],
+     [
+      "Corrections / justice",
+      284
+     ]
+    ]
+   },
+   "disasters": {
+    "window": "DR declarations dated 2023-11-01 or later (3 years to 2026-11-04)",
+    "count": 5,
+    "events": [
+     {
+      "dr": 4755,
+      "title": "Severe Storm And Flooding",
+      "type": "Flood",
+      "date": "2024-01-30",
+      "paObligated": 12341175,
+      "hmgpObligated": 2673103,
+      "ihpApproved": 0
+     },
+     {
+      "dr": 4814,
+      "title": "Severe Storm, Tornadoes, And Flooding",
+      "type": "Flood",
+      "date": "2024-08-29",
+      "paObligated": 23444248,
+      "hmgpObligated": 485000,
+      "ihpApproved": 0
+     },
+     {
+      "dr": 4818,
+      "title": "Severe Storm And Flooding",
+      "type": "Tropical Storm",
+      "date": "2024-09-20",
+      "paObligated": 14669555,
+      "hmgpObligated": 0,
+      "ihpApproved": 1251038
+     },
+     {
+      "dr": 4825,
+      "title": "Remnants Of Tropical Storm Debby",
+      "type": "Tropical Storm",
+      "date": "2024-09-24",
+      "paObligated": 86998827,
+      "hmgpObligated": 2306000,
+      "ihpApproved": 0
+     },
+     {
+      "dr": 4839,
+      "title": "Severe Storm And Flooding",
+      "type": "Severe Storm",
+      "date": "2024-10-21",
+      "paObligated": 14556106,
+      "hmgpObligated": 400000,
+      "ihpApproved": 0
+     }
+    ],
+    "paObligatedDeclared3yr": 152009911,
+    "hmgpObligated": 5864103,
+    "ihpApproved": 1251038,
+    "pa5yrObligated": 260498139,
+    "paTopCategories5yr": {
+     "C - Roads and Bridges": 140636711,
+     "B - Emergency Protective Measures": 38834945,
+     "E - Buildings and Equipment": 26747530,
+     "Z - Management Costs": 21035420,
+     "G - Parks, Recreational Facilities, and Other Items": 15158051,
+     "F - Utilities": 9071584
+    },
+    "topPaApplicants3yr": [
+     [
+      "Saint Regis Mohawk Tribe (St. Regis Mohawk Indian Reservation)",
+      14669555
+     ],
+     [
+      "Watertown City School District",
+      11464153
+     ],
+     [
+      "NYS Division of Homeland Security & Emergency Services",
+      8954886
+     ],
+     [
+      "St. Lawrence County",
+      6746599
+     ],
+     [
+      "Hopkinton, Town of",
+      6322975
+     ]
+    ],
+    "appeals": {
+     "total": 164,
+     "since2021": 110,
+     "denied": 135,
+     "granted": 19,
+     "underReview": 5,
+     "medianDaysToDecision": 89,
+     "denialRate": 0.82
+    },
+    "cdbgdr": {
+     "items": [
+      {
+       "event": "Hurricane Ida & other 2021 events",
+       "allocation_M": 68.228
+      }
+     ],
+     "total_M": 68.228,
+     "source": "https://www.hud.gov/sites/dfiles/CPD/documents/CDBG-DR/CDBG-DR-Grant-History-9-1-2026.pdf",
+     "note": "HUD grant history, disasters 2020 and later; extraction summarized and not independently audited. Allocation is not expenditure."
+    },
+    "sources": [
+     "https://www.fema.gov/about/openfema/data-sets",
+     "OpenFEMA DisasterDeclarationsSummaries and FemaWebDisasterSummaries, queried 2026-11-04",
+     "User-supplied FEMA Public Assistance grant award and appeals files, 2026-11-04"
+    ],
+    "note": "Recent declarations show low or zero obligations because funds are obligated over years. HMGP obligations on recent events are early."
+   },
+   "transition": {
+    "type": "Incumbent returns (continuity)",
+    "governor": "Kathy Hochul",
+    "headline": "Incumbent returns (continuity): Kathy Hochul. Division in the Executive Department (reports to the governor) (director: Jackie Bray, Commissioner; named Director of State Operations Dec. 9, 2025). EM susceptibility to change: Low to medium.",
+    "day1": [
+     "Decide whether to retain or replace the emergency management lead (low to medium susceptibility).",
+     "Confirm authority for disaster declarations and state-of-emergency orders; brief the new governor on open declarations.",
+     "Inherit 5 open major-disaster declaration(s); the oldest is DR-4755."
+    ],
+    "first100": [
+     "Name a transition lead for federal funds (FEMA, HUD, DOT, HHS) and require a full inventory of open grants and closeout dates.",
+     "Review inherited consulting and program-management contracts; identify expirations in the first 12 months.",
+     "Publish agency-by-agency priority memos and a first-100-days public scorecard."
+    ],
+    "personnel": [
+     "Chief of Staff, Budget Director and agency heads: see Cabinet tab for likely options and alternates.",
+     "Boards and commissions with expiring terms are the quiet lever for policy continuity (verify by state)."
+    ],
+    "federal": [
+     "State federal funds ≈ $94.5B (FY2024 est., NASBO); about 57% falls in the largest function (Medicaid / health, modeled).",
+     "CDBG-DR allocations since 2020 total ≈ $68M; action-plan amendments, procurement and closeout are inherited decisions.",
+     "PA appeals: 164 second appeals on record, 82% denied; documentation discipline is a recurring weakness."
+    ],
+    "em": [
+     "Governor returns, but Bray's elevation to Director of State Operations means DHSES leadership may already be shifting; verify who is acting commissioner."
+    ],
+    "advisoryAngles": [
+     "Transition-period assessment of EM structure, FEMA PA/HMGP readiness and open grant closeout.",
+     "Compliance and monitoring support for CDBG-DR and large PA projects (appeals avoidance)."
+    ],
+    "calendar": [
+     "Nov. 2026: certification and transition-team stand-up",
+     "Dec. 2026: cabinet and chief-of-staff announcements; outgoing budget proposals",
+     "Jan. 2027: inauguration (verify date) and first executive orders",
+     "Feb.-Mar. 2027: new budget submission (many states); first legislative decisions",
+     "Spring 2027: FEMA/HUD grant closeout deadlines and CDBG-DR action-plan amendments (verify by state)"
+    ]
+   },
+   "incumbentGovernor": "Kathy Hochul",
+   "incumbentParty": "D"
+  },
+  "OH": {
+   "state": "OH",
+   "winner": {
+    "name": "Amy Acton",
+    "party": "D",
+    "basis": "user-supplied result; AP lookup shows the race called"
+   },
+   "status": "called (AP lookup; winner per user-supplied result)",
+   "em": {
+    "structure": "Division within a cabinet department",
+    "parent": "Ohio Department of Public Safety (director appointed by the governor)",
+    "director": "Sima Merick, Executive Director",
+    "since": "2015",
+    "appointedBy": "Gov. John Kasich; retained by Gov. DeWine",
+    "susc": "Medium",
+    "why": "Eleven-year career director is durable, but the Public Safety director above her is a governor's appointee and the party flips. Expect the DPS director to change first.",
+    "sources": [
+     "https://content.govdelivery.com/accounts/OHEMA/bulletins/268a9ec"
+    ]
+   },
+   "funds": {
+    "totalFY2024Est_M": 39138,
+    "source": "https://chn.org/wp-content/uploads/2025/01/NASBO-State-Expenditure-Report-2024-Fed-Funds-.pdf",
+    "mixSource": "https://higherlogicdownload.s3.amazonaws.com/NASBO/9d2d2db1-c943-4f1b-b750-0fca152d64c2/UploadedImages/SER%20Archive/2025_SER/Executive_Summary_2025_State_Expenditure_Report.pdf",
+    "basis": "State total is sourced (NASBO FY2024 estimated federal funds expenditures). The function split is MODELED: it applies the national FY2025 NASBO category shares (Medicaid 57.4%, K-12 8.5%, transportation 6.0%, higher ed 3.3%, corrections 0.3%, all other 24.5%) to the state total, and splits 'all other' with analyst-assumed shares. It is not state-reported; replace with the state's budget or ACFR federal-funds schedule.",
+    "byFunction_M": [
+     [
+      "Medicaid / health",
+      22465
+     ],
+     [
+      "Human services & public assistance",
+      4027
+     ],
+     [
+      "K-12 education",
+      3327
+     ],
+     [
+      "Transportation",
+      2348
+     ],
+     [
+      "Economic development & workforce",
+      1534
+     ],
+     [
+      "General government & other",
+      1534
+     ],
+     [
+      "Higher education",
+      1292
+     ],
+     [
+      "Housing & community development",
+      1151
+     ],
+     [
+      "Environment & natural resources",
+      863
+     ],
+     [
+      "Public safety, EM & homeland security",
+      479
+     ],
+     [
+      "Corrections / justice",
+      117
+     ]
+    ]
+   },
+   "disasters": {
+    "window": "DR declarations dated 2023-11-01 or later (3 years to 2026-11-04)",
+    "count": 2,
+    "events": [
+     {
+      "dr": 4777,
+      "title": "Tornadoes",
+      "type": "Tornado",
+      "date": "2024-05-02",
+      "paObligated": 0,
+      "hmgpObligated": 887081,
+      "ihpApproved": 3747421
+     },
+     {
+      "dr": 4945,
+      "title": "Severe Storms, Straight-Line Winds, Tornadoes, Flooding, And Landslides",
+      "type": "Flood",
+      "date": "2026-10-02",
+      "paObligated": 0,
+      "hmgpObligated": 0,
+      "ihpApproved": 10723071
+     }
+    ],
+    "paObligatedDeclared3yr": 0,
+    "hmgpObligated": 887081,
+    "ihpApproved": 14470492,
+    "pa5yrObligated": 0,
+    "paTopCategories5yr": {},
+    "topPaApplicants3yr": [],
+    "appeals": {
+     "total": 45,
+     "since2021": 37,
+     "denied": 41,
+     "granted": 3,
+     "underReview": 0,
+     "medianDaysToDecision": 88,
+     "denialRate": 0.91
+    },
+    "cdbgdr": {
+     "items": [
+      {
+       "event": "2023-24 events (P.L. 118-158)",
+       "allocation_M": 14.116
+      }
+     ],
+     "total_M": 14.116,
+     "source": "https://www.hud.gov/sites/dfiles/CPD/documents/CDBG-DR/CDBG-DR-Grant-History-9-1-2026.pdf",
+     "note": "HUD grant history, disasters 2020 and later; extraction summarized and not independently audited. Allocation is not expenditure."
+    },
+    "sources": [
+     "https://www.fema.gov/about/openfema/data-sets",
+     "OpenFEMA DisasterDeclarationsSummaries and FemaWebDisasterSummaries, queried 2026-11-04",
+     "User-supplied FEMA Public Assistance grant award and appeals files, 2026-11-04"
+    ],
+    "note": "Recent declarations show low or zero obligations because funds are obligated over years. HMGP obligations on recent events are early."
+   },
+   "transition": {
+    "type": "Party flip",
+    "governor": "Amy Acton",
+    "headline": "Party flip: Amy Acton. Division within a cabinet department (director: Sima Merick, Executive Director). EM susceptibility to change: Medium.",
+    "day1": [
+     "Decide whether to retain or replace the emergency management lead (medium susceptibility).",
+     "Confirm authority for disaster declarations and state-of-emergency orders; brief the new governor on open declarations.",
+     "Inherit 2 open major-disaster declaration(s); the oldest is DR-4777."
+    ],
+    "first100": [
+     "Name a transition lead for federal funds (FEMA, HUD, DOT, HHS) and require a full inventory of open grants and closeout dates.",
+     "Review inherited consulting and program-management contracts; identify expirations in the first 12 months.",
+     "Publish agency-by-agency priority memos and a first-100-days public scorecard."
+    ],
+    "personnel": [
+     "Chief of Staff, Budget Director and agency heads: see Cabinet tab for likely options and alternates.",
+     "Boards and commissions with expiring terms are the quiet lever for policy continuity (verify by state)."
+    ],
+    "federal": [
+     "State federal funds ≈ $39.1B (FY2024 est., NASBO); about 57% falls in the largest function (Medicaid / health, modeled).",
+     "CDBG-DR allocations since 2020 total ≈ $14M; action-plan amendments, procurement and closeout are inherited decisions.",
+     "PA appeals: 45 second appeals on record, 91% denied; documentation discipline is a recurring weakness."
+    ],
+    "em": [
+     "Eleven-year career director is durable, but the Public Safety director above her is a governor's appointee and the party flips. Expect the DPS director to change first."
+    ],
+    "advisoryAngles": [
+     "Transition-period assessment of EM structure, FEMA PA/HMGP readiness and open grant closeout.",
+     "Compliance and monitoring support for CDBG-DR and large PA projects (appeals avoidance).",
+     "Support the new EM leadership with a 90-day readiness review (high-susceptibility state)."
+    ],
+    "calendar": [
+     "Nov. 2026: certification and transition-team stand-up",
+     "Dec. 2026: cabinet and chief-of-staff announcements; outgoing budget proposals",
+     "Jan. 2027: inauguration (verify date) and first executive orders",
+     "Feb.-Mar. 2027: new budget submission (many states); first legislative decisions",
+     "Spring 2027: FEMA/HUD grant closeout deadlines and CDBG-DR action-plan amendments (verify by state)"
+    ]
+   },
+   "incumbentGovernor": "Mike DeWine",
+   "incumbentParty": "R"
+  },
+  "PA": {
+   "state": "PA",
+   "winner": {
+    "name": "Josh Shapiro",
+    "party": "D",
+    "basis": "user-supplied result; AP lookup shows the race called"
+   },
+   "status": "called (AP lookup; winner per user-supplied result)",
+   "em": {
+    "structure": "Stand-alone cabinet agency reporting to the governor",
+    "parent": "Pennsylvania Emergency Management Agency",
+    "director": "David 'Randy' Padfield, Director",
+    "since": "2019 (former deputy director for response operations)",
+    "appointedBy": "Gov. Tom Wolf; retained by Gov. Shapiro in 2023",
+    "susc": "Low",
+    "why": "Retained across a party-adjacent transition (Wolf to Shapiro) and the governor is returning.",
+    "sources": [
+     "https://www.pa.gov/agencies/pema/about/leadership"
+    ]
+   },
+   "funds": {
+    "totalFY2024Est_M": 46269,
+    "source": "https://chn.org/wp-content/uploads/2025/01/NASBO-State-Expenditure-Report-2024-Fed-Funds-.pdf",
+    "mixSource": "https://higherlogicdownload.s3.amazonaws.com/NASBO/9d2d2db1-c943-4f1b-b750-0fca152d64c2/UploadedImages/SER%20Archive/2025_SER/Executive_Summary_2025_State_Expenditure_Report.pdf",
+    "basis": "State total is sourced (NASBO FY2024 estimated federal funds expenditures). The function split is MODELED: it applies the national FY2025 NASBO category shares (Medicaid 57.4%, K-12 8.5%, transportation 6.0%, higher ed 3.3%, corrections 0.3%, all other 24.5%) to the state total, and splits 'all other' with analyst-assumed shares. It is not state-reported; replace with the state's budget or ACFR federal-funds schedule.",
+    "byFunction_M": [
+     [
+      "Medicaid / health",
+      26558
+     ],
+     [
+      "Human services & public assistance",
+      4761
+     ],
+     [
+      "K-12 education",
+      3933
+     ],
+     [
+      "Transportation",
+      2776
+     ],
+     [
+      "Economic development & workforce",
+      1814
+     ],
+     [
+      "General government & other",
+      1814
+     ],
+     [
+      "Higher education",
+      1527
+     ],
+     [
+      "Housing & community development",
+      1360
+     ],
+     [
+      "Environment & natural resources",
+      1020
+     ],
+     [
+      "Public safety, EM & homeland security",
+      567
+     ],
+     [
+      "Corrections / justice",
+      139
+     ]
+    ]
+   },
+   "disasters": {
+    "window": "DR declarations dated 2023-11-01 or later (3 years to 2026-11-04)",
+    "count": 1,
+    "events": [
+     {
+      "dr": 4815,
+      "title": "Tropical Storm Debby",
+      "type": "Tropical Storm",
+      "date": "2024-09-11",
+      "paObligated": 45267205,
+      "hmgpObligated": 0,
+      "ihpApproved": 7920240
+     }
+    ],
+    "paObligatedDeclared3yr": 45267205,
+    "hmgpObligated": 0,
+    "ihpApproved": 7920240,
+    "pa5yrObligated": 45267205,
+    "paTopCategories5yr": {
+     "C - Roads and Bridges": 34879496,
+     "A - Debris Removal": 3815887,
+     "Z - Management Costs": 3186859,
+     "G - Parks, Recreational Facilities, and Other Items": 1184098,
+     "B - Emergency Protective Measures": 747555,
+     "E - Buildings and Equipment": 734620
+    },
+    "topPaApplicants3yr": [
+     [
+      "Pennsylvania Department of Transportation",
+      7574786
+     ],
+     [
+      "Liberty, Township of (Susquehanna County)",
+      7364450
+     ],
+     [
+      "Pennsylvania Emergency Management Agency",
+      2528598
+     ],
+     [
+      "Westfield, Township of (Tioga County)",
+      2364259
+     ],
+     [
+      "Hector, Township of (Potter County)",
+      2123892
+     ]
+    ],
+    "appeals": {
+     "total": 24,
+     "since2021": 22,
+     "denied": 23,
+     "granted": 0,
+     "underReview": 1,
+     "medianDaysToDecision": 77,
+     "denialRate": 0.96
+    },
+    "cdbgdr": {
+     "items": [
+      {
+       "event": "2023-24 events (P.L. 118-158)",
+       "allocation_M": 14.62
+      },
+      {
+       "event": "Hurricane Ida & other 2021 events",
+       "allocation_M": 38.282
+      }
+     ],
+     "total_M": 52.902,
+     "source": "https://www.hud.gov/sites/dfiles/CPD/documents/CDBG-DR/CDBG-DR-Grant-History-9-1-2026.pdf",
+     "note": "HUD grant history, disasters 2020 and later; extraction summarized and not independently audited. Allocation is not expenditure."
+    },
+    "sources": [
+     "https://www.fema.gov/about/openfema/data-sets",
+     "OpenFEMA DisasterDeclarationsSummaries and FemaWebDisasterSummaries, queried 2026-11-04",
+     "User-supplied FEMA Public Assistance grant award and appeals files, 2026-11-04"
+    ],
+    "note": "Recent declarations show low or zero obligations because funds are obligated over years. HMGP obligations on recent events are early."
+   },
+   "transition": {
+    "type": "Incumbent returns (continuity)",
+    "governor": "Josh Shapiro",
+    "headline": "Incumbent returns (continuity): Josh Shapiro. Stand-alone cabinet agency reporting to the governor (director: David 'Randy' Padfield, Director). EM susceptibility to change: Low.",
+    "day1": [
+     "Decide whether to retain or replace the emergency management lead (low susceptibility).",
+     "Confirm authority for disaster declarations and state-of-emergency orders; brief the new governor on open declarations.",
+     "Inherit 1 open major-disaster declaration(s); the oldest is DR-4815."
+    ],
+    "first100": [
+     "Name a transition lead for federal funds (FEMA, HUD, DOT, HHS) and require a full inventory of open grants and closeout dates.",
+     "Review inherited consulting and program-management contracts; identify expirations in the first 12 months.",
+     "Publish agency-by-agency priority memos and a first-100-days public scorecard."
+    ],
+    "personnel": [
+     "Chief of Staff, Budget Director and agency heads: see Cabinet tab for likely options and alternates.",
+     "Boards and commissions with expiring terms are the quiet lever for policy continuity (verify by state)."
+    ],
+    "federal": [
+     "State federal funds ≈ $46.3B (FY2024 est., NASBO); about 57% falls in the largest function (Medicaid / health, modeled).",
+     "CDBG-DR allocations since 2020 total ≈ $53M; action-plan amendments, procurement and closeout are inherited decisions.",
+     "PA appeals: 24 second appeals on record, 96% denied; documentation discipline is a recurring weakness."
+    ],
+    "em": [
+     "Retained across a party-adjacent transition (Wolf to Shapiro) and the governor is returning."
+    ],
+    "advisoryAngles": [
+     "Transition-period assessment of EM structure, FEMA PA/HMGP readiness and open grant closeout.",
+     "Compliance and monitoring support for CDBG-DR and large PA projects (appeals avoidance)."
+    ],
+    "calendar": [
+     "Nov. 2026: certification and transition-team stand-up",
+     "Dec. 2026: cabinet and chief-of-staff announcements; outgoing budget proposals",
+     "Jan. 2027: inauguration (verify date) and first executive orders",
+     "Feb.-Mar. 2027: new budget submission (many states); first legislative decisions",
+     "Spring 2027: FEMA/HUD grant closeout deadlines and CDBG-DR action-plan amendments (verify by state)"
+    ]
+   },
+   "incumbentGovernor": "Josh Shapiro",
+   "incumbentParty": "D"
+  },
+  "RI": {
+   "state": "RI",
+   "winner": {
+    "name": "Helena Foulkes",
+    "party": "D",
+    "basis": "user-supplied result; AP lookup shows the race called"
+   },
+   "status": "called (AP lookup; winner per user-supplied result)",
+   "em": {
+    "structure": "State agency; director appointed by the governor",
+    "parent": "Rhode Island Emergency Management Agency",
+    "director": "Marc R. Pappas (per the RIEMA website; verify, since press reports also name Theresa Murray earlier)",
+    "since": "December 27, 2018 (per RIEMA)",
+    "appointedBy": "Gov. Gina Raimondo; kept by Gov. McKee",
+    "susc": "Medium",
+    "why": "Open seat with a Democratic successor, and an eight-year director. Foulkes has campaigned on a competence reset after the Washington Bridge failure.",
+    "sources": [
+     "https://riema.ri.gov/about/meet-director"
+    ]
+   },
+   "funds": {
+    "totalFY2024Est_M": 5608,
+    "source": "https://chn.org/wp-content/uploads/2025/01/NASBO-State-Expenditure-Report-2024-Fed-Funds-.pdf",
+    "mixSource": "https://higherlogicdownload.s3.amazonaws.com/NASBO/9d2d2db1-c943-4f1b-b750-0fca152d64c2/UploadedImages/SER%20Archive/2025_SER/Executive_Summary_2025_State_Expenditure_Report.pdf",
+    "basis": "State total is sourced (NASBO FY2024 estimated federal funds expenditures). The function split is MODELED: it applies the national FY2025 NASBO category shares (Medicaid 57.4%, K-12 8.5%, transportation 6.0%, higher ed 3.3%, corrections 0.3%, all other 24.5%) to the state total, and splits 'all other' with analyst-assumed shares. It is not state-reported; replace with the state's budget or ACFR federal-funds schedule.",
+    "byFunction_M": [
+     [
+      "Medicaid / health",
+      3219
+     ],
+     [
+      "Human services & public assistance",
+      577
+     ],
+     [
+      "K-12 education",
+      477
+     ],
+     [
+      "Transportation",
+      336
+     ],
+     [
+      "Economic development & workforce",
+      220
+     ],
+     [
+      "General government & other",
+      220
+     ],
+     [
+      "Higher education",
+      185
+     ],
+     [
+      "Housing & community development",
+      165
+     ],
+     [
+      "Environment & natural resources",
+      124
+     ],
+     [
+      "Public safety, EM & homeland security",
+      69
+     ],
+     [
+      "Corrections / justice",
+      17
+     ]
+    ]
+   },
+   "disasters": {
+    "window": "DR declarations dated 2023-11-01 or later (3 years to 2026-11-04)",
+    "count": 3,
+    "events": [
+     {
+      "dr": 4753,
+      "title": "Severe Storms, Flooding, And Tornadoes",
+      "type": "Severe Storm",
+      "date": "2024-01-07",
+      "paObligated": 0,
+      "hmgpObligated": 375748,
+      "ihpApproved": 3359408
+     },
+     {
+      "dr": 4765,
+      "title": "Severe Storm And Flooding",
+      "type": "Severe Storm",
+      "date": "2024-03-20",
+      "paObligated": 0,
+      "hmgpObligated": 67500,
+      "ihpApproved": 6386275
+     },
+     {
+      "dr": 4766,
+      "title": "Severe Storms And Flooding",
+      "type": "Severe Storm",
+      "date": "2024-03-20",
+      "paObligated": 4899279,
+      "hmgpObligated": 0,
+      "ihpApproved": 13000479
+     }
+    ],
+    "paObligatedDeclared3yr": 4899279,
+    "hmgpObligated": 443248,
+    "ihpApproved": 22746162,
+    "pa5yrObligated": 13661449,
+    "paTopCategories5yr": {
+     "B - Emergency Protective Measures": 8608003,
+     "C - Roads and Bridges": 1826141,
+     "G - Parks, Recreational Facilities, and Other Items": 988139,
+     "Z - Management Costs": 896223,
+     "F - Utilities": 503313,
+     "D - Water Control Facilities": 383638
+    },
+    "topPaApplicants3yr": [
+     [
+      "West Warwick, Town of",
+      1835475
+     ],
+     [
+      "Rhode Island Department of Environmental Management",
+      655017
+     ],
+     [
+      "Newport, City of",
+      535937
+     ],
+     [
+      "Rhode Island Emergency Management Agency",
+      401996
+     ],
+     [
+      "Narragansett, Town of",
+      345591
+     ]
+    ],
+    "appeals": {
+     "total": 8,
+     "since2021": 8,
+     "denied": 2,
+     "granted": 0,
+     "underReview": 6,
+     "medianDaysToDecision": 86,
+     "denialRate": 0.25
+    },
+    "cdbgdr": {
+     "items": [],
+     "total_M": 0,
+     "source": "https://www.hud.gov/sites/dfiles/CPD/documents/CDBG-DR/CDBG-DR-Grant-History-9-1-2026.pdf",
+     "note": "HUD grant history, disasters 2020 and later; extraction summarized and not independently audited. Allocation is not expenditure."
+    },
+    "sources": [
+     "https://www.fema.gov/about/openfema/data-sets",
+     "OpenFEMA DisasterDeclarationsSummaries and FemaWebDisasterSummaries, queried 2026-11-04",
+     "User-supplied FEMA Public Assistance grant award and appeals files, 2026-11-04"
+    ],
+    "note": "Recent declarations show low or zero obligations because funds are obligated over years. HMGP obligations on recent events are early."
+   },
+   "transition": {
+    "type": "Same-party successor (open seat)",
+    "governor": "Helena Foulkes",
+    "headline": "Same-party successor (open seat): Helena Foulkes. State agency; director appointed by the governor (director: Marc R. Pappas). EM susceptibility to change: Medium.",
+    "day1": [
+     "Decide whether to retain or replace the emergency management lead (medium susceptibility).",
+     "Confirm authority for disaster declarations and state-of-emergency orders; brief the new governor on open declarations.",
+     "Inherit 3 open major-disaster declaration(s); the oldest is DR-4753."
+    ],
+    "first100": [
+     "Name a transition lead for federal funds (FEMA, HUD, DOT, HHS) and require a full inventory of open grants and closeout dates.",
+     "Review inherited consulting and program-management contracts; identify expirations in the first 12 months.",
+     "Publish agency-by-agency priority memos and a first-100-days public scorecard."
+    ],
+    "personnel": [
+     "Chief of Staff, Budget Director and agency heads: see Cabinet tab for likely options and alternates.",
+     "Boards and commissions with expiring terms are the quiet lever for policy continuity (verify by state)."
+    ],
+    "federal": [
+     "State federal funds ≈ $5.6B (FY2024 est., NASBO); about 57% falls in the largest function (Medicaid / health, modeled).",
+     "PA appeals: 8 second appeals on record, 25% denied; documentation discipline is a recurring weakness."
+    ],
+    "em": [
+     "Open seat with a Democratic successor, and an eight-year director. Foulkes has campaigned on a competence reset after the Washington Bridge failure."
+    ],
+    "advisoryAngles": [
+     "Transition-period assessment of EM structure, FEMA PA/HMGP readiness and open grant closeout.",
+     "Compliance and monitoring support for CDBG-DR and large PA projects (appeals avoidance).",
+     "Support the new EM leadership with a 90-day readiness review (high-susceptibility state)."
+    ],
+    "calendar": [
+     "Nov. 2026: certification and transition-team stand-up",
+     "Dec. 2026: cabinet and chief-of-staff announcements; outgoing budget proposals",
+     "Jan. 2027: inauguration (verify date) and first executive orders",
+     "Feb.-Mar. 2027: new budget submission (many states); first legislative decisions",
+     "Spring 2027: FEMA/HUD grant closeout deadlines and CDBG-DR action-plan amendments (verify by state)"
+    ]
+   },
+   "incumbentGovernor": "Dan McKee",
+   "incumbentParty": "D"
+  },
+  "WI": {
+   "state": "WI",
+   "winner": {
+    "name": "David Crowley",
+    "party": "D",
+    "basis": "user-supplied result; AP lookup shows the race called"
+   },
+   "status": "called (AP lookup; winner per user-supplied result)",
+   "em": {
+    "structure": "Division within a department led by the Adjutant General",
+    "parent": "Wisconsin Department of Military Affairs (Adjutant General Maj. Gen. Paul Knapp)",
+    "director": "Greg Engle, Administrator (acting at last public record)",
+    "since": "Sept. 3, 2021 (acting; permanent status not confirmed)",
+    "appointedBy": "Adjutant General Paul Knapp, under Gov. Evers",
+    "susc": "Medium",
+    "why": "Democrat-to-Democrat open seat, so continuity is possible, but the Adjutant General is a governor's pick and Crowley may reset DMA leadership; Engle has been 'acting' for five years.",
+    "sources": [
+     "https://urbanmilwaukee.com/pressrelease/greg-engle-named-acting-administrator-of-wisconsin-emergency-management"
+    ]
+   },
+   "funds": {
+    "totalFY2024Est_M": 17549,
+    "source": "https://chn.org/wp-content/uploads/2025/01/NASBO-State-Expenditure-Report-2024-Fed-Funds-.pdf",
+    "mixSource": "https://higherlogicdownload.s3.amazonaws.com/NASBO/9d2d2db1-c943-4f1b-b750-0fca152d64c2/UploadedImages/SER%20Archive/2025_SER/Executive_Summary_2025_State_Expenditure_Report.pdf",
+    "basis": "State total is sourced (NASBO FY2024 estimated federal funds expenditures). The function split is MODELED: it applies the national FY2025 NASBO category shares (Medicaid 57.4%, K-12 8.5%, transportation 6.0%, higher ed 3.3%, corrections 0.3%, all other 24.5%) to the state total, and splits 'all other' with analyst-assumed shares. It is not state-reported; replace with the state's budget or ACFR federal-funds schedule.",
+    "byFunction_M": [
+     [
+      "Medicaid / health",
+      10073
+     ],
+     [
+      "Human services & public assistance",
+      1806
+     ],
+     [
+      "K-12 education",
+      1492
+     ],
+     [
+      "Transportation",
+      1053
+     ],
+     [
+      "Economic development & workforce",
+      688
+     ],
+     [
+      "General government & other",
+      688
+     ],
+     [
+      "Higher education",
+      579
+     ],
+     [
+      "Housing & community development",
+      516
+     ],
+     [
+      "Environment & natural resources",
+      387
+     ],
+     [
+      "Public safety, EM & homeland security",
+      215
+     ],
+     [
+      "Corrections / justice",
+      53
+     ]
+    ]
+   },
+   "disasters": {
+    "window": "DR declarations dated 2023-11-01 or later (3 years to 2026-11-04)",
+    "count": 3,
+    "events": [
+     {
+      "dr": 4892,
+      "title": "Severe Storms, Straight-Line Winds, Flooding, And Mudslides",
+      "type": "Flood",
+      "date": "2025-09-11",
+      "paObligated": 0,
+      "hmgpObligated": 0,
+      "ihpApproved": 215551737
+     },
+     {
+      "dr": 4923,
+      "title": "Severe Storms, Tornadoes, And Flooding",
+      "type": "Flood",
+      "date": "2026-06-30",
+      "paObligated": 4983591,
+      "hmgpObligated": 0,
+      "ihpApproved": 79666774
+     },
+     {
+      "dr": 4949,
+      "title": "Severe Storms And Tornadoes",
+      "type": "Tornado",
+      "date": "2026-10-07",
+      "paObligated": 0,
+      "hmgpObligated": 0,
+      "ihpApproved": 861088
+     }
+    ],
+    "paObligatedDeclared3yr": 4983591,
+    "hmgpObligated": 0,
+    "ihpApproved": 296079599,
+    "pa5yrObligated": 4649836,
+    "paTopCategories5yr": {
+     "B - Emergency Protective Measures": 1486663,
+     "A - Debris Removal": 1018594,
+     "Z - Management Costs": 828281,
+     "C - Roads and Bridges": 736372,
+     "E - Buildings and Equipment": 303573,
+     "F - Utilities": 152196
+    },
+    "topPaApplicants3yr": [
+     [
+      "Wisconsin Emergency Management",
+      876670
+     ],
+     [
+      "Janesville School District",
+      644989
+     ],
+     [
+      "Janesville, City of",
+      535518
+     ],
+     [
+      "Orfordville Fire Protection District",
+      253497
+     ],
+     [
+      "Shiocton, Village of",
+      173176
+     ]
+    ],
+    "appeals": {
+     "total": 2,
+     "since2021": 1,
+     "denied": 1,
+     "granted": 1,
+     "underReview": 0,
+     "medianDaysToDecision": 301,
+     "denialRate": 0.5
+    },
+    "cdbgdr": {
+     "items": [],
+     "total_M": 0,
+     "source": "https://www.hud.gov/sites/dfiles/CPD/documents/CDBG-DR/CDBG-DR-Grant-History-9-1-2026.pdf",
+     "note": "HUD grant history, disasters 2020 and later; extraction summarized and not independently audited. Allocation is not expenditure."
+    },
+    "sources": [
+     "https://www.fema.gov/about/openfema/data-sets",
+     "OpenFEMA DisasterDeclarationsSummaries and FemaWebDisasterSummaries, queried 2026-11-04",
+     "User-supplied FEMA Public Assistance grant award and appeals files, 2026-11-04"
+    ],
+    "note": "Recent declarations show low or zero obligations because funds are obligated over years. HMGP obligations on recent events are early."
+   },
+   "transition": {
+    "type": "Same-party successor (open seat)",
+    "governor": "David Crowley",
+    "headline": "Same-party successor (open seat): David Crowley. Division within a department led by the Adjutant General (director: Greg Engle, Administrator). EM susceptibility to change: Medium.",
+    "day1": [
+     "Decide whether to retain or replace the emergency management lead (medium susceptibility).",
+     "Confirm authority for disaster declarations and state-of-emergency orders; brief the new governor on open declarations.",
+     "Inherit 3 open major-disaster declaration(s); the oldest is DR-4892."
+    ],
+    "first100": [
+     "Name a transition lead for federal funds (FEMA, HUD, DOT, HHS) and require a full inventory of open grants and closeout dates.",
+     "Review inherited consulting and program-management contracts; identify expirations in the first 12 months.",
+     "Publish agency-by-agency priority memos and a first-100-days public scorecard."
+    ],
+    "personnel": [
+     "Chief of Staff, Budget Director and agency heads: see Cabinet tab for likely options and alternates.",
+     "Boards and commissions with expiring terms are the quiet lever for policy continuity (verify by state)."
+    ],
+    "federal": [
+     "State federal funds ≈ $17.5B (FY2024 est., NASBO); about 57% falls in the largest function (Medicaid / health, modeled).",
+     "PA appeals: 2 second appeals on record, 50% denied; documentation discipline is a recurring weakness."
+    ],
+    "em": [
+     "Democrat-to-Democrat open seat, so continuity is possible, but the Adjutant General is a governor's pick and Crowley may reset DMA leadership; Engle has been 'acting' for five years."
+    ],
+    "advisoryAngles": [
+     "Transition-period assessment of EM structure, FEMA PA/HMGP readiness and open grant closeout.",
+     "Compliance and monitoring support for CDBG-DR and large PA projects (appeals avoidance).",
+     "Support the new EM leadership with a 90-day readiness review (high-susceptibility state)."
+    ],
+    "calendar": [
+     "Nov. 2026: certification and transition-team stand-up",
+     "Dec. 2026: cabinet and chief-of-staff announcements; outgoing budget proposals",
+     "Jan. 2027: inauguration (verify date) and first executive orders",
+     "Feb.-Mar. 2027: new budget submission (many states); first legislative decisions",
+     "Spring 2027: FEMA/HUD grant closeout deadlines and CDBG-DR action-plan amendments (verify by state)"
+    ]
+   },
+   "incumbentGovernor": "Tony Evers",
+   "incumbentParty": "D"
+  },
+  "WY": {
+   "state": "WY",
+   "winner": {
+    "name": "Eric Barlow",
+    "party": "R",
+    "basis": "user-supplied result; AP lookup shows the race called"
+   },
+   "status": "called (AP lookup; winner per user-supplied result)",
+   "em": {
+    "structure": "Office elevated to a new department by statute",
+    "parent": "Wyoming Department of Homeland Security (created by SF0071, effective July 1, 2026; previously the Office of Homeland Security in the Governor's office)",
+    "director": "Lynn Budd",
+    "since": "January 2019",
+    "appointedBy": "Gov. Mark Gordon",
+    "susc": "Medium to high",
+    "why": "Reorganization into a new department, a new governor (Barlow succeeds Gordon), and a seven-year director appointed by the outgoing governor.",
+    "sources": [
+     "https://www.wyoleg.gov/2026/Summaries/SF0071.pdf",
+     "https://county10.com/governor-names-more-cabinet-positions-mcomie-stays-at-state-construction-dept-budd-to-lead-homeland-security/"
+    ]
+   },
+   "funds": {
+    "totalFY2024Est_M": 992,
+    "source": "https://chn.org/wp-content/uploads/2025/01/NASBO-State-Expenditure-Report-2024-Fed-Funds-.pdf",
+    "mixSource": "https://higherlogicdownload.s3.amazonaws.com/NASBO/9d2d2db1-c943-4f1b-b750-0fca152d64c2/UploadedImages/SER%20Archive/2025_SER/Executive_Summary_2025_State_Expenditure_Report.pdf",
+    "basis": "State total is sourced (NASBO FY2024 estimated federal funds expenditures). The function split is MODELED: it applies the national FY2025 NASBO category shares (Medicaid 57.4%, K-12 8.5%, transportation 6.0%, higher ed 3.3%, corrections 0.3%, all other 24.5%) to the state total, and splits 'all other' with analyst-assumed shares. It is not state-reported; replace with the state's budget or ACFR federal-funds schedule.",
+    "byFunction_M": [
+     [
+      "Medicaid / health",
+      569
+     ],
+     [
+      "Human services & public assistance",
+      102
+     ],
+     [
+      "K-12 education",
+      84
+     ],
+     [
+      "Transportation",
+      60
+     ],
+     [
+      "Economic development & workforce",
+      39
+     ],
+     [
+      "General government & other",
+      39
+     ],
+     [
+      "Higher education",
+      33
+     ],
+     [
+      "Housing & community development",
+      29
+     ],
+     [
+      "Environment & natural resources",
+      22
+     ],
+     [
+      "Public safety, EM & homeland security",
+      12
+     ],
+     [
+      "Corrections / justice",
+      3
+     ]
+    ]
+   },
+   "disasters": {
+    "window": "DR declarations dated 2023-11-01 or later (3 years to 2026-11-04)",
+    "count": 1,
+    "events": [
+     {
+      "dr": 4845,
+      "title": "Wildfires",
+      "type": "Fire",
+      "date": "2024-11-13",
+      "paObligated": 9304934,
+      "hmgpObligated": 0,
+      "ihpApproved": 0
+     }
+    ],
+    "paObligatedDeclared3yr": 9304934,
+    "hmgpObligated": 0,
+    "ihpApproved": 0,
+    "pa5yrObligated": 10204445,
+    "paTopCategories5yr": {
+     "B - Emergency Protective Measures": 7526093,
+     "F - Utilities": 1236703,
+     "Z - Management Costs": 761773,
+     "C - Roads and Bridges": 431539,
+     "G - Parks, Recreational Facilities, and Other Items": 115816,
+     "A - Debris Removal": 71817
+    },
+    "topPaApplicants3yr": [
+     [
+      "Wyoming State Forestry Division",
+      8000000
+     ],
+     [
+      "POWDER RIVER ENERGY CORP",
+      1228617
+     ],
+     [
+      "Wyoming Department of Homeland Security",
+      76317
+     ]
+    ],
+    "appeals": {
+     "total": 2,
+     "since2021": 0,
+     "denied": 2,
+     "granted": 0,
+     "underReview": 0,
+     "medianDaysToDecision": 224,
+     "denialRate": 1.0
+    },
+    "cdbgdr": {
+     "items": [],
+     "total_M": 0,
+     "source": "https://www.hud.gov/sites/dfiles/CPD/documents/CDBG-DR/CDBG-DR-Grant-History-9-1-2026.pdf",
+     "note": "HUD grant history, disasters 2020 and later; extraction summarized and not independently audited. Allocation is not expenditure."
+    },
+    "sources": [
+     "https://www.fema.gov/about/openfema/data-sets",
+     "OpenFEMA DisasterDeclarationsSummaries and FemaWebDisasterSummaries, queried 2026-11-04",
+     "User-supplied FEMA Public Assistance grant award and appeals files, 2026-11-04"
+    ],
+    "note": "Recent declarations show low or zero obligations because funds are obligated over years. HMGP obligations on recent events are early."
+   },
+   "transition": {
+    "type": "Same-party successor (open seat)",
+    "governor": "Eric Barlow",
+    "headline": "Same-party successor (open seat): Eric Barlow. Office elevated to a new department by statute (director: Lynn Budd). EM susceptibility to change: Medium to high.",
+    "day1": [
+     "Decide whether to retain or replace the emergency management lead (medium to high susceptibility).",
+     "Confirm authority for disaster declarations and state-of-emergency orders; brief the new governor on open declarations.",
+     "Inherit 1 open major-disaster declaration(s); the oldest is DR-4845."
+    ],
+    "first100": [
+     "Name a transition lead for federal funds (FEMA, HUD, DOT, HHS) and require a full inventory of open grants and closeout dates.",
+     "Review inherited consulting and program-management contracts; identify expirations in the first 12 months.",
+     "Publish agency-by-agency priority memos and a first-100-days public scorecard."
+    ],
+    "personnel": [
+     "Chief of Staff, Budget Director and agency heads: see Cabinet tab for likely options and alternates.",
+     "Boards and commissions with expiring terms are the quiet lever for policy continuity (verify by state)."
+    ],
+    "federal": [
+     "State federal funds ≈ $1.0B (FY2024 est., NASBO); about 57% falls in the largest function (Medicaid / health, modeled).",
+     "PA appeals: 2 second appeals on record, 100% denied; documentation discipline is a recurring weakness."
+    ],
+    "em": [
+     "Reorganization into a new department, a new governor (Barlow succeeds Gordon), and a seven-year director appointed by the outgoing governor."
+    ],
+    "advisoryAngles": [
+     "Transition-period assessment of EM structure, FEMA PA/HMGP readiness and open grant closeout.",
+     "Compliance and monitoring support for CDBG-DR and large PA projects (appeals avoidance).",
+     "Support the new EM leadership with a 90-day readiness review (high-susceptibility state)."
+    ],
+    "calendar": [
+     "Nov. 2026: certification and transition-team stand-up",
+     "Dec. 2026: cabinet and chief-of-staff announcements; outgoing budget proposals",
+     "Jan. 2027: inauguration (verify date) and first executive orders",
+     "Feb.-Mar. 2027: new budget submission (many states); first legislative decisions",
+     "Spring 2027: FEMA/HUD grant closeout deadlines and CDBG-DR action-plan amendments (verify by state)"
+    ]
+   },
+   "incumbentGovernor": "Mark Gordon",
+   "incumbentParty": "R"
+  },
+  "TX": {
+   "state": "TX",
+   "winner": null,
+   "status": "not called",
+   "em": {
+    "structure": "Division inside a university system (unusual)",
+    "parent": "Texas A&M University System (Chancellor); TDEM chief is a vice chancellor",
+    "director": "W. Nim Kidd, Chief of TDEM and Vice Chancellor for Disaster and Emergency Services",
+    "since": "Chief since 2016; moved under the A&M System in 2019",
+    "appointedBy": "Governor and A&M Board of Regents",
+    "susc": "Low to medium",
+    "why": "Insulated by the A&M structure and by long tenure; a Democratic governor would not control A&M governance directly. (Texas is not called.)",
+    "sources": [
+     "https://www.tamus.edu/tdem/",
+     "https://news.tamus.edu/?p=36326"
+    ]
+   },
+   "funds": {
+    "totalFY2024Est_M": 56093,
+    "source": "https://chn.org/wp-content/uploads/2025/01/NASBO-State-Expenditure-Report-2024-Fed-Funds-.pdf",
+    "mixSource": "https://higherlogicdownload.s3.amazonaws.com/NASBO/9d2d2db1-c943-4f1b-b750-0fca152d64c2/UploadedImages/SER%20Archive/2025_SER/Executive_Summary_2025_State_Expenditure_Report.pdf",
+    "basis": "State total is sourced (NASBO FY2024 estimated federal funds expenditures). The function split is MODELED: it applies the national FY2025 NASBO category shares (Medicaid 57.4%, K-12 8.5%, transportation 6.0%, higher ed 3.3%, corrections 0.3%, all other 24.5%) to the state total, and splits 'all other' with analyst-assumed shares. It is not state-reported; replace with the state's budget or ACFR federal-funds schedule.",
+    "byFunction_M": [
+     [
+      "Medicaid / health",
+      32197
+     ],
+     [
+      "Human services & public assistance",
+      5772
+     ],
+     [
+      "K-12 education",
+      4768
+     ],
+     [
+      "Transportation",
+      3366
+     ],
+     [
+      "Economic development & workforce",
+      2199
+     ],
+     [
+      "General government & other",
+      2199
+     ],
+     [
+      "Higher education",
+      1851
+     ],
+     [
+      "Housing & community development",
+      1649
+     ],
+     [
+      "Environment & natural resources",
+      1237
+     ],
+     [
+      "Public safety, EM & homeland security",
+      687
+     ],
+     [
+      "Corrections / justice",
+      168
+     ]
+    ]
+   },
+   "disasters": {
+    "window": "DR declarations dated 2023-11-01 or later (3 years to 2026-11-04)",
+    "count": 5,
+    "events": [
+     {
+      "dr": 4781,
+      "title": "Severe Storms, Straight-Line Winds, Tornadoes, And Flooding",
+      "type": "Flood",
+      "date": "2024-05-17",
+      "paObligated": 275166169,
+      "hmgpObligated": 17036031,
+      "ihpApproved": 313825043
+     },
+     {
+      "dr": 4798,
+      "title": "Hurricane Beryl",
+      "type": "Hurricane",
+      "date": "2024-07-09",
+      "paObligated": 319642469,
+      "hmgpObligated": 5153834,
+      "ihpApproved": 935231312
+     },
+     {
+      "dr": 4871,
+      "title": "Severe Storms And Flooding",
+      "type": "Flood",
+      "date": "2025-05-21",
+      "paObligated": 0,
+      "hmgpObligated": 0,
+      "ihpApproved": 109981760
+     },
+     {
+      "dr": 4879,
+      "title": "Severe Storms, Straight-Line Winds, And Flooding",
+      "type": "Flood",
+      "date": "2025-07-06",
+      "paObligated": 534195258,
+      "hmgpObligated": 0,
+      "ihpApproved": 41748903
+     },
+     {
+      "dr": 4935,
+      "title": "Severe Storms, Straight-Line Winds, Tornadoes, And Flooding",
+      "type": "Flood",
+      "date": "2026-09-01",
+      "paObligated": 0,
+      "hmgpObligated": 0,
+      "ihpApproved": 0
+     }
+    ],
+    "paObligatedDeclared3yr": 1129003896,
+    "hmgpObligated": 22189865,
+    "ihpApproved": 1400787018,
+    "pa5yrObligated": 1209204142,
+    "paTopCategories5yr": {
+     "A - Debris Removal": 590571878,
+     "B - Emergency Protective Measures": 204931102,
+     "Z - Management Costs": 117227164,
+     "C - Roads and Bridges": 112221164,
+     "F - Utilities": 79253453,
+     "E - Buildings and Equipment": 47578617
+    },
+    "topPaApplicants3yr": [
+     [
+      "Texas Division of Emergency Management",
+      540468294
+     ],
+     [
+      "Houston, City of",
+      97576671
+     ],
+     [
+      "Trinity River Authority",
+      32091967
+     ],
+     [
+      "Montgomery County",
+      20944503
+     ],
+     [
+      "Texas Department of State Health Services",
+      18990670
+     ]
+    ],
+    "appeals": {
+     "total": 234,
+     "since2021": 117,
+     "denied": 201,
+     "granted": 21,
+     "underReview": 4,
+     "medianDaysToDecision": 86,
+     "denialRate": 0.86
+    },
+    "cdbgdr": {
+     "items": [
+      {
+       "event": "2023-24 events (P.L. 118-158), State of Texas",
+       "allocation_M": 555.687
+      },
+      {
+       "event": "Hurricane Ida & other 2021 events",
+       "allocation_M": 43.632
+      }
+     ],
+     "total_M": 599.319,
+     "source": "https://www.hud.gov/sites/dfiles/CPD/documents/CDBG-DR/CDBG-DR-Grant-History-9-1-2026.pdf",
+     "note": "HUD grant history, disasters 2020 and later; extraction summarized and not independently audited. Allocation is not expenditure."
+    },
+    "sources": [
+     "https://www.fema.gov/about/openfema/data-sets",
+     "OpenFEMA DisasterDeclarationsSummaries and FemaWebDisasterSummaries, queried 2026-11-04",
+     "User-supplied FEMA Public Assistance grant award and appeals files, 2026-11-04"
+    ],
+    "note": "Recent declarations show low or zero obligations because funds are obligated over years. HMGP obligations on recent events are early."
+   },
+   "transition": {
+    "type": "Result not determined",
+    "governor": null,
+    "headline": "Result not determined: winner not recorded. Division inside a university system (unusual) (director: W. Nim Kidd, Chief of TDEM and Vice Chancellor for Disaster and Emergency Services). EM susceptibility to change: Low to medium.",
+    "day1": [
+     "Decide whether to retain or replace the emergency management lead (low to medium susceptibility).",
+     "Confirm authority for disaster declarations and state-of-emergency orders; brief the new governor on open declarations.",
+     "Inherit 5 open major-disaster declaration(s); the oldest is DR-4781."
+    ],
+    "first100": [
+     "Name a transition lead for federal funds (FEMA, HUD, DOT, HHS) and require a full inventory of open grants and closeout dates.",
+     "Review inherited consulting and program-management contracts; identify expirations in the first 12 months.",
+     "Publish agency-by-agency priority memos and a first-100-days public scorecard."
+    ],
+    "personnel": [
+     "Chief of Staff, Budget Director and agency heads: see Cabinet tab for likely options and alternates.",
+     "Boards and commissions with expiring terms are the quiet lever for policy continuity (verify by state)."
+    ],
+    "federal": [
+     "State federal funds ≈ $56.1B (FY2024 est., NASBO); about 57% falls in the largest function (Medicaid / health, modeled).",
+     "CDBG-DR allocations since 2020 total ≈ $599M; action-plan amendments, procurement and closeout are inherited decisions.",
+     "PA appeals: 234 second appeals on record, 86% denied; documentation discipline is a recurring weakness."
+    ],
+    "em": [
+     "Insulated by the A&M structure and by long tenure; a Democratic governor would not control A&M governance directly. (Texas is not called.)"
+    ],
+    "advisoryAngles": [
+     "Transition-period assessment of EM structure, FEMA PA/HMGP readiness and open grant closeout.",
+     "Compliance and monitoring support for CDBG-DR and large PA projects (appeals avoidance)."
+    ],
+    "calendar": [
+     "Nov. 2026: certification and transition-team stand-up",
+     "Dec. 2026: cabinet and chief-of-staff announcements; outgoing budget proposals",
+     "Jan. 2027: inauguration (verify date) and first executive orders",
+     "Feb.-Mar. 2027: new budget submission (many states); first legislative decisions",
+     "Spring 2027: FEMA/HUD grant closeout deadlines and CDBG-DR action-plan amendments (verify by state)"
+    ]
+   },
+   "incumbentGovernor": "Greg Abbott",
+   "incumbentParty": "R"
+  },
+  "KS": {
+   "state": "KS",
+   "winner": null,
+   "status": "not called",
+   "em": {
+    "structure": "Division under the Adjutant General (military department)",
+    "parent": "Kansas Adjutant General's Department",
+    "director": "Brig. Gen. Michael T. Venerdi, Adjutant General, serves as KDEM director; Angee Morgan is the senior emergency management official (verify title)",
+    "since": "Venerdi: verify",
+    "appointedBy": "Governor appoints the Adjutant General",
+    "susc": "High",
+    "why": "Both the AG and the division leadership turn on the governor's pick. Kansas also has the heaviest declaration load of any state in our set (11 in three years). (Kansas is not called.)",
+    "sources": [
+     "https://budget.kansas.gov/wp-content/uploads/034-Adjutant-General-FY-2027-Narrative.pdf"
+    ]
+   },
+   "funds": {
+    "totalFY2024Est_M": 7851,
+    "source": "https://chn.org/wp-content/uploads/2025/01/NASBO-State-Expenditure-Report-2024-Fed-Funds-.pdf",
+    "mixSource": "https://higherlogicdownload.s3.amazonaws.com/NASBO/9d2d2db1-c943-4f1b-b750-0fca152d64c2/UploadedImages/SER%20Archive/2025_SER/Executive_Summary_2025_State_Expenditure_Report.pdf",
+    "basis": "State total is sourced (NASBO FY2024 estimated federal funds expenditures). The function split is MODELED: it applies the national FY2025 NASBO category shares (Medicaid 57.4%, K-12 8.5%, transportation 6.0%, higher ed 3.3%, corrections 0.3%, all other 24.5%) to the state total, and splits 'all other' with analyst-assumed shares. It is not state-reported; replace with the state's budget or ACFR federal-funds schedule.",
+    "byFunction_M": [
+     [
+      "Medicaid / health",
+      4506
+     ],
+     [
+      "Human services & public assistance",
+      808
+     ],
+     [
+      "K-12 education",
+      667
+     ],
+     [
+      "Transportation",
+      471
+     ],
+     [
+      "Economic development & workforce",
+      308
+     ],
+     [
+      "General government & other",
+      308
+     ],
+     [
+      "Higher education",
+      259
+     ],
+     [
+      "Housing & community development",
+      231
+     ],
+     [
+      "Environment & natural resources",
+      173
+     ],
+     [
+      "Public safety, EM & homeland security",
+      96
+     ],
+     [
+      "Corrections / justice",
+      24
+     ]
+    ]
+   },
+   "disasters": {
+    "window": "DR declarations dated 2023-11-01 or later (3 years to 2026-11-04)",
+    "count": 11,
+    "events": [
+     {
+      "dr": 4774,
+      "title": "Severe Winter Storm",
+      "type": "Winter Storm",
+      "date": "2024-04-28",
+      "paObligated": 13299605,
+      "hmgpObligated": 46051,
+      "ihpApproved": 0
+     },
+     {
+      "dr": 4800,
+      "title": "Severe Storms, Straight-Line Winds, Tornadoes, And Flooding",
+      "type": "Severe Storm",
+      "date": "2024-07-15",
+      "paObligated": 7695303,
+      "hmgpObligated": 225186,
+      "ihpApproved": 0
+     },
+     {
+      "dr": 4811,
+      "title": "Severe Storm, Straight-Line Winds, Tornadoes, And Flooding",
+      "type": "Severe Storm",
+      "date": "2024-08-20",
+      "paObligated": 10661552,
+      "hmgpObligated": 41508,
+      "ihpApproved": 0
+     },
+     {
+      "dr": 4824,
+      "title": "Severe Storms, Straight-Line Winds, Tornadoes, And Flooding",
+      "type": "Severe Storm",
+      "date": "2024-09-24",
+      "paObligated": 4685391,
+      "hmgpObligated": 20778,
+      "ihpApproved": 0
+     },
+     {
+      "dr": 4869,
+      "title": "Severe Winter Storm, Straight-Line Winds, Flooding, And Wildfires",
+      "type": "Severe Storm",
+      "date": "2025-05-21",
+      "paObligated": 2328589,
+      "hmgpObligated": 0,
+      "ihpApproved": 0
+     },
+     {
+      "dr": 4883,
+      "title": "Severe Storms, Straight-Line Winds, Tornadoes, And Flooding",
+      "type": "Severe Storm",
+      "date": "2025-07-22",
+      "paObligated": 2994613,
+      "hmgpObligated": 0,
+      "ihpApproved": 0
+     },
+     {
+      "dr": 4891,
+      "title": "Severe Storms, Straight-Line Winds, Tornadoes, And Flooding",
+      "type": "Severe Storm",
+      "date": "2025-09-11",
+      "paObligated": 2571728,
+      "hmgpObligated": 0,
+      "ihpApproved": 0
+     },
+     {
+      "dr": 4897,
+      "title": "Severe Storms, Straight-Line Winds, And Flooding",
+      "type": "Severe Storm",
+      "date": "2025-12-19",
+      "paObligated": 829125,
+      "hmgpObligated": 0,
+      "ihpApproved": 0
+     },
+     {
+      "dr": 4926,
+      "title": "Severe Storms, Straight-Line Winds, Tornadoes, And Flooding",
+      "type": "Severe Storm",
+      "date": "2026-06-30",
+      "paObligated": 398964,
+      "hmgpObligated": 0,
+      "ihpApproved": 0
+     },
+     {
+      "dr": 4940,
+      "title": "Severe Storms, Straight-Line Winds, Tornadoes, And Flooding",
+      "type": "Severe Storm",
+      "date": "2026-09-01",
+      "paObligated": 0,
+      "hmgpObligated": 0,
+      "ihpApproved": 0
+     },
+     {
+      "dr": 4943,
+      "title": "Severe Storms, Straight-Line Winds, Tornadoes, And Flooding",
+      "type": "Severe Storm",
+      "date": "2026-09-01",
+      "paObligated": 0,
+      "hmgpObligated": 0,
+      "ihpApproved": 0
+     }
+    ],
+    "paObligatedDeclared3yr": 45464870,
+    "hmgpObligated": 333523,
+    "ihpApproved": 0,
+    "pa5yrObligated": 100457953,
+    "paTopCategories5yr": {
+     "F - Utilities": 58031636,
+     "C - Roads and Bridges": 18205350,
+     "Z - Management Costs": 7318830,
+     "E - Buildings and Equipment": 7312607,
+     "A - Debris Removal": 5968816,
+     "D - Water Control Facilities": 1436789
+    },
+    "topPaApplicants3yr": [
+     [
+      "Midwest Energy Inc.",
+      10200943
+     ],
+     [
+      "Kansas Adjutant General's Department, Division of Emergency Management (KDEM)",
+      4021128
+     ],
+     [
+      "Topeka, City of (Shawnee County)",
+      3308113
+     ],
+     [
+      "Rolling Hills Electric Cooperative, Inc.",
+      1497305
+     ],
+     [
+      "Chase County",
+      1460391
+     ]
+    ],
+    "appeals": {
+     "total": 14,
+     "since2021": 4,
+     "denied": 8,
+     "granted": 4,
+     "underReview": 1,
+     "medianDaysToDecision": 174,
+     "denialRate": 0.57
+    },
+    "cdbgdr": {
+     "items": [],
+     "total_M": 0,
+     "source": "https://www.hud.gov/sites/dfiles/CPD/documents/CDBG-DR/CDBG-DR-Grant-History-9-1-2026.pdf",
+     "note": "HUD grant history, disasters 2020 and later; extraction summarized and not independently audited. Allocation is not expenditure."
+    },
+    "sources": [
+     "https://www.fema.gov/about/openfema/data-sets",
+     "OpenFEMA DisasterDeclarationsSummaries and FemaWebDisasterSummaries, queried 2026-11-04",
+     "User-supplied FEMA Public Assistance grant award and appeals files, 2026-11-04"
+    ],
+    "note": "Recent declarations show low or zero obligations because funds are obligated over years. HMGP obligations on recent events are early."
+   },
+   "transition": {
+    "type": "Result not determined",
+    "governor": null,
+    "headline": "Result not determined: winner not recorded. Division under the Adjutant General (military department) (director: Brig. Gen. Michael T. Venerdi, Adjutant General, serves as KDEM director; Angee Morgan is the senior emergency management official). EM susceptibility to change: High.",
+    "day1": [
+     "Decide whether to retain or replace the emergency management lead (high susceptibility).",
+     "Confirm authority for disaster declarations and state-of-emergency orders; brief the new governor on open declarations.",
+     "Inherit 11 open major-disaster declaration(s); the oldest is DR-4774."
+    ],
+    "first100": [
+     "Name a transition lead for federal funds (FEMA, HUD, DOT, HHS) and require a full inventory of open grants and closeout dates.",
+     "Review inherited consulting and program-management contracts; identify expirations in the first 12 months.",
+     "Publish agency-by-agency priority memos and a first-100-days public scorecard."
+    ],
+    "personnel": [
+     "Chief of Staff, Budget Director and agency heads: see Cabinet tab for likely options and alternates.",
+     "Boards and commissions with expiring terms are the quiet lever for policy continuity (verify by state)."
+    ],
+    "federal": [
+     "State federal funds ≈ $7.9B (FY2024 est., NASBO); about 57% falls in the largest function (Medicaid / health, modeled).",
+     "PA appeals: 14 second appeals on record, 56% denied; documentation discipline is a recurring weakness."
+    ],
+    "em": [
+     "Both the AG and the division leadership turn on the governor's pick. Kansas also has the heaviest declaration load of any state in our set (11 in three years). (Kansas is not called.)"
+    ],
+    "advisoryAngles": [
+     "Transition-period assessment of EM structure, FEMA PA/HMGP readiness and open grant closeout.",
+     "Compliance and monitoring support for CDBG-DR and large PA projects (appeals avoidance).",
+     "Support the new EM leadership with a 90-day readiness review (high-susceptibility state)."
+    ],
+    "calendar": [
+     "Nov. 2026: certification and transition-team stand-up",
+     "Dec. 2026: cabinet and chief-of-staff announcements; outgoing budget proposals",
+     "Jan. 2027: inauguration (verify date) and first executive orders",
+     "Feb.-Mar. 2027: new budget submission (many states); first legislative decisions",
+     "Spring 2027: FEMA/HUD grant closeout deadlines and CDBG-DR action-plan amendments (verify by state)"
+    ]
+   },
+   "incumbentGovernor": "Laura Kelly",
+   "incumbentParty": "D"
+  }
+ }
+}

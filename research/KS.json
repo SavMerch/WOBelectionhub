@@ -1,0 +1,836 @@
+{
+ "state": "KS",
+ "published": true,
+ "researched": "2026-11-03",
+ "note": "Scenario analyses assume each nominee wins; they are not calls or forecasts. Neither campaign has announced a transition team, chief of staff or cabinet picks in anything we found. Cabinet entries are labeled ANNOUNCED, HOLDOVER OPTION (current post-holder a new governor would keep or replace), STATED INTENT, or INFERRED (a documented role, not an announcement). Kansas does not list current secretaries for Commerce, KDOT, KDHE, Corrections, Revenue, Labor, Agriculture, DCF/KDADS or the Adjutant General in this dataset because we could not confirm current holders from sources we opened. Those roles show 'none identified'. The Kansas Education Commissioner is chosen by the elected State Board of Education, not the governor. UPDATE Nov. 3-4: AP has NOT called the Kansas governor race. Holscher content is a scenario; the user expects a Democratic hold but pre-election polls led by Masterson.",
+ "nominees": [
+  {
+   "name": "Ty Masterson",
+   "party": "R",
+   "role": "Republican nominee; Kansas Senate President",
+   "team": [
+    "Ryan Smith (Rapid Loop Consulting), general consultant; Tony Fabrizio, polling; John Brabender (BrabenderCox), media; Eric Pahls (Big Dog Strategies), adviser (Washington Examiner).",
+    "Outside groups Take Back Kansas / Take Back Kansas Action with Trump-campaign alumni (Chris Grant, David Lee, Tim Saler, Pat McCarthy)."
+   ],
+   "sources": [
+    "https://www.wibw.com/2026/06/01/republican-gubernatorial-candidate-ty-masterson-names-running-mate/",
+    "https://www.wibw.com/2025/07/21/gubernatorial-candidate-ty-masterson-shares-top-campaign-priorities/",
+    "https://www.washingtonexaminer.com/?p=3883028",
+    "https://www2.ljworld.com/news/state-government/2026/may/26/trump-endorses-kansas-senate-president-in-gop-campaign-for-governor/"
+   ],
+   "analysis": {
+    "assumption": "Scenario: assumes Ty Masterson wins the Nov. 3, 2026 general election. Not a call or forecast.",
+    "summary": "A win flips the governor's office from Democrat (Laura Kelly) to Republican, so the whole executive branch turns over, and the Senate loses its president at the same time. Expect a transition staffed from the Trump-endorsed campaign network and his Senate office. Policy lines (tax cuts, property-tax limits, results-linked school funding) are in Policy positions.",
+    "timing": "Inauguration expected Jan. 11, 2027 (second Monday in January; verify).",
+    "priorities": [
+     "Continue about $2 billion in tax cuts; rein in local property taxes through budget oversight, possibly elected county appraisers (WIBW).",
+     "Tie education spending to reading and math results (WIBW).",
+     "Economy, farmers and ranchers, public safety (Klemp, WIBW)."
+    ],
+    "firstMoves": [
+     "Name chief of staff and Budget director; Senate President Chief of Staff Jacklynn Walters is a documented insider option (inference).",
+     "Replace Kelly-era agency heads or ask them to resign and reapply; secretaries are appointed and need Senate confirmation (verify).",
+     "Prepare a tax and property-tax bill for the opening session.",
+     "Manage the Senate leadership vacancy: Masterson and running mate Jeff Klemp are both state senators (vacancy rules: verify)."
+    ],
+    "risks": [
+     "Senate leadership election decides how smoothly the agenda moves.",
+     "Total executive turnover on a short clock; a 2019 headline suggests Kelly filled her team before inauguration, a usable precedent (not opened)."
+    ],
+    "pollContext": "Last 270toWin average we hold: Masterson 49.5, Holscher 43.8 (Oct. 6).",
+    "confidence": "low-medium",
+    "researched": "2026-11-03",
+    "sources": [
+     "https://www.wibw.com/2026/06/01/republican-gubernatorial-candidate-ty-masterson-names-running-mate/",
+     "https://www.wibw.com/2025/07/21/gubernatorial-candidate-ty-masterson-shares-top-campaign-priorities/",
+     "https://www2.ljworld.com/news/state-government/2019/jan/09/new-kansas-governor-fills-out-administration-ahead-of-inauguration/",
+     "https://www.270towin.com/2026-governor-polls/kansas",
+     "https://www.hppr.org/hppr-news/2026-10-05/democrat-cindy-holschers-campaign-for-kansas-governor-highlights-distinctions-from-gop-rival"
+    ]
+   },
+   "positions": [
+    {
+     "topic": "Taxes",
+     "stance": "Continue about $2 billion in tax cuts; opposes the 2017 bill that ended the Brownback tax strategy; sought a constitutional amendment capping property valuation increases.",
+     "sources": [
+      "https://www.wibw.com/2025/07/21/gubernatorial-candidate-ty-masterson-shares-top-campaign-priorities/",
+      "https://www.hppr.org/hppr-news/2026-10-05/democrat-cindy-holschers-campaign-for-kansas-governor-highlights-distinctions-from-gop-rival"
+     ]
+    },
+    {
+     "topic": "Property taxes / local government",
+     "stance": "Rein in local property taxes through budget oversight, possibly elected county appraisers.",
+     "sources": [
+      "https://www.wibw.com/2025/07/21/gubernatorial-candidate-ty-masterson-shares-top-campaign-priorities/"
+     ]
+    },
+    {
+     "topic": "Education",
+     "stance": "Tie education spending to reading and math results.",
+     "sources": [
+      "https://www.wibw.com/2025/07/21/gubernatorial-candidate-ty-masterson-shares-top-campaign-priorities/"
+     ]
+    },
+    {
+     "topic": "Abortion, Medicaid expansion, marijuana",
+     "stance": "Rejects abortion rights, Medicaid expansion and marijuana legalization (per Holscher-campaign coverage of the contrast).",
+     "sources": [
+      "https://www.hppr.org/hppr-news/2026-10-05/democrat-cindy-holschers-campaign-for-kansas-governor-highlights-distinctions-from-gop-rival"
+     ]
+    },
+    {
+     "topic": "Economy and public safety",
+     "stance": "Names the economy, farmers and ranchers and public safety as priorities (via running mate Klemp).",
+     "sources": [
+      "https://www.wibw.com/2026/06/01/republican-gubernatorial-candidate-ty-masterson-names-running-mate/"
+     ]
+    },
+    {
+     "topic": "Stadium deal",
+     "stance": "Helped negotiate the Chiefs stadium deal.",
+     "sources": [
+      "https://www.hppr.org/hppr-news/2026-10-05/democrat-cindy-holschers-campaign-for-kansas-governor-highlights-distinctions-from-gop-rival"
+     ]
+    }
+   ],
+   "insights": [
+    "Total executive turnover: Kansas flips party control of the governor's office, so nearly every agency head is a decision point. Masterson's Senate staff and campaign network are the likeliest talent pool (inference).",
+    "A tax-cut-first, property-tax-oversight agenda points to early Revenue, Budget and Administration appointments. Local governments facing a valuation cap would have less capacity for federal cost-share.",
+    "Leaving the Senate presidency creates a leadership vacancy at the moment the agenda needs Senate votes, so Senate leadership selection is part of the transition.",
+    "Rejection of Medicaid expansion keeps KDHE/KanCare policy on its current course; Human Services roles would be a continuity-or-reset choice."
+   ],
+   "cabinet": {
+    "Lieutenant Governor (running mate)": [
+     {
+      "name": "Jeff Klemp",
+      "currentPosition": "Kansas state senator (Leavenworth County); businessman",
+      "status": "ANNOUNCED running mate (June 1, 2026)",
+      "kind": "announced",
+      "confidence": "high",
+      "lastResearched": "2026-11-03",
+      "sources": [
+       "https://www.wibw.com/2026/06/01/republican-gubernatorial-candidate-ty-masterson-names-running-mate/"
+      ]
+     }
+    ],
+    "Chief of Staff": [
+     {
+      "name": "Jacklynn Walters",
+      "currentPosition": "Chief of Staff, Kansas Senate President's office",
+      "status": "INFERRED from her role in Masterson's office; no administration role announced",
+      "kind": "inferred",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": [
+       "https://kclyradio.com/?p=156219"
+      ]
+     },
+     {
+      "name": "Senior adviser from the campaign or transition team (political operator)",
+      "currentPosition": "Profile, no specific person",
+      "why": "Plausible KS chief of staff profile; no named candidate identified.",
+      "status": "Analyst projection",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-04",
+      "sources": []
+     },
+     {
+      "name": "Operations-focused chief from the prior or allied governor's office (state-government veteran)",
+      "currentPosition": "Profile, no specific person",
+      "why": "Plausible KS chief of staff profile; no named candidate identified.",
+      "status": "Analyst projection",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-04",
+      "sources": []
+     }
+    ],
+    "Political / campaign leadership": [
+     {
+      "name": "Ryan Smith (Rapid Loop Consulting)",
+      "currentPosition": "General consultant, Masterson campaign",
+      "status": "INFERRED from campaign role",
+      "kind": "inferred",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": [
+       "https://www.washingtonexaminer.com/?p=3883028"
+      ]
+     },
+     {
+      "name": "Tony Fabrizio",
+      "currentPosition": "Pollster, Masterson campaign",
+      "status": "INFERRED from campaign role",
+      "kind": "inferred",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": [
+       "https://www.washingtonexaminer.com/?p=3883028"
+      ]
+     }
+    ],
+    "Education": [
+     {
+      "name": "Jake Steel",
+      "currentPosition": "Kansas Education Commissioner (named Apr. 14, 2026 by the State Board; starts June/July 2026)",
+      "status": "HOLDOVER: chosen by the elected State Board, not the governor",
+      "kind": "holdover",
+      "confidence": "medium",
+      "lastResearched": "2026-11-03",
+      "sources": [
+       "https://www.hppr.org/2026-04-14/kansas-boe-names-jake-steel-as-states-next-education-commissioner"
+      ]
+     },
+     {
+      "name": "Large-district superintendent (operator)",
+      "currentPosition": "Profile, no specific person",
+      "why": "Plausible KS education profile; no named candidate identified.",
+      "status": "Analyst projection",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-04",
+      "sources": []
+     },
+     {
+      "name": "State higher-education or board leader (policy pick)",
+      "currentPosition": "Profile, no specific person",
+      "why": "Plausible KS education profile; no named candidate identified.",
+      "status": "Analyst projection",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-04",
+      "sources": []
+     }
+    ],
+    "Administration": [
+     {
+      "name": "Adam Proffitt",
+      "currentPosition": "Secretary of Administration (Kelly appointee since 2023)",
+      "status": "HOLDOVER OPTION: Kelly-era appointee; would likely be replaced after a party change (inference). Holder not re-verified for 2026",
+      "kind": "holdover",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": [
+       "https://kansasreflector.com/briefs/kansas-gov-laura-kelly-picks-budget-director-to-lead-department-of-administration1/"
+      ]
+     }
+    ],
+    "Budget Director": [
+     {
+      "name": "Deputy budget director (career promotion)",
+      "currentPosition": "Profile, no specific person",
+      "why": "Plausible KS budget director profile; no named candidate identified.",
+      "status": "Analyst projection",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-04",
+      "sources": []
+     },
+     {
+      "name": "Legislative fiscal director (builds legislative trust)",
+      "currentPosition": "Profile, no specific person",
+      "why": "Plausible KS budget director profile; no named candidate identified.",
+      "status": "Analyst projection",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-04",
+      "sources": []
+     }
+    ],
+    "Health": [
+     {
+      "name": "Current agency chief deputy or chief medical officer (continuity pick)",
+      "currentPosition": "Profile, no specific person",
+      "why": "Plausible KS health profile; no named candidate identified.",
+      "status": "Analyst projection",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-04",
+      "sources": []
+     },
+     {
+      "name": "Former Medicaid director or hospital-system executive (policy pick)",
+      "currentPosition": "Profile, no specific person",
+      "why": "Plausible KS health profile; no named candidate identified.",
+      "status": "Analyst projection",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-04",
+      "sources": []
+     }
+    ],
+    "Human Services": [
+     {
+      "name": "Deputy secretary for programs (career promotion)",
+      "currentPosition": "Profile, no specific person",
+      "why": "Plausible KS human services profile; no named candidate identified.",
+      "status": "Analyst projection",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-04",
+      "sources": []
+     },
+     {
+      "name": "County human-services director (local operator)",
+      "currentPosition": "Profile, no specific person",
+      "why": "Plausible KS human services profile; no named candidate identified.",
+      "status": "Analyst projection",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-04",
+      "sources": []
+     }
+    ],
+    "Transportation": [
+     {
+      "name": "Chief engineer or deputy secretary (career successor)",
+      "currentPosition": "Profile, no specific person",
+      "why": "Plausible KS transportation profile; no named candidate identified.",
+      "status": "Analyst projection",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-04",
+      "sources": []
+     },
+     {
+      "name": "Former metro or county transit executive (policy pick)",
+      "currentPosition": "Profile, no specific person",
+      "why": "Plausible KS transportation profile; no named candidate identified.",
+      "status": "Analyst projection",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-04",
+      "sources": []
+     }
+    ],
+    "Commerce / Economic Development": [
+     {
+      "name": "Regional economic-development agency head (operator)",
+      "currentPosition": "Profile, no specific person",
+      "why": "Plausible KS commerce / economic development profile; no named candidate identified.",
+      "status": "Analyst projection",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-04",
+      "sources": []
+     },
+     {
+      "name": "Business or chamber executive (industry-facing pick)",
+      "currentPosition": "Profile, no specific person",
+      "why": "Plausible KS commerce / economic development profile; no named candidate identified.",
+      "status": "Analyst projection",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-04",
+      "sources": []
+     }
+    ],
+    "Emergency Management": [
+     {
+      "name": "Deputy director or operations chief (career successor)",
+      "currentPosition": "Profile, no specific person",
+      "why": "Most likely path when the governor, party or department structure changes: Both the AG and the division leadership turn on the governor's pick. Kansas also has the heaviest declaration load of any state in our set (11 in three years). (Kansas is not called.)",
+      "status": "Analyst projection",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-04",
+      "sources": []
+     },
+     {
+      "name": "Retain current leadership: Brig. Gen. Michael T. Venerdi",
+      "currentPosition": "Kansas Adjutant General's Department",
+      "why": "Keeping the incumbent is the alternative to a reset: Both the AG and the division leadership turn on the governor's pick. Kansas also has the heaviest declaration load of any state in our set (11 in three years). (Kansas is not called.)",
+      "status": "Analyst projection",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-04",
+      "sources": [
+       "https://budget.kansas.gov/wp-content/uploads/034-Adjutant-General-FY-2027-Narrative.pdf"
+      ]
+     },
+     {
+      "name": "County emergency manager or former Guard official (local credibility)",
+      "currentPosition": "Profile, no specific person",
+      "why": "Plausible KS emergency management profile; no named candidate identified.",
+      "status": "Analyst projection",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-04",
+      "sources": []
+     }
+    ]
+   }
+  },
+  {
+   "name": "Cindy Holscher",
+   "party": "D",
+   "role": "Democratic nominee; Kansas state senator (Johnson County)",
+   "team": [
+    "Running mate: KC Ohaebosim, Wichita state representative (HPPR).",
+    "No campaign manager, pollster or transition lead named in the sources we opened."
+   ],
+   "sources": [
+    "https://cindyforkansas.com/priorities/",
+    "https://www.270towin.com/2026-governor-polls/kansas",
+    "https://www.hppr.org/hppr-news/2026-05-15/democratic-ticket-in-kansas-governors-race-pairs-legislators-from-johnson-sedgwick-counties",
+    "https://www.hppr.org/hppr-news/2026-10-05/democrat-cindy-holschers-campaign-for-kansas-governor-highlights-distinctions-from-gop-rival",
+    "https://www.hppr.org/hppr-news/2026-10-29/lack-of-major-property-tax-relief-in-kansas-prompts-finger-pointing-in-governors-race"
+   ],
+   "positions": [
+    {
+     "topic": "Education",
+     "stance": "Supports fully funding K-12 special education, arguing shortfalls push local districts to raise property taxes; opposes Masterson's approach to public schools.",
+     "sources": [
+      "https://www.hppr.org/hppr-news/2026-10-05/democrat-cindy-holschers-campaign-for-kansas-governor-highlights-distinctions-from-gop-rival"
+     ]
+    },
+    {
+     "topic": "Taxes",
+     "stance": "Helped build the coalition that repealed the 2012 Brownback income-tax cuts; wants to limit property-tax exemptions and economic-development deals that shift the burden to homeowners; calls Masterson's property-tax bills gimmicks.",
+     "sources": [
+      "https://www.hppr.org/hppr-news/2026-10-05/democrat-cindy-holschers-campaign-for-kansas-governor-highlights-distinctions-from-gop-rival"
+     ]
+    },
+    {
+     "topic": "Health care / abortion",
+     "stance": "Supports Medicaid expansion and abortion rights; opposed the 2022 abortion amendment.",
+     "sources": [
+      "https://www.hppr.org/hppr-news/2026-10-05/democrat-cindy-holschers-campaign-for-kansas-governor-highlights-distinctions-from-gop-rival"
+     ]
+    },
+    {
+     "topic": "Marijuana, courts",
+     "stance": "Supports legalizing marijuana; opposed the August amendment to elect Kansas Supreme Court justices (voters rejected it).",
+     "sources": [
+      "https://www.hppr.org/hppr-news/2026-10-05/democrat-cindy-holschers-campaign-for-kansas-governor-highlights-distinctions-from-gop-rival"
+     ]
+    },
+    {
+     "topic": "Stadium deal",
+     "stance": "Opposed the final Chiefs stadium deal as too generous to team owners.",
+     "sources": [
+      "https://www.hppr.org/hppr-news/2026-10-05/democrat-cindy-holschers-campaign-for-kansas-governor-highlights-distinctions-from-gop-rival"
+     ]
+    },
+    {
+     "topic": "Stated priorities",
+     "stance": "Public education, healthcare access and economic affordability; lowering costs for working people.",
+     "sources": [
+      "https://www.hppr.org/hppr-news/2026-05-15/democratic-ticket-in-kansas-governors-race-pairs-legislators-from-johnson-sedgwick-counties"
+     ]
+    },
+    {
+     "topic": "Property tax",
+     "stance": "Lower the home assessment rate from 11.5% to 9%; restrict tax breaks for wealthy business owners while keeping senior and disabled-veteran exemptions; fully fund special education to ease local pressure.",
+     "sources": [
+      "https://www.hppr.org/hppr-news/2026-10-29/lack-of-major-property-tax-relief-in-kansas-prompts-finger-pointing-in-governors-race"
+     ]
+    },
+    {
+     "topic": "Cannabis, data centers, corporate deals",
+     "stance": "Supports recreational and medical cannabis; supports pausing new data center approvals until guardrails exist; wants to end sweetheart corporate deals.",
+     "sources": [
+      "https://cindyforkansas.com/priorities/"
+     ]
+    },
+    {
+     "topic": "Taxes",
+     "stance": "Has fought to end the sales tax on food and the income tax on Social Security benefits.",
+     "sources": [
+      "https://cindyforkansas.com/priorities/"
+     ]
+    },
+    {
+     "topic": "Education",
+     "stance": "Says she helped secure $500 million in new school funding and blocked voucher expansion.",
+     "sources": [
+      "https://cindyforkansas.com/priorities/"
+     ]
+    }
+   ],
+   "insights": [
+    "Medicaid expansion is the largest policy lever and the one most dependent on the Legislature; expect Human Services/Health leadership to be an early, high-visibility pick (inference).",
+    "A governor from the same party as the outgoing Kelly administration would face a continuity transition: many Kelly appointees could remain, with the key questions being who stays and who leaves for the ticket's own network.",
+    "Special-education funding and property-tax burden shift tie education finance to local-government fiscal capacity, which matters for federal cost-share readiness.",
+    "Running mate Ohaebosim (Wichita) pairs Johnson County and Sedgwick County bases; legislative relationships with Republican leaders are the main execution risk."
+   ],
+   "cabinet": {
+    "Lieutenant Governor (running mate)": [
+     {
+      "name": "KC Ohaebosim",
+      "currentPosition": "Wichita state representative (D)",
+      "status": "ANNOUNCED running mate (May 2026)",
+      "kind": "announced",
+      "confidence": "high",
+      "lastResearched": "2026-11-03",
+      "sources": [
+       "https://www.hppr.org/hppr-news/2026-05-15/democratic-ticket-in-kansas-governors-race-pairs-legislators-from-johnson-sedgwick-counties"
+      ]
+     }
+    ],
+    "Education": [
+     {
+      "name": "Jake Steel",
+      "currentPosition": "Kansas Education Commissioner (starts June/July 2026)",
+      "status": "HOLDOVER: chosen by the elected State Board, not the governor",
+      "kind": "holdover",
+      "confidence": "medium",
+      "lastResearched": "2026-11-03",
+      "sources": [
+       "https://www.hppr.org/2026-04-14/kansas-boe-names-jake-steel-as-states-next-education-commissioner"
+      ]
+     },
+     {
+      "name": "Large-district superintendent (operator)",
+      "currentPosition": "Profile, no specific person",
+      "why": "Plausible KS education profile; no named candidate identified.",
+      "status": "Analyst projection",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-04",
+      "sources": []
+     },
+     {
+      "name": "State higher-education or board leader (policy pick)",
+      "currentPosition": "Profile, no specific person",
+      "why": "Plausible KS education profile; no named candidate identified.",
+      "status": "Analyst projection",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-04",
+      "sources": []
+     }
+    ],
+    "Administration": [
+     {
+      "name": "Adam Proffitt",
+      "currentPosition": "Secretary of Administration (Kelly appointee since 2023)",
+      "status": "HOLDOVER OPTION: same-party continuity possible; no Holscher statement found. Holder not re-verified for 2026",
+      "kind": "holdover",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": [
+       "https://kansasreflector.com/briefs/kansas-gov-laura-kelly-picks-budget-director-to-lead-department-of-administration1/"
+      ]
+     }
+    ],
+    "Chief of Staff": [
+     {
+      "name": "Kelly administration senior staffer",
+      "currentPosition": "Senior aide to Gov. Laura Kelly (unnamed; verify)",
+      "why": "Continuity from the Kelly office would smooth a Democrat-to-Democrat handover (inference).",
+      "status": "Continuity from the Kelly office would smooth a Democrat-to-Democrat handover (inference).",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": []
+     },
+     {
+      "name": "Legislative aide to Holscher",
+      "currentPosition": "Senate staff (unnamed)",
+      "why": "Legislative relations will matter with GOP supermajorities.",
+      "status": "Legislative relations will matter with GOP supermajorities.",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": []
+     },
+     {
+      "name": "Johnson County political ally",
+      "currentPosition": "Local Democratic operative (unnamed)",
+      "why": "Ticket-adjacent profile (inference).",
+      "status": "Ticket-adjacent profile (inference).",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": []
+     }
+    ],
+    "Budget Director": [
+     {
+      "name": "Adam Proffitt",
+      "currentPosition": "Director of the Budget, State of Kansas",
+      "why": "Current holder as I last knew it (verify). Continuity or reset decision for the new governor.",
+      "status": "Current holder as I last knew it (verify). Continuity or reset decision for the new governor.",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": []
+     },
+     {
+      "name": "Kansas Legislative Research staffer",
+      "currentPosition": "Fiscal analyst (unnamed)",
+      "why": "Fiscal expertise needed for property-tax and special-education costing.",
+      "status": "Fiscal expertise needed for property-tax and special-education costing.",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": []
+     },
+     {
+      "name": "Deputy budget director (career promotion)",
+      "currentPosition": "Profile, no specific person",
+      "why": "Plausible KS budget director profile; no named candidate identified.",
+      "status": "Analyst projection",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-04",
+      "sources": []
+     }
+    ],
+    "Health": [
+     {
+      "name": "Janet Stanek",
+      "currentPosition": "Secretary, Kansas Department of Health and Environment",
+      "why": "Current holder as I last knew it (verify). Continuity or reset decision for the new governor.",
+      "status": "Current holder as I last knew it (verify). Continuity or reset decision for the new governor.",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": []
+     },
+     {
+      "name": "Medicaid director under Kelly",
+      "currentPosition": "KDHE/KanCare official (unnamed)",
+      "why": "Medicaid expansion needs KanCare expertise.",
+      "status": "Medicaid expansion needs KanCare expertise.",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": []
+     },
+     {
+      "name": "Current agency chief deputy or chief medical officer (continuity pick)",
+      "currentPosition": "Profile, no specific person",
+      "why": "Plausible KS health profile; no named candidate identified.",
+      "status": "Analyst projection",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-04",
+      "sources": []
+     }
+    ],
+    "Transportation": [
+     {
+      "name": "Calvin Reed",
+      "currentPosition": "Secretary of Transportation (KDOT)",
+      "why": "Current holder as I last knew it (verify). Continuity or reset decision for the new governor.",
+      "status": "Current holder as I last knew it (verify). Continuity or reset decision for the new governor.",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": []
+     },
+     {
+      "name": "Chief engineer or deputy secretary (career successor)",
+      "currentPosition": "Profile, no specific person",
+      "why": "Plausible KS transportation profile; no named candidate identified.",
+      "status": "Analyst projection",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-04",
+      "sources": []
+     },
+     {
+      "name": "Former metro or county transit executive (policy pick)",
+      "currentPosition": "Profile, no specific person",
+      "why": "Plausible KS transportation profile; no named candidate identified.",
+      "status": "Analyst projection",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-04",
+      "sources": []
+     }
+    ],
+    "Emergency Management": [
+     {
+      "name": "Deputy director or operations chief (career successor)",
+      "currentPosition": "Profile, no specific person",
+      "why": "Most likely path when the governor, party or department structure changes: Both the AG and the division leadership turn on the governor's pick. Kansas also has the heaviest declaration load of any state in our set (11 in three years). (Kansas is not called.)",
+      "status": "Analyst projection",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-04",
+      "sources": []
+     },
+     {
+      "name": "Retain current leadership: Brig. Gen. Michael T. Venerdi",
+      "currentPosition": "Kansas Adjutant General's Department",
+      "why": "Keeping the incumbent is the alternative to a reset: Both the AG and the division leadership turn on the governor's pick. Kansas also has the heaviest declaration load of any state in our set (11 in three years). (Kansas is not called.)",
+      "status": "Analyst projection",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-04",
+      "sources": [
+       "https://budget.kansas.gov/wp-content/uploads/034-Adjutant-General-FY-2027-Narrative.pdf"
+      ]
+     },
+     {
+      "name": "Angee Morgan",
+      "currentPosition": "Director, Kansas Division of Emergency Management",
+      "why": "Current holder as I last knew it (verify). Continuity or reset decision for the new governor.",
+      "status": "Current holder as I last knew it (verify). Continuity or reset decision for the new governor.",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": []
+     }
+    ],
+    "Human Services": [
+     {
+      "name": "Deputy secretary for programs (career promotion)",
+      "currentPosition": "Profile, no specific person",
+      "why": "Plausible KS human services profile; no named candidate identified.",
+      "status": "Analyst projection",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-04",
+      "sources": []
+     },
+     {
+      "name": "County human-services director (local operator)",
+      "currentPosition": "Profile, no specific person",
+      "why": "Plausible KS human services profile; no named candidate identified.",
+      "status": "Analyst projection",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-04",
+      "sources": []
+     }
+    ],
+    "Commerce / Economic Development": [
+     {
+      "name": "Regional economic-development agency head (operator)",
+      "currentPosition": "Profile, no specific person",
+      "why": "Plausible KS commerce / economic development profile; no named candidate identified.",
+      "status": "Analyst projection",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-04",
+      "sources": []
+     },
+     {
+      "name": "Business or chamber executive (industry-facing pick)",
+      "currentPosition": "Profile, no specific person",
+      "why": "Plausible KS commerce / economic development profile; no named candidate identified.",
+      "status": "Analyst projection",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-04",
+      "sources": []
+     }
+    ]
+   },
+   "analysis": {
+    "assumption": "Scenario: assumes Cindy Holscher wins the Nov. 3, 2026 general election. Not a call or forecast.",
+    "summary": "A Holscher win would keep the governor's office in Democratic hands after Laura Kelly, so this is a continuity-with-reset transition rather than a total turnover. The main questions are which Kelly appointees stay, how quickly she builds her own team, and how she gets Medicaid expansion and school-funding changes past a Republican Legislature.",
+    "timing": "Inauguration expected Jan. 11, 2027 (second Monday in January; verify).",
+    "priorities": [
+     "Medicaid expansion (HPPR).",
+     "Fully fund K-12 special education; limit property-tax exemptions and development deals that shift the burden to homeowners (HPPR).",
+     "Public education, healthcare access, economic affordability (HPPR).",
+     "Marijuana legalization and abortion rights (HPPR)."
+    ],
+    "firstMoves": [
+     "Name a chief of staff and budget director (none identified; analyst inference).",
+     "Decide which Kelly appointees to keep; secretaries need Senate confirmation (verify).",
+     "Build legislative relationships with Republican leaders for Medicaid expansion and school finance.",
+     "Fill the lieutenant governor's portfolio with Ohaebosim (role content not announced)."
+    ],
+    "risks": [
+     "Republican Legislature can block most of the agenda.",
+     "No announced transition structure or senior staff found.",
+     "Her Senate seat and Ohaebosim's House seat would need successors (vacancy rules: verify)."
+    ],
+    "pollContext": "Last 270toWin average we hold: Masterson 49.5, Holscher 43.8 (Oct. 6).",
+    "confidence": "low",
+    "researched": "2026-11-03",
+    "sources": [
+     "https://www.hppr.org/hppr-news/2026-10-05/democrat-cindy-holschers-campaign-for-kansas-governor-highlights-distinctions-from-gop-rival",
+     "https://www.hppr.org/hppr-news/2026-05-15/democratic-ticket-in-kansas-governors-race-pairs-legislators-from-johnson-sedgwick-counties",
+     "https://www.270towin.com/2026-governor-polls/kansas"
+    ]
+   },
+   "policyShifts": [
+    {
+     "area": "Medicaid",
+     "shift": "Expansion would be a major change after years of vetoed or blocked bills; needs legislative passage or a ballot route.",
+     "lever": "legislative",
+     "sources": [
+      "https://www.hppr.org/hppr-news/2026-10-05/democrat-cindy-holschers-campaign-for-kansas-governor-highlights-distinctions-from-gop-rival",
+      "https://cindyforkansas.com/priorities/"
+     ]
+    },
+    {
+     "area": "Property tax and school finance",
+     "shift": "Cutting the assessment rate to 9% and fully funding special education moves costs from local property taxes to the state budget, with state revenue effects to be modeled.",
+     "lever": "legislative (budget)",
+     "sources": [
+      "https://www.hppr.org/hppr-news/2026-10-29/lack-of-major-property-tax-relief-in-kansas-prompts-finger-pointing-in-governors-race",
+      "https://www.hppr.org/hppr-news/2026-10-05/democrat-cindy-holschers-campaign-for-kansas-governor-highlights-distinctions-from-gop-rival"
+     ]
+    },
+    {
+     "area": "Cannabis",
+     "shift": "Medical and recreational legalization would set up a new state regulatory and revenue structure.",
+     "lever": "legislative",
+     "sources": [
+      "https://cindyforkansas.com/priorities/",
+      "https://www.hppr.org/hppr-news/2026-10-05/democrat-cindy-holschers-campaign-for-kansas-governor-highlights-distinctions-from-gop-rival"
+     ]
+    },
+    {
+     "area": "Economic development",
+     "shift": "Ending sweetheart deals and pausing data-center approvals tightens incentive practice and affects pipeline projects and STAR-type bond deals.",
+     "lever": "mixed",
+     "sources": [
+      "https://cindyforkansas.com/priorities/",
+      "https://www.hppr.org/hppr-news/2026-10-05/democrat-cindy-holschers-campaign-for-kansas-governor-highlights-distinctions-from-gop-rival"
+     ]
+    }
+   ],
+   "impediments": [
+    {
+     "title": "Republican supermajorities",
+     "detail": "Republicans hold two-thirds majorities in both chambers, enough to override vetoes; Holscher's agenda depends on a few GOP votes.",
+     "severity": "high",
+     "sources": [
+      "https://www.hppr.org/hppr-news/2026-10-05/democrat-cindy-holschers-campaign-for-kansas-governor-highlights-distinctions-from-gop-rival",
+      "https://www.hppr.org/hppr-news/2026-10-29/lack-of-major-property-tax-relief-in-kansas-prompts-finger-pointing-in-governors-race"
+     ]
+    },
+    {
+     "title": "Property tax competition",
+     "detail": "House and Senate leaders blocked each other's 2026 property tax bills; Masterson pushes a 3% valuation-cap constitutional amendment that Democrats call a gimmick.",
+     "severity": "high",
+     "sources": [
+      "https://www.hppr.org/hppr-news/2026-10-29/lack-of-major-property-tax-relief-in-kansas-prompts-finger-pointing-in-governors-race"
+     ]
+    },
+    {
+     "title": "Cost of her own proposals",
+     "detail": "Lowering the assessment rate and fully funding special education carry state budget costs; none were quantified in the sources found.",
+     "severity": "medium",
+     "sources": [
+      "https://www.hppr.org/hppr-news/2026-10-29/lack-of-major-property-tax-relief-in-kansas-prompts-finger-pointing-in-governors-race",
+      "https://www.hppr.org/hppr-news/2026-10-05/democrat-cindy-holschers-campaign-for-kansas-governor-highlights-distinctions-from-gop-rival"
+     ]
+    },
+    {
+     "title": "Local government resistance",
+     "detail": "Cities and counties depend on property tax for most operating revenue and resist state changes.",
+     "severity": "medium",
+     "sources": [
+      "https://www.hppr.org/hppr-news/2026-10-29/lack-of-major-property-tax-relief-in-kansas-prompts-finger-pointing-in-governors-race"
+     ]
+    }
+   ]
+  }
+ ],
+ "apStatus": {
+  "called": false,
+  "asOf": "2026-11-04T04:34:00Z",
+  "note": "AP lookup reports the Kansas governor race NOT called as of Nov. 4, 2026 04:34 UTC. Pre-election polling led by Ty Masterson (R). The Holscher analysis is a scenario only; the user expects a Democratic hold, which is not confirmed."
+ }
+}

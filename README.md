@@ -1,0 +1,100 @@
+# Witt O’Brien’s | 2026 Election & Transition Intelligence Hub
+
+Static site + scheduled Netlify Functions + Netlify Blobs. No database, no paid feeds.
+
+## Deploy (replace the repo contents with this package)
+1. In GitHub, replace everything in the repo root with the contents of this zip (drag the extracted files, not the folder).
+2. Netlify: Base directory empty. Build command `node scripts/build.mjs`, publish `dist`, functions `netlify/functions` (already in `netlify.toml`).
+3. Environment variables: `REFRESH_TOKEN` (any long random string; protects /api/refresh and /api/probe). Nothing else is required.
+4. After deploy, check Functions list shows `refresh-fast`, `refresh-hourly`, `refresh-daily`, `data`, `election-results`, `probe`, `refresh-now`.
+
+## What runs by default
+All verified adapters are ON. Set `ENABLE_<ID>=0` to switch one off.
+| ID | Source | Covers |
+|---|---|---|
+| OA | Open America (free, no key, CORS *) | Governor: AR AZ CO CT FL GA IA ID MI MN PA RI SC TX VT. Senate/House endpoints are polled too; their per-race shapes were empty when checked, so only state / state-district keys are accepted |
+| CA | California SOS | Governor |
+| OH | Ohio SOS JSON | Governor, Senate, House |
+| NV | Nevada SOS JSON | Governor, House |
+| NM | New Mexico SOS CSV | Governor, Senate, House |
+| SD | South Dakota SOS CSV | Governor, Senate, House |
+| NE | Nebraska SOS CSV | Governor, Senate, House |
+| HI | Hawaii text file | Off until `HI_RESULTS_URL` is set to the general-election summary.txt link |
+
+civicAPI was checked: it only serves single races by numeric ID (`/v2/race/{id}`), with no state/office listing found, so it is not integrated.
+Not covered by any adapter: see `COVERAGE.md` (AL AK IL KS ME MD MA NH NY OK OR TN WI WY VI GU MP). Those use manual sourced calls in `data/calls.json`.
+
+## Schedule (UTC; code gates by phase)
+- refresh-fast `*/5 * * * *`: election night 2026-11-03 22:00Z to 11-05 11:00Z
+- refresh-hourly `0 * * * *`: counting until 11-12
+- refresh-daily `0 11 * * *`: pre-election and certification
+The page re-reads `/api/data` every 60 s. Manual refresh: `/api/refresh?token=REFRESH_TOKEN`.
+
+## Endpoints
+- `/api/data` raw cache. `/api/election-results?state=OH&office=Governor&race=2026-OH-GOVERNOR` normalized, with per-jurisdiction availability and stale flag.
+- `/api/probe?token=...[&state=NV]` source-discovery probe from Netlify's network (reports only, never marks verified).
+
+## Rules the code enforces
+Leaders are never labeled winners. `projected`/`certified` come only from sourced entries in `data/calls.json`. Reporting % is shown only if the source publishes it. A failed source keeps its last good data and is flagged stale. Adapters reject unrecognized shapes instead of guessing.
+
+## Tests
+`npm test` (offline; fixtures copied from observed feeds).
+
+## Not verified
+No adapter has seen real votes. Netlify scheduling in production and browser rendering of the new branding were not checked. Terms of use and rate limits of the state feeds were not checked.
+
+## Cabinet / Policy / Scenarios research and "Conduct analysis"
+
+- `research/FL.json` and `research/KS.json` now hold, per nominee: `positions[]`, `insights[]`, `cabinet{role:[prospects]}` and a scenario `analysis`. The Cabinet, Policy and Scenarios tabs have an R/D candidate toggle. Every position and prospect needs an https source (enforced by tests). Prospects are labeled ANNOUNCED, HOLDOVER OPTION, STATED INTENT or INFERRED; roles without a sourced name show "None identified".
+- **Conduct analysis** button (per tab, per candidate) calls `/api/analyze`, which starts `analyze-background` (Anthropic Messages API + web search) and stores the result in Blobs. Results are shown in a separate "AI-generated" panel; items whose sources were not returned by the search are dropped.
+- Env vars to enable it: `ANTHROPIC_API_KEY` (required; without it the button reports "not configured"), `ANALYZE_TOKEN` (optional; falls back to `REFRESH_TOKEN`; the page asks for it once per browser session), `ANALYZE_DAILY_MAX` (default 20 runs/day), `ANALYZE_MODEL` (default `claude-sonnet-5-5`), `ANALYZE_SEARCH_TOOL` (default `web_search_20250305`). Each run consumes API credits; results are cached 6 hours.
+- Not yet exercised against the live Anthropic API or on Netlify (unit-tested with mocked responses only). Check the first run in Netlify's function logs.
+
+## Refresh projections and AP calls
+
+- **Refresh projections** (top of the page) runs every enabled state feed and re-applies sourced calls. It asks for `REFRESH_TOKEN` once per browser session.
+- **Enter AP call** saves a call (state, office, winner, party, projected/certified) with a required https `apnews.com` source URL to `/api/calls`. Calls are stored in Blobs, shown as "AP (entered by analyst)", and applied on every refresh. Races with no state feed show the call only, without vote counts.
+- The tool does not generate its own projections. AP's results pages are not read automatically (the pages are not a licensed feed, and this environment cannot reach them). For automated AP data you would need AP's Elections API under a license.
+
+### Troubleshooting Conduct analysis
+- Open `https://YOUR-SITE/api/analyze?diag=1&token=YOUR_TOKEN`. It makes one tiny web-search call and returns the exact Anthropic status or error (key missing, model name, web search not enabled for the organization, no credits).
+- Web search must be enabled for your organization in the Anthropic Console (Settings > Privacy/Features). Without it every run fails with an API error.
+- Each result panel shows run details (searches, tokens, source URLs seen, whether the output parsed).
+
+### Sourced snapshots (`data/manual-results.json`)
+Point-in-time copies of official election-office documents, merged on every refresh with their own `sourceUpdated` time. Currently: U.S. Virgin Islands Governor from the Territorial Summary PDF (report dated 11/03/2026 9:00 PM). To update, replace the candidate totals and `sourceUpdated` with the newer report and commit. Disable with `ENABLE_MANUAL=0`.
+
+### Transition scoring
+- **Analyze (quick assessment):** one fast model call with no web search (cost is a fraction of a cent to a few cents). Scores all five components with a rationale and confidence; labeled model judgment, unsourced.
+- **Conduct analysis:** the sourced, web-search version for legislative friction, cabinet turnover and agency exposure.
+- Scores you type and weights you change are saved in your browser (per jurisdiction) and are never overwritten by a new run. "Reset my edits" restores the suggested values. They are not shared with other users.
+
+### Pull results from a link (Results tab, every jurisdiction)
+Paste a link to an official results page, CSV or PDF, then click **Pull results** (later **Refresh from link**). Needs `REFRESH_TOKEN`; AI extraction also needs `ANTHROPIC_API_KEY`.
+- Standard election-night CSV exports (same vendor format as NM/SD/NE) are parsed directly with no AI and no cost.
+- Other pages are read by AI. Every vote total must appear in the page text or it is dropped ("verified"). PDFs are read by AI without that check and are labeled "check source".
+- Governor, U.S. Senate and U.S. House (by district) are kept. Nothing is ever marked a call; calls come only from Enter AP call. Official feeds with votes override a link for the same race.
+- Safeguards: https only, private/internal addresses blocked, 8 MB limit, page text capped at 150,000 characters (an AI pull costs roughly a few cents to a few tens of cents).
+- Refresh projections re-applies saved links' last results; click Refresh from link to re-fetch the page.
+
+### Texas and the called-race states (Nov. 3-4, 2026)
+- New research files: TX, OH, GA, AR, CO, CT, IL, MD, MA, NY, PA, WY; updated RI and FL. Each adds `policyShifts[]` (with the lever: executive, legislative, federal or mixed) and `impediments[]` (severity-ranked) next to positions, insights, cabinet and the scenario analysis.
+- `apStatus` on each file records what the AP lookup said when checked. Texas was not called (so Hinojosa's win is a scenario assumption); the 13 states in the user's table were reported called, but the AP card with names was not readable, so winners are labeled "per the user-supplied table". The tool never creates a call from this; calls still come only from Enter AP call with an apnews.com source.
+
+## Cabinet slates (likely + alternates)
+Cabinet tabs show a Likely option plus alternates per role. Entries tagged "Analyst-identified" are unsourced judgment (low confidence, verify); sourced entries link references. Many roles have only a holdover "likely" and no alternates. Conduct analysis (Cabinet) now requests ranked likely + 2-3 alternates with sources.
+
+## Iowa, Wisconsin, Kansas update
+IA and WI governor races are called per AP lookup (winner Sand / Crowley per user-supplied results; names not readable from the AP card). Kansas is NOT called by AP as of Nov. 4 04:34 UTC; Holscher analysis is a scenario. Cabinet slates are analyst-identified, unsourced, verify.
+
+## Map, Advisory projections, Competitive Intelligence
+- Map defaults to Election outcome: called winners per AP lookup (winner party from `apStatus.winner` in research files, built into `outcomes.json`; AP-sourced entries from Enter AP call take precedence), lighter tiles for states with no 2026 governor race (sitting governor's party), orange border for party flips. Florida is AP-called but its winner is not recorded.
+- `data/intel.json` (built to `intel.json`): `advisory` = per-candidate structural projections (inference, labeled) for 39 governor races; `vendors` = documented incumbent firms by category only where a source exists (CA, TX, NE, VT, HI, NY, FL, NM). Edit as research improves.
+
+
+## Witt O'Brien's edition (new repo)
+- Branding: navy #052249 header, lime #d4ff00 accent, pale blue #a4c8e1 (taken from wittobriens.com); logo is `site/wob-logo.png` (the white-on-transparent version from the supplied charcoal-brand file). Replace the file to change the logo.
+- Map defaults to Election outcome. Winners come from `apStatus.winner` in `research/*.json` (built into `outcomes.json`); AP-sourced calls entered in the app override them. Lighter tiles = no 2026 governor race; orange border = party flip.
+- `data/profiles.json` (built to `profiles.json`) holds per-state federal funding profile, 3-year disaster impact (OpenFEMA + supplied FEMA PA files + HUD CDBG-DR), emergency-management profile and expanded transition plan. Regenerate by editing the data and rerunning your generator; the file is plain JSON.
+- `data/fema-dr.json` and `data/fema-pa.json` are the raw extracts behind the disaster analysis.
+- Funding split by function is MODELED from national NASBO shares; state totals are sourced. Cabinet slates are analyst projections. EM directors must be verified before use.

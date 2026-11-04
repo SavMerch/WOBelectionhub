@@ -1,0 +1,630 @@
+{
+ "source": "FEMA OpenFEMA PublicAssistanceGrantAwardActivities (PA obligations for declarations since 2021-11-01; 3yr = declared since 2023-11-01) and Public Assistance Second Appeals Tracker, files supplied by the user 2026-11-04.",
+ "states": {
+  "AR": {
+   "pa5yr": 255431721,
+   "pa3yr": 129855306,
+   "categories5yr": {
+    "A - Debris Removal": 81518610,
+    "F - Utilities": 58567955,
+    "E - Buildings and Equipment": 41406708,
+    "C - Roads and Bridges": 25330187,
+    "B - Emergency Protective Measures": 20379798,
+    "Z - Management Costs": 13736290
+   },
+   "topApplicants3yr": [
+    [
+     "Carroll Electric Cooperative",
+     25830749
+    ],
+    [
+     "Rogers, City of",
+     15111724
+    ],
+    [
+     "Benton County",
+     11065272
+    ],
+    [
+     "Bentonville, City of",
+     8768964
+    ],
+    [
+     "Newton County",
+     6370123
+    ]
+   ],
+   "projectsOpen": 437,
+   "appeals": {
+    "total": 5,
+    "since2021": 5,
+    "denied": 3,
+    "granted": 2,
+    "underReview": 0,
+    "medianDaysToDecision": 136,
+    "denialRate": 0.6
+   }
+  },
+  "CO": {
+   "pa5yr": 69076916,
+   "pa3yr": 784070,
+   "categories5yr": {
+    "A - Debris Removal": 27165127,
+    "C - Roads and Bridges": 10551270,
+    "B - Emergency Protective Measures": 6476612,
+    "Z - Management Costs": 6409608,
+    "G - Parks, Recreational Facilities, and Other Items": 6106535,
+    "F - Utilities": 4629019
+   },
+   "topApplicants3yr": [
+    [
+     "Colorado (CO DHS and Emergency Management)",
+     784070
+    ]
+   ],
+   "projectsOpen": 46,
+   "appeals": {
+    "total": 10,
+    "since2021": 4,
+    "denied": 7,
+    "granted": 1,
+    "underReview": 1,
+    "medianDaysToDecision": 258,
+    "denialRate": 0.7
+   }
+  },
+  "CT": {
+   "pa5yr": 21911066,
+   "pa3yr": 21911066,
+   "categories5yr": {
+    "C - Roads and Bridges": 12341251,
+    "G - Parks, Recreational Facilities, and Other Items": 2963448,
+    "A - Debris Removal": 2078352,
+    "B - Emergency Protective Measures": 1808300,
+    "E - Buildings and Equipment": 1478412,
+    "Z - Management Costs": 581642
+   },
+   "topApplicants3yr": [
+    [
+     "Oxford, Town of",
+     4990513
+    ],
+    [
+     "Southbury, Town of",
+     3068979
+    ],
+    [
+     "Newtown, Town of (Fairfield County)",
+     2237953
+    ],
+    [
+     "Naugatuck, Borough of",
+     1529643
+    ],
+    [
+     "Watertown, Town of",
+     1347730
+    ]
+   ],
+   "projectsOpen": 60,
+   "appeals": {
+    "total": 5,
+    "since2021": 2,
+    "denied": 4,
+    "granted": 0,
+    "underReview": 1,
+    "medianDaysToDecision": 124,
+    "denialRate": 0.8
+   }
+  },
+  "FL": {
+   "pa5yr": 6235261280,
+   "pa3yr": 2682513089,
+   "categories5yr": {
+    "B - Emergency Protective Measures": 3578506549,
+    "A - Debris Removal": 1583298025,
+    "G - Parks, Recreational Facilities, and Other Items": 379160925,
+    "Z - Management Costs": 255853255,
+    "E - Buildings and Equipment": 216372865,
+    "F - Utilities": 125281405
+   },
+   "topApplicants3yr": [
+    [
+     "Florida Division of Emergency Management",
+     1458340778
+    ],
+    [
+     "Florida Department of Transportation",
+     124764509
+    ],
+    [
+     "Hillsborough County",
+     85150076
+    ],
+    [
+     "Manatee County",
+     80632393
+    ],
+    [
+     "St. Petersburg, City of",
+     69692912
+    ]
+   ],
+   "projectsOpen": 7326,
+   "appeals": {
+    "total": 306,
+    "since2021": 201,
+    "denied": 204,
+    "granted": 67,
+    "underReview": 28,
+    "medianDaysToDecision": 89,
+    "denialRate": 0.67
+   }
+  },
+  "GA": {
+   "pa5yr": 1808853901,
+   "pa3yr": 1714013013,
+   "categories5yr": {
+    "A - Debris Removal": 999793926,
+    "B - Emergency Protective Measures": 528640278,
+    "F - Utilities": 101453402,
+    "Z - Management Costs": 77697300,
+    "C - Roads and Bridges": 60250560,
+    "E - Buildings and Equipment": 19698528
+   },
+   "topApplicants3yr": [
+    [
+     "Georgia Department of Transportation",
+     140592758
+    ],
+    [
+     "Satilla Rural Electric Membership Corporation",
+     127150653
+    ],
+    [
+     "Georgia Emergency Management Agency",
+     89717337
+    ],
+    [
+     "Columbia County",
+     85511170
+    ],
+    [
+     "Toombs County",
+     80448538
+    ]
+   ],
+   "projectsOpen": 2195,
+   "appeals": {
+    "total": 32,
+    "since2021": 24,
+    "denied": 23,
+    "granted": 6,
+    "underReview": 3,
+    "medianDaysToDecision": 77,
+    "denialRate": 0.72
+   }
+  },
+  "IL": {
+   "pa5yr": 24958461,
+   "pa3yr": 0,
+   "categories5yr": {
+    "F - Utilities": 12043069,
+    "A - Debris Removal": 9190882,
+    "Z - Management Costs": 2186640,
+    "B - Emergency Protective Measures": 867105,
+    "E - Buildings and Equipment": 353180,
+    "G - Parks, Recreational Facilities, and Other Items": 230963
+   },
+   "topApplicants3yr": [],
+   "projectsOpen": 200,
+   "appeals": {
+    "total": 22,
+    "since2021": 21,
+    "denied": 19,
+    "granted": 3,
+    "underReview": 0,
+    "medianDaysToDecision": 80,
+    "denialRate": 0.86
+   }
+  },
+  "IA": {
+   "pa5yr": 234967731,
+   "pa3yr": 220192329,
+   "categories5yr": {
+    "E - Buildings and Equipment": 48966765,
+    "F - Utilities": 41270804,
+    "B - Emergency Protective Measures": 38904903,
+    "C - Roads and Bridges": 30102628,
+    "A - Debris Removal": 29575672,
+    "Z - Management Costs": 15712556
+   },
+   "topApplicants3yr": [
+    [
+     "Iowa Department of Homeland Security and Emergency Management",
+     34862670
+    ],
+    [
+     "Rock Valley, City of",
+     27277340
+    ],
+    [
+     "Lyon County Secondary Roads",
+     11106764
+    ],
+    [
+     "Spencer Community School District",
+     9928643
+    ],
+    [
+     "Rock Valley Community School District",
+     9094649
+    ]
+   ],
+   "projectsOpen": 473,
+   "appeals": {
+    "total": 37,
+    "since2021": 19,
+    "denied": 23,
+    "granted": 13,
+    "underReview": 0,
+    "medianDaysToDecision": 97,
+    "denialRate": 0.62
+   }
+  },
+  "KS": {
+   "pa5yr": 100457953,
+   "pa3yr": 45413222,
+   "categories5yr": {
+    "F - Utilities": 58031636,
+    "C - Roads and Bridges": 18205350,
+    "Z - Management Costs": 7318830,
+    "E - Buildings and Equipment": 7312607,
+    "A - Debris Removal": 5968816,
+    "D - Water Control Facilities": 1436789
+   },
+   "topApplicants3yr": [
+    [
+     "Midwest Energy Inc.",
+     10200943
+    ],
+    [
+     "Kansas Adjutant General's Department, Division of Emergency Management (KDEM)",
+     4021128
+    ],
+    [
+     "Topeka, City of (Shawnee County)",
+     3308113
+    ],
+    [
+     "Rolling Hills Electric Cooperative, Inc.",
+     1497305
+    ],
+    [
+     "Chase County",
+     1460391
+    ]
+   ],
+   "projectsOpen": 278,
+   "appeals": {
+    "total": 14,
+    "since2021": 4,
+    "denied": 8,
+    "granted": 4,
+    "underReview": 1,
+    "medianDaysToDecision": 174,
+    "denialRate": 0.57
+   }
+  },
+  "MA": {
+   "pa5yr": 24579818,
+   "pa3yr": 0,
+   "categories5yr": {
+    "B - Emergency Protective Measures": 24023789,
+    "Z - Management Costs": 529176,
+    "F - Utilities": 19824,
+    "E - Buildings and Equipment": 3922,
+    "B - Emergency Work Donated Resources": 3106
+   },
+   "topApplicants3yr": [],
+   "projectsOpen": 0,
+   "appeals": {
+    "total": 20,
+    "since2021": 9,
+    "denied": 18,
+    "granted": 1,
+    "underReview": 0,
+    "medianDaysToDecision": 94,
+    "denialRate": 0.9
+   }
+  },
+  "MD": {
+   "pa5yr": 0,
+   "pa3yr": 0,
+   "categories5yr": {},
+   "topApplicants3yr": [],
+   "projectsOpen": 0,
+   "appeals": {
+    "total": 3,
+    "since2021": 3,
+    "denied": 2,
+    "granted": 1,
+    "underReview": 0,
+    "medianDaysToDecision": 81,
+    "denialRate": 0.67
+   }
+  },
+  "NY": {
+   "pa5yr": 260498139,
+   "pa3yr": 151787929,
+   "categories5yr": {
+    "C - Roads and Bridges": 140636711,
+    "B - Emergency Protective Measures": 38834945,
+    "E - Buildings and Equipment": 26747530,
+    "Z - Management Costs": 21035420,
+    "G - Parks, Recreational Facilities, and Other Items": 15158051,
+    "F - Utilities": 9071584
+   },
+   "topApplicants3yr": [
+    [
+     "Saint Regis Mohawk Tribe (St. Regis Mohawk Indian Reservation)",
+     14669555
+    ],
+    [
+     "Watertown City School District",
+     11464153
+    ],
+    [
+     "NYS Division of Homeland Security & Emergency Services",
+     8954886
+    ],
+    [
+     "St. Lawrence County",
+     6746599
+    ],
+    [
+     "Hopkinton, Town of",
+     6322975
+    ]
+   ],
+   "projectsOpen": 589,
+   "appeals": {
+    "total": 164,
+    "since2021": 110,
+    "denied": 135,
+    "granted": 19,
+    "underReview": 5,
+    "medianDaysToDecision": 89,
+    "denialRate": 0.82
+   }
+  },
+  "OH": {
+   "pa5yr": 0,
+   "pa3yr": 0,
+   "categories5yr": {},
+   "topApplicants3yr": [],
+   "projectsOpen": 0,
+   "appeals": {
+    "total": 45,
+    "since2021": 37,
+    "denied": 41,
+    "granted": 3,
+    "underReview": 0,
+    "medianDaysToDecision": 88,
+    "denialRate": 0.91
+   }
+  },
+  "PA": {
+   "pa5yr": 45267205,
+   "pa3yr": 45267205,
+   "categories5yr": {
+    "C - Roads and Bridges": 34879496,
+    "A - Debris Removal": 3815887,
+    "Z - Management Costs": 3186859,
+    "G - Parks, Recreational Facilities, and Other Items": 1184098,
+    "B - Emergency Protective Measures": 747555,
+    "E - Buildings and Equipment": 734620
+   },
+   "topApplicants3yr": [
+    [
+     "Pennsylvania Department of Transportation",
+     7574786
+    ],
+    [
+     "Liberty, Township of (Susquehanna County)",
+     7364450
+    ],
+    [
+     "Pennsylvania Emergency Management Agency",
+     2528598
+    ],
+    [
+     "Westfield, Township of (Tioga County)",
+     2364259
+    ],
+    [
+     "Hector, Township of (Potter County)",
+     2123892
+    ]
+   ],
+   "projectsOpen": 275,
+   "appeals": {
+    "total": 24,
+    "since2021": 22,
+    "denied": 23,
+    "granted": 0,
+    "underReview": 1,
+    "medianDaysToDecision": 77,
+    "denialRate": 0.96
+   }
+  },
+  "RI": {
+   "pa5yr": 13661449,
+   "pa3yr": 4899279,
+   "categories5yr": {
+    "B - Emergency Protective Measures": 8608003,
+    "C - Roads and Bridges": 1826141,
+    "G - Parks, Recreational Facilities, and Other Items": 988139,
+    "Z - Management Costs": 896223,
+    "F - Utilities": 503313,
+    "D - Water Control Facilities": 383638
+   },
+   "topApplicants3yr": [
+    [
+     "West Warwick, Town of",
+     1835475
+    ],
+    [
+     "Rhode Island Department of Environmental Management",
+     655017
+    ],
+    [
+     "Newport, City of",
+     535937
+    ],
+    [
+     "Rhode Island Emergency Management Agency",
+     401996
+    ],
+    [
+     "Narragansett, Town of",
+     345591
+    ]
+   ],
+   "projectsOpen": 12,
+   "appeals": {
+    "total": 8,
+    "since2021": 8,
+    "denied": 2,
+    "granted": 0,
+    "underReview": 6,
+    "medianDaysToDecision": 86,
+    "denialRate": 0.25
+   }
+  },
+  "TX": {
+   "pa5yr": 1209204142,
+   "pa3yr": 1128983535,
+   "categories5yr": {
+    "A - Debris Removal": 590571878,
+    "B - Emergency Protective Measures": 204931102,
+    "Z - Management Costs": 117227164,
+    "C - Roads and Bridges": 112221164,
+    "F - Utilities": 79253453,
+    "E - Buildings and Equipment": 47578617
+   },
+   "topApplicants3yr": [
+    [
+     "Texas Division of Emergency Management",
+     540468294
+    ],
+    [
+     "Houston, City of",
+     97576671
+    ],
+    [
+     "Trinity River Authority",
+     32091967
+    ],
+    [
+     "Montgomery County",
+     20944503
+    ],
+    [
+     "Texas Department of State Health Services",
+     18990670
+    ]
+   ],
+   "projectsOpen": 1060,
+   "appeals": {
+    "total": 234,
+    "since2021": 117,
+    "denied": 201,
+    "granted": 21,
+    "underReview": 4,
+    "medianDaysToDecision": 86,
+    "denialRate": 0.86
+   }
+  },
+  "WI": {
+   "pa5yr": 4649836,
+   "pa3yr": 4649836,
+   "categories5yr": {
+    "B - Emergency Protective Measures": 1486663,
+    "A - Debris Removal": 1018594,
+    "Z - Management Costs": 828281,
+    "C - Roads and Bridges": 736372,
+    "E - Buildings and Equipment": 303573,
+    "F - Utilities": 152196
+   },
+   "topApplicants3yr": [
+    [
+     "Wisconsin Emergency Management",
+     876670
+    ],
+    [
+     "Janesville School District",
+     644989
+    ],
+    [
+     "Janesville, City of",
+     535518
+    ],
+    [
+     "Orfordville Fire Protection District",
+     253497
+    ],
+    [
+     "Shiocton, Village of",
+     173176
+    ]
+   ],
+   "projectsOpen": 130,
+   "appeals": {
+    "total": 2,
+    "since2021": 1,
+    "denied": 1,
+    "granted": 1,
+    "underReview": 0,
+    "medianDaysToDecision": 301,
+    "denialRate": 0.5
+   }
+  },
+  "WY": {
+   "pa5yr": 10204445,
+   "pa3yr": 9304934,
+   "categories5yr": {
+    "B - Emergency Protective Measures": 7526093,
+    "F - Utilities": 1236703,
+    "Z - Management Costs": 761773,
+    "C - Roads and Bridges": 431539,
+    "G - Parks, Recreational Facilities, and Other Items": 115816,
+    "A - Debris Removal": 71817
+   },
+   "topApplicants3yr": [
+    [
+     "Wyoming State Forestry Division",
+     8000000
+    ],
+    [
+     "POWDER RIVER ENERGY CORP",
+     1228617
+    ],
+    [
+     "Wyoming Department of Homeland Security",
+     76317
+    ]
+   ],
+   "projectsOpen": 17,
+   "appeals": {
+    "total": 2,
+    "since2021": 0,
+    "denied": 2,
+    "granted": 0,
+    "underReview": 0,
+    "medianDaysToDecision": 224,
+    "denialRate": 1.0
+   }
+  }
+ }
+}
